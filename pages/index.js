@@ -11,15 +11,18 @@ import {
   signOut,
 } from "firebase/auth";
 
-
 import { useAuthState } from "react-firebase-hooks/auth";
 // import { useCollectionData } from "react-firebase-hooks/firestore";
-// import Navbar from "../components/Navbar"
-// import Hero from "../components/Hero"
 
-// import { Fragment } from "react";
-// import { Disclosure, Menu, Transition } from "@headlessui/react";
-// import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
+const navigation = [
+  //   { name: "Finance", href: "#", current: false },
+  //   { name: "Marketing", href: "#", current: false },
+  //   { name: "Business Management & Administration", href: "#", current: false },
+  //   { name: "Hospitality & Tourism", href: "#", current: false },
+];
 
 const firebaseConfig = {
   apiKey: "AIzaSyAmU2bGMHOrv4OPUphkjwJwKMKTXAReV-s",
@@ -31,9 +34,12 @@ const firebaseConfig = {
   measurementId: "G-WS8ZFNED11",
 };
 
-
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 export default function Home() {
   const [user] = useAuthState(auth);
@@ -98,26 +104,108 @@ function SignIn() {
   );
 }
 
-function SignOut() {
-
-  return (
-    <div>
-      Welcome to Deca Dashboard
-      <a
-        href="#"
-        className="block px-4 py-2 text-sm text-gray-700"
-        onClick={() => signOut(auth)}
-      >
-        Sign out
-      </a>
-    </div>
-  );
-}
-
 function Dashboard() {
+  var photo = auth.currentUser.photoURL;
+  // var newphoto = photo.replace("s96-c", "s100-c");
   return (
     <div>
-      <SignOut />
+      <Disclosure as="nav" className="">
+        {({ open }) => (
+          <>
+            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+              <div className="relative flex h-16 items-center justify-between">
+                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                  {/* Mobile menu button*/}
+                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                    <span className="absolute -inset-0.5" />
+                    <span className="sr-only">Open main menu</span>
+                    {open ? (
+                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                    ) : (
+                      <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                    )}
+                  </Disclosure.Button>
+                </div>
+                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                  <div className="flex flex-shrink-0 items-center">
+                    <Image
+                      className="h-8 w-auto"
+                      src="/DECA-Diamond-1.png"
+                      alt="Your Company"
+                      width={500}
+                      height={500}
+                    />
+                    <span className="text-blue-500 font-semibold rounded-md px-3 py-2 text-base">
+                      DECA Dashboard
+                    </span>
+                  </div>
+                  <div className="hidden sm:ml-6 sm:block">
+                    <div className="flex space-x-4">
+                      {navigation.map((item) => (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className={classNames(
+                            "text-gray-500 ",
+                            "rounded-md px-3 py-2 text-base font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                  <button
+                    type="button"
+                    className="rounded-md bg-gradient-to-r from-sky-500 to-sky-400 hover:from-sky-400 hover:to-sky-300  px-3.5 py-1.5 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    onClick={() => signOut(auth)}
+                  >
+                    Sign Out
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <Disclosure.Panel className="sm:hidden">
+              <div className="space-y-1 px-2 pb-3 pt-2">
+                {navigation.map((item) => (
+                  <Disclosure.Button
+                    key={item.name}
+                    as="a"
+                    href={item.href}
+                    className={classNames(
+                      "text-gray-500",
+                      "block rounded-md px-3 py-2 text-base font-medium"
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                  >
+                    {item.name}
+                  </Disclosure.Button>
+                ))}
+              </div>
+            </Disclosure.Panel>
+          </>
+        )}
+      </Disclosure>
+
+      <div>
+        <section className="bg-blend-darken bg-cover bg-blue-500">
+          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
+            <div className="">
+              <h1 className="text-6xl font-bold text-white">
+                Welcome, {auth.currentUser.displayName.split(" ")[0]}
+              </h1>
+              <h3 className="text-2xl mt-4 font-bold text-white">
+                Choose an event below to get started...
+              </h3>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="container"></div>
     </div>
   );
 }
