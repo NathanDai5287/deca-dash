@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
+import Main from "../components/Main";
 
 import { initializeApp } from "firebase/app";
 import {
@@ -193,8 +194,9 @@ function Dashboard() {
 
       <div>
         <section className="bg-blend-darken bg-cover bg-blue-500">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
+          <div className="py-8 px-2 mx-auto max-w-7xl lg:py-16 lg:px-8">
             <div className="">
+              
               <h1 className="text-6xl font-bold text-white">
                 Welcome, {auth.currentUser.displayName.split(" ")[0]}
               </h1>
@@ -205,7 +207,11 @@ function Dashboard() {
           </div>
         </section>
       </div>
-      <div className="container"></div>
+            
+      <Main/>
+
+
+
     </div>
   );
 }
