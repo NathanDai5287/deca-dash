@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import data from '../components/data.json'; // Import the JSON data
+import data from '../data/data.json'; // Import the JSON data
 
 export default function PersonalFinancialLiteracy() {
   const [userAnswers, setUserAnswers] = useState({});
