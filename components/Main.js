@@ -53,9 +53,9 @@ export default function Main() {
       <div className="pb-8 pt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {clusters.map((cluster, index) => (
-            <Link href={cluster.path}>
+            <Link href={cluster.path} key={index}>
               <div
-                key={index}
+                
                 className="relative border rounded-lg shadow-lg h-64 overflow-hidden"
               >
                 <img
