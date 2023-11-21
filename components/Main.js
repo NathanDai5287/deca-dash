@@ -30,9 +30,9 @@ const clusters = [
 
 export default function Main() {
   return (
-    <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pb-10">
-      <div className="pb-8 pt-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pb-8">
+      <div className="pb-8 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {clusters.map((cluster, index) => (
             <div
               key={index}
