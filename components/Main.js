@@ -26,6 +26,18 @@ const clusters = [
       "https://assets-global.website-files.com/600faaecb03ce57f6fa98050/64480365a65c7efa627deb2e_CE%20Draft%20Topics%2023-24.png", // Replace with the actual path to your business management image
     color: "rgba(255, 255, 0, 0.8)",
   },
+  {
+    name: "Personal Financial Literacy",
+    imageUrl:
+      "https://assets-global.website-files.com/600faaecb03ce57f6fa98050/6144aa59ff90644d81f150bd_DECA-Power-Conference-B.jpg", // Replace with the actual path to your business management image
+    color: "rgba(144, 238, 144, 0.8)",
+  },
+  {
+    name: "Entrepreneurship",
+    imageUrl:
+      "https://assets-global.website-files.com/600faaecb03ce57f6fa98050/630e1f826cc4c342d1208787_Roleplays-B.jpg", // Replace with the actual path to your business management image
+    color: "rgba(110,110,110, 0.9)",
+  },
 ];
 
 export default function Main() {
