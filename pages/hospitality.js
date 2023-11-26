@@ -18,7 +18,7 @@ export default function Hospitality() {
 
   // Function to check answers
   const checkAnswer = (questionIndex) => {
-    const correctAnswer = data.Hospitality[questionIndex].correctAnswerIndex;
+    const correctAnswer = data["Hospitality and Tourism"][questionIndex].correctAnswerIndex;
     const isCorrect = selectedAnswerIndex[questionIndex] === correctAnswer;
     setUserAnswers({
       ...userAnswers,
@@ -27,7 +27,7 @@ export default function Hospitality() {
     // Set explanation only if the answer is correct
     setExplanations({
       ...explanations,
-      [questionIndex]: isCorrect ? "Correct! " + data.Hospitality[questionIndex].explanation : "Incorrect, try again!",
+      [questionIndex]: isCorrect ? "Correct! " + data["Hospitality and Tourism"][questionIndex].explanation : "Incorrect, try again!",
     });
   };
 
@@ -35,7 +35,7 @@ export default function Hospitality() {
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold text-center my-6">Hospitality & Tourism Questions</h1>
       <div>
-        {data.Hospitality.map((item, questionIndex) => (
+        {data["Hospitality and Tourism"].map((item, questionIndex) => (
           <div key={questionIndex} className="mb-4 p-2 border-b">
             <h2 className="text-lg font-semibold">{item.question}</h2>
             <div className="mt-2">
