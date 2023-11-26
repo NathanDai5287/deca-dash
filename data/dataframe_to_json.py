@@ -8,7 +8,7 @@ def df_to_json(df, path: str):
 	for category, group in category_gb:
 		data[category] = [
 			{
-				'question_id': hash(str(row['question']) + str(row['a']) + str(row['b']) + str(row['c']) + str(row['d']) + str(row['explanation']) + str(category)),
+				'id': hash(str(row['question']) + str(row['a']) + str(row['b']) + str(row['c']) + str(row['d']) + str(row['explanation']) + str(category)),
 				'question': row['question'],
 				'options': [row['a'], row['b'], row['c'], row['d']],
 				'correctAnswerIndex': row['answer'],
