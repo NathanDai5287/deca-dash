@@ -2,17 +2,17 @@ import json
 import pandas as pd
 
 def df_to_json(df, path: str):
-	category_gb = df.groupby('category')
+	category_gb = df.groupby('Category')
 
 	data = {}
 	for category, group in category_gb:
 		data[category] = [
 			{
-				'id': hash(str(row['question']) + str(row['a']) + str(row['b']) + str(row['c']) + str(row['d']) + str(row['explanation']) + str(category)),
-				'question': row['question'],
-				'options': [row['a'], row['b'], row['c'], row['d']],
-				'correctAnswerIndex': row['answer'],
-				'explanation': row['explanation'].lstrip(),
+				'id': hash(str(row['Question']) + str(row['A']) + str(row['B']) + str(row['C']) + str(row['D']) + str(row['Explanation']) + str(category)),
+				'question': row['Question'],
+				'options': [row['A'], row['B'], row['C'], row['D']],
+				'correctAnswerIndex': row['Answer'],
+				'explanation': row['Explanation'].lstrip(),
 			}
 
 			for _, row in group.iterrows()
