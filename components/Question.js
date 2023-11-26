@@ -1,33 +1,48 @@
 import React from 'react';
 import { useState } from 'react';
 
-const Question = ({ question, setI }) => {
+const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions }) => {
 	const [explanation, setExplanation] = useState('');
+	const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
 
-	const checkAnswer = (id) => {
-		const selectedAnswerIndex = document.querySelector(`input[name="question-${id}"]:checked`).value;
+	const checkAnswer = (selectedAnswerIndex) => {
 		const bcorrect = selectedAnswerIndex == question.correctAnswerIndex;
 
-		console.log(bcorrect);
 		setExplanation(bcorrect ? question.explanation : 'Incorrect, try again!');
-	}
 
-	const nextQuestion = (setI) => {
-		setI((i) => i + 1);
+		if (!bcorrect) {
+			missedQuestions.add(question);
+		}
+	};
+
+	const nextQuestion = (setQuestion) => {
+		const getRandomItem = (set) => {
+			const items = Array.from(set);
+			return items[Math.floor(Math.random() * items.length)];
+		};
+
+		completedQuestions.add(question);
+
+		// get a random question that is (not completed) or is missed
+		setQuestion(getRandomItem(questions.difference(completedQuestions).union(missedQuestions)));
+
 		setExplanation('');
-	}
+	};
 
 	return (
-		<div key={question.id} className="mb-4 p-2 border-b">
-			<h2 className="text-lg font-semibold">{question.question}</h2>
-			<div className="mt-2">
+		<div key={question.id} className='mb-4 p-2 border-b'>
+			<h2 className='text-lg font-semibold'>{question.question}</h2>
+			<div className='mt-2'>
 				{question.options.map((option, optionIndex) => (
-					<label key={optionIndex} className="block">
+					<label key={optionIndex} className='block'>
 						<input
-							type="radio"
+							type='radio'
 							name={`question-${question.id}`}
 							value={optionIndex}
-							className="mr-2"
+							className='mr-2'
+							onChange={(e) => {
+								setSelectedAnswerIndex(e.target.value);
+							}}
 						/>
 						{option}
 					</label>
@@ -35,26 +50,38 @@ const Question = ({ question, setI }) => {
 			</div>
 
 			<button
-				className="mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors" onClick={() => {checkAnswer(question.id)}}>
+				className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
+				onClick={() => {
+					checkAnswer(selectedAnswerIndex);
+				}}
+			>
 				Check Answer
 			</button>
 
 			{/* show next button if the right answer was checked */}
 			{explanation === question.explanation && (
 				<button
-					className="mt-2 mx-1 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors" onClick={() => {nextQuestion(setI)}}>
+					className='mt-2 mx-1 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors'
+					onClick={() => {
+						nextQuestion(setQuestion);
+					}}
+				>
 					Next
 				</button>
 			)}
 
 			{/* show explanation or incorrect message */}
 			{explanation !== '' && (
-				<p className={`mt-2 ${explanation === question.explanation ? 'text-green-500' : 'text-red-500'}`}>
+				<p
+					className={`mt-2 ${
+						explanation === question.explanation ? 'text-green-500' : 'text-red-500'
+					}`}
+				>
 					{explanation}
 				</p>
 			)}
 		</div>
-	)
+	);
 };
 
 export default Question;
