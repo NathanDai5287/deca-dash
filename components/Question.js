@@ -21,10 +21,18 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 			return items[Math.floor(Math.random() * items.length)];
 		};
 
+		const difference = (a, b) => {
+			return new Set([...a].filter((x) => !b.has(x)));
+		}
+
+		const union = (a, b) => {
+			return new Set([...a, ...b]);
+		}
+
 		completedQuestions.add(question);
 
 		// get a random question that is (not completed) or is missed
-		setQuestion(getRandomItem(questions.difference(completedQuestions).union(missedQuestions)));
+		setQuestion(getRandomItem(union(difference(questions, completedQuestions), missedQuestions)));
 
 		setExplanation('');
 	};
