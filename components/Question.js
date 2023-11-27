@@ -12,6 +12,11 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 
 		button.classList.toggle('hover:bg-blue-700');
 		button.classList.toggle('bg-gray-500');
+
+		const radioButtons = document.getElementsByName(`question-${question.id}`);
+		radioButtons.forEach((radioButton) => {
+			radioButton.disabled = !radioButton.disabled;
+		});
 	};
 
 	const checkAnswer = (selectedAnswerIndex) => {
