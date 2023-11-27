@@ -5,12 +5,21 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 	const [explanation, setExplanation] = useState('');
 	const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
 
+	const toggleCheckAnswerButton = () => {
+		const button = document.getElementById('check-answer-button');
+
+		button.disabled = !button.disabled;
+
+		button.classList.toggle('hover:bg-blue-700');
+		button.classList.toggle('bg-gray-500');
+	};
+
 	const checkAnswer = (selectedAnswerIndex) => {
-		const bcorrect = selectedAnswerIndex == question.correctAnswerIndex;
-
-		setExplanation(bcorrect ? question.explanation : 'Incorrect, try again!');
-
-		if (!bcorrect) {
+		if (selectedAnswerIndex == question.correctAnswerIndex) {
+			setExplanation(question.explanation);
+			toggleCheckAnswerButton();
+		} else {
+			setExplanation('Incorrect, try again!');
 			missedQuestions.add(question);
 		}
 	};
@@ -23,16 +32,17 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 
 		const difference = (a, b) => {
 			return new Set([...a].filter((x) => !b.has(x)));
-		}
+		};
 
 		const union = (a, b) => {
 			return new Set([...a, ...b]);
-		}
+		};
 
 		completedQuestions.add(question);
 
 		// get a random question that is (not completed) or is missed
 		setQuestion(getRandomItem(union(difference(questions, completedQuestions), missedQuestions)));
+		toggleCheckAnswerButton();
 
 		setExplanation('');
 	};
@@ -58,6 +68,7 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 			</div>
 
 			<button
+				id='check-answer-button'
 				className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
 				onClick={() => {
 					checkAnswer(selectedAnswerIndex);
