@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "firebase": "^10.6.0",
+    "font-awesome": "^4.7.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",

@@ -1,6 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 
+import fontawesome from '@fortawesome/fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+
 const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions }) => {
 	const [explanation, setExplanation] = useState('');
 	const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
@@ -54,7 +59,12 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 
 	return (
 		<div key={question.id} className='mb-4 p-2 border-b'>
-			<h2 className='text-lg font-semibold'>{question.question}</h2>
+			<div className='flex flex-row items-center'>
+				<h2 className='basis-7/8 text-lg font-semibold'>{question.question}</h2>
+				<button className='mx-10 bg-red-500 text-white rounded hover:bg-red-700 transition-colors'>
+					<FontAwesomeIcon className='m-4' icon={faExclamationTriangle} />
+				</button>
+			</div>
 			<div className='mt-2'>
 				{question.options.map((option, optionIndex) => (
 					<label key={optionIndex} className='block'>
