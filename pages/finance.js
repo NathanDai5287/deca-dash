@@ -8,21 +8,25 @@ export default function Finance() {
 	const [questions] = useState(new Set(data.Finance));
 	const [completedQuestions] = useState(new Set());
 	const [missedQuestions] = useState(new Set());
+	const [reportedQuestions] = useState(new Set());
 
 	const [question, setQuestion] = useState(data.Finance[0]);
 
-  useEffect(() => {
-    const startI = Math.floor(Math.random() * questions.size);
-    setQuestion(data.Finance[startI]);
-  }, [questions.size]);
+	useEffect(() => {
+		const startI = Math.floor(Math.random() * questions.size);
+		setQuestion(data.Finance[startI]);
+	}, [questions.size]);
 
 	return (
-		<Question
-			question={question}
-			setQuestion={setQuestion}
-			questions={questions}
-			completedQuestions={completedQuestions}
-			missedQuestions={missedQuestions}
-		/>
+		<div id='container' className='w-4/5'>
+			<Question
+				question={question}
+				setQuestion={setQuestion}
+				questions={questions}
+				completedQuestions={completedQuestions}
+				missedQuestions={missedQuestions}
+				reportedQuestions={reportedQuestions}
+			/>
+		</div>
 	);
 }

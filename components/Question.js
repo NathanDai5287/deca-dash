@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
 
-import fontawesome from '@fortawesome/fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
-const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions }) => {
+const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions, reportedQuestions }) => {
 	const [explanation, setExplanation] = useState('');
 	const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
 
@@ -57,11 +57,32 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 		setExplanation('');
 	};
 
+	const toggleReportQuestionButton = () => {
+		const button = document.getElementById('report-question-button');
+
+		button.classList.toggle('hover:bg-red-700');
+		button.classList.toggle('bg-gray-500');
+		button.disabled = !button.disabled;
+
+		// checkmark icon TODO
+	}
+
+	const reportQuestion = () => {
+		reportedQuestions.add(question);
+		toggleReportQuestionButton();
+	};
+
 	return (
 		<div key={question.id} className='mb-4 p-2 border-b'>
 			<div className='flex flex-row items-center'>
 				<h2 className='basis-7/8 text-lg font-semibold'>{question.question}</h2>
-				<button className='mx-10 bg-red-500 text-white rounded hover:bg-red-700 transition-colors'>
+				<button
+					id='report-question-button'
+					className='mx-10 bg-red-500 text-white rounded hover:bg-red-700 transition-colors'
+					onClick={() => {
+						reportQuestion();
+					}}
+				>
 					<FontAwesomeIcon className='m-4' icon={faExclamationTriangle} />
 				</button>
 			</div>
