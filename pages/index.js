@@ -196,7 +196,7 @@ function Dashboard() {
         <section className="bg-blend-darken bg-cover bg-blue-500">
           <div className="py-8 px-2 mx-auto max-w-7xl lg:py-16 lg:px-8">
             <div className="">
-              
+
               <h1 className="text-6xl font-bold text-white">
                 Welcome, {auth.currentUser.displayName.split(" ")[0]}
               </h1>
@@ -207,7 +207,7 @@ function Dashboard() {
           </div>
         </section>
       </div>
-            
+
       <Main/>
 
 

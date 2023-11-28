@@ -1,1037 +1,1046 @@
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 1
-1. A
-$14,436. To determine the remaining amount of Jack's loan, first calculate how much Jack has left to pay after making
-the down payment ($23,670 X 80% [or .8] = $18,936). From that amount, subtract the value of the trade-in, which is
-$4,500, to obtain the amount Jack would still owe on the car before interest is added ($18,936 - $4,500 = $14,436).
-SOURCE: Managing Credit Grade 12
-SOURCE: Calculator.net. (2022). Down payment calculator. Retrieved October 20, 2022, from
-https://www.calculator.net/down-payment-calculator.html
-2. A
-Dispute inaccurate information on their credit reports. Borrowers have the right to dispute inaccurate or incomplete
-information that appears on their credit reports. Borrowers do not have the right to delete negative information from
-their credit reports or ask for credit score increases. Borrowers are permitted to request one credit report from each
-major credit reporting service each year.
-SOURCE: Managing Credit Grade 12
-SOURCE: Nelson, N. (2021, January 23). Understanding the debtor-creditor relationship. Retrieved October 20, 2022,
-from https://www.wolterskluwer.com/en/expert-insights/understanding-the-debtor-creditor-relationship
-3. B
-A senior manager tells a stakeholder that the government did not approve a new product because it did not meet
-safety standards. When a group of people has access to nonpublic information (material information) and makes
-trades based on this knowledge, those individuals have an unfair advantage over others. If the insider (senior
-manager) gives this information to others (stakeholders) so they can make trades based on the knowledge, both
-parties could be prosecuted for insider trading. In the example, the company's stock values are likely to be affected by
-the problems with a new product. When an employee shares material information with a person outside the company
-and who can act on the knowledge before it is revealed to the general public, it is an example of illegal insider trading.
-On the other hand, officers and board members of a company who buy or sell their own company's securities and
-report the trades to the SEC are not conducting illegal insider trading activities. Advising customers about mortgage
-rates, giving financial advice to a client, and providing an auditor with the company's material or financial information
-are not examples of insider trading.
-SOURCE: Investing Grade 12
-SOURCE: Hall, M. (2022, April 2). What is insider trading, and is it always illegal? Retrieved October 20, 2022, from
-https://www.investopedia.com/ask/answers/what-exactly-is-insider-trading
-4. D
-Oversees the registration process for initial public offerings (IPOs). The SEC is the administrative agency that
-enforces securities regulations. The SEC works to ensure public companies fully disclose their financial information to
-investors and to protect the public from fraudulent activities related to the securities market. One function of the SEC
-is to oversee the registration process for corporations when they first offer stock to the public, which is called initial
-public offerings or IPOs. The SEC does not distribute dividends or sell securities. The Public Company Accounting
-Oversight Board oversees the auditing processes of the public corporations' financial statements.
-SOURCE: Investing Grade 12
-SOURCE: U.S. Securities and Exchange Commission. (2021, November 22). About the SEC: What we do. Retrieved
-October 20, 2022, from https://www.sec.gov/about/what-we-do
+1. B
+Administrative. Administrative law deals with the rules and regulations that have been established by
+governmental agencies. Most governmental agencies have an effect on business in some manner, such as
+issuing licenses or prohibiting unfair trade practices. Administrative law implements the rules and regulations,
+which also involves resolving disputes. Statutory, commercial, and procedural are not types of law that enforce
+the rules and regulations of governmental agencies.
+SOURCE: BL:074 Discuss the role of administrative law
+SOURCE: Cornell Law School. (2022, June). Administrative law. Retrieved September 26, 2022, from
+https://www.law.cornell.edu/wex/administrative_law
+2. D
+A small company does not have the funds to go to court. Settlement occurs when the defendant in a case
+agrees to some or all of the plaintiff's claims and decides not to go to court, usually instead paying a monetary
+amount. Settlement is often a more affordable option than a costly legal battle that the defendant may not even
+win. Therefore, if a small company is the defendant in a case, it might agree to settle to save money.
+Settlements can keep companies out of the spotlight, rather than bringing them publicity. If a defendant feels
+they have a strong chance of winning, they might want to pursue the case in court rather than settling because
+they could receive a much larger payment. Finally, complicated cases with many defendants are more difficult
+to settle because some might want to settle while others do not.
+SOURCE: BL:159 Describe factors affecting the settlement of legal matters
+SOURCE: FindLaw. (2016, June 20). What does it mean to settle a case? Retrieved September 26, 2022, from
+https://www.findlaw.com/litigation/legal-system/what-does-it-mean-to-settle-a-case.html
+3. D
+Allowing inventory to be monitored regularly. Technology such as enterprise resource systems allows inventory
+to be constantly monitored and automatically alerts businesses when levels are running low. Technology does
+not eliminate the need for supplier relationships, cause disruptions in the supply chain, or increase warehouse
+storage costs.
+SOURCE: OP:478 Describe the impact of technology on supply chain management
+SOURCE: Business Development Bank of Canada. (n.d.). How to implement just-in-time inventory
+management. Retrieved September 26, 2022, from https://www.bdc.ca/en/articles
+tools/operations/inventory-management/pages/inventory-management-build-smoother-supply
+chain.aspx
+4. C
+Replaces the trial. Arbitrations are binding, which means they can replace a trial. Binding processes do not
+necessarily include confidentiality, high cost and risk, or imprisonment.
+SOURCE: BL:161 Discuss the arbitration/mediation process
+SOURCE: Murray, J. (2021, October 26). Arbitration vs. litigation: What's the difference? Retrieved September
+26, 2022, from https://www.thebalancemoney.com/arbitration-vs-litigation-what-is-the-difference
+398747
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 2
-5. A
-Evaluate the author's level of credibility. When conducting research for a business, it is important to consider the
-source's level of credibility. A person who has extensive knowledge of or expertise in a specific topic is more credible
-and more likely to present valid or reliable information. For example, an article about the side effects of a medication
-tends to be more credible if it was written by a doctor or pharmacist rather than if the article was written by a financial
-planner or mechanic. Although the timeliness of written material is a consideration, it is not related to the author's level
-of expertise. A researcher cannot always determine the author's level of emotional intelligence by reading a written
-document. And, it is possible to possess a high level of knowledge about a subject and have low emotional
-intelligence. The way in which the article is written, rather the author's expertise, will impact the understandability of
-the information.
-SOURCE: Spending Grade 8
-SOURCE: Johns Hopkins Sheridan Libraries. (2021, June 19). Evaluating sources. Retrieved October 20, 2022, from
-https://guides.library.jhu.edu/c.php?g=202581&p=1334914
-6. C
-Pay stub. Your pay stub is a good source of information regarding your gross pay, deductions, and net pay. If your
-pay is directly deposited in your bank account, your bank can tell you what your net pay is, but it would have no idea
-about your gross pay or deductions. Your timecard indicates the hours that you have worked during a particular pay
-period. A W-4 indicates how many exemptions you want to claim.
-SOURCE: Earning Income Grade 8
-SOURCE: Kappel, M. (2021, June 7). What is a pay stub? Quick facts for employers. Retrieved October 24, 2022,
-from https://www.patriotsoftware.com/blog/payroll/pay-stub
+5. B
+Hostile. Mediation occurs when a neutral third party acts as a mediator between two parties in disagreement.
+While the mediator cannot make a decision that resolves the disagreement, they can work with both sides to
+find points of agreement to help provide solution suggestions. This process asks the parties to come together,
+unlike in litigation, which is often combative and hostile when parties are pitted against each other. Mediation is
+more flexible than litigation because it does not impose a resolution on both parties. Both mediation and
+litigation can be personal. The necessity of either mediation or litigation depends on the disagreement.
+SOURCE: BL:161 Discuss the arbitration/mediation process
+SOURCE: Miller, R.L. (2020). Business law today: The essentials (12th ed.) [p. 65]. Boston, MA: Cengage
+Learning, Inc.
+6. A
+Common law. Common law is law created by court decisions rather than through written legislation. Since there
+are no courts that can overrule a nation's supreme court, its decisions have the force of law, including if it ruled
+that segregated schools are unconstitutional. This example does not depict the creation of a federal agency,
+state law, or international law.
+SOURCE: BL:163 Comply with the spirit and intent of laws and regulations
+SOURCE: LAP-BL-163—Laying Down the Law (Complying With the Spirit and Intent of Laws and Regulations)
 7. D
-Earn higher wages. Most people work in order to achieve a certain standard of living. Workers who want more of the
-good things in life know they must increase their productivity to earn higher wages with which they can buy the things
-they want. Increasing productivity does not enable workers to take longer vacations, obtain more benefits, or pay
-higher taxes unless their increased productivity is rewarded by raises or added benefits.
-SOURCE: Earning Income Grade 12
-SOURCE: LAP-EC-018—Make the Most of It (Productivity)
-8. B
-iPads, sweaters, and books. To obtain operating revenue, governments levy sales taxes on nonessential goods and
-services. Examples of items that incur sales tax are iPads, sweaters, books, shoes, light bulbs, school supplies, and
-candy. Items such as milk and prescription medication are usually exempt from sales tax. People who inherit items
-pay estate taxes on the items, and land is subject to property taxes.
-SOURCE: Earning Income Grade 12
-SOURCE: LAP-EC-072—Pay Your Share (Business Taxes)
-9. A
-She must pay the entire amount of her payroll taxes. Anita is responsible to pay both the employer and employee
-portion of her payroll taxes. The same rates apply to her as to a person who is not self-employed. Anita is responsible
-for both personal and business income taxes. Self-employment taxes are not excise taxes. Excise taxes apply to
-specific products, such as gasoline and alcohol.
-SOURCE: Earning Income Grade 12
-SOURCE: LAP-EC-072—Pay Your Share (Business Taxes)
+Distractions. Distractions are any occurrences or noises that attract the listener's attention away from the
+speaker. They can be a major block to effective listening. Concentration is focusing one's attention. Open
+mindedness means being receptive to new ideas. Empathy is being able to put yourself in another's place.
+These alternatives would aid listening, not hinder it.
+SOURCE: CO:017 Demonstrate active listening skills
+SOURCE: LAP-CO-017—Listen Up! (Demonstrating Active Listening Skills)
+8. D
+Paying special attention to headings, titles, and graphics. One of the best strategies for extracting important
+information from a text is to pay attention to headings, titles, and graphics. These elements often point the
+reader to the main issues presented in the text and can help the reader better comprehend the information they
+are reading. It would be unwise to skip or simply skim any portion of a text. Important information could be
+presented in any section, including the preface or introduction.
+SOURCE: CO:055 Extract relevant information from written materials
+SOURCE: GradSchools.com. (2020). Reading to extract the right information. Retrieved September 26, 2022,
+from https://www.gradschools.com/get-informed/student-guide/reading-extract-right-information
+9. B
+Blind carbon copy (BCC). If Jayne does not want to share email addresses with everyone, she should send the
+email using blind carbon copy (BCC), which hides email addresses from the email's recipients. Carbon copy
+(CC) does not hide email addresses. Jayne should not reply all, and she does not necessarily need to send an
+attachment to respect recipient privacy.
+SOURCE: CO:090 Write professional emails
+SOURCE: Writing@CSU. (1993-2022). Business email. Retrieved September 26, 2022, from
+https://writing.colostate.edu/guides/guide.cfm?guideid=74
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 3
-10. B
-$778. To calculate Kale's loss in purchasing power, first subtract the amount of his raise from the rate of inflation (5% - 3% = 2%). Then, multiply this difference by Kale's income last year (2% X $38,900 = $778). Therefore, Kale loses
-$778 in purchasing power. Even though he is receiving a raise, inflation is rising faster than his income, so the amount
-of money that he has available to spend decreases.
-SOURCE: Spending Grade 12
-SOURCE: Hayes, A. (2022, May 27). Understanding purchasing power and the consumer price index. Retrieved
-October 20, 2022, from https://www.investopedia.com/terms/p/purchasingpower.asp
-11. D
-Inflation. Inflation is a steady rise in the price levels of goods and services over time. Inflation may occur when
-demand exceeds supply or when productivity declines and costs of labor go up. Deflation, on the other hand, is a
-steady decline in the general price levels of goods and services over time. Balance of trade is the difference between
-the value of a nation's exports and its imports. Behavior modeling is an instructional method in which trainees are
-given a specific model of behavior, told the consequences of failure to perform in that manner, provided opportunities
-to practice the behavior, and evaluated using the behavior. The increasing cost of Jude's laptop is likely due to
-inflation, not balance of trade, deflation, or behavior modeling.
-SOURCE: Spending Grade 12
-SOURCE: LAP-EC-083—Up, Up, and Away (Inflation)
+10. C
+Ask the caller if they would like to leave a message. If a caller wants to speak to a specific employee who is
+unavailable, it is most courteous to ask if you can take a message or ask the caller if they would like to leave a
+voicemail. There isn't enough information to determine if the caller wants to place an order or if you are in the
+position to help the caller. If Rhonda is in a meeting or out of the building, putting the caller on hold until you
+track her down or asking them to call back in a few minutes are not viable options. Additionally, placing a caller
+on hold for a long time and telling them to call later are rude responses.
+SOURCE: CO:114 Handle telephone calls in a businesslike manner
+SOURCE: Clark, B., Basteri, C.G., Gassen, C., & Walker, M. (2014). Marketing dynamics (3rd ed.) [p. 455].
+Tinley Park, IL: The Goodheart-Willcox Co.
+11. C
+Justification. Analytical reports are documents that summarize information about issues, opportunities, or
+problems. Justification reports provide facts and data that support a previous decision or action such as profits
+or market share realized from a business expansion overseas. A feasibility report summarizes the positive and
+negative consequences of taking a certain course of action that has not yet occurred. Troubleshooting reports
+address specific problems, such as an issue with a process. Cause and effect reports provide information about
+a variety of scenarios under different circumstances—if actions A and B happen, then the probable result will be
+C. This type of report helps the business consider pros and cons of each scenario to determine which action it
+should take.
+SOURCE: CO:185 Write analytical reports (i.e., reports that examine a problem/issue and recommend an
+action)
+SOURCE: McQuerrey, L. (2018, July 1). How to write a justification report. Retrieved September 26, 2022,
+from https://work.chron.com/write-justification-report-6504.html
 12. C
-Jason; less. Jason pays double his minimum payment so he pays off his loan more quickly and accrues less interest.
-John makes the minimum payment so it takes him longer to pay off the balance of his card. He will have a higher
-running balance and, therefore, be charged more interest, which will take longer to pay off.
-SOURCE: Managing Credit Grade 12
-SOURCE: Investopedia. (2022, January 29). Understanding credit card interest. Retrieved October 20, 2022, from
-https://www.investopedia.com/articles/01/061301.asp
+Methodology. The methodology section focuses on the procedures used to gather the information for the study.
+In the situation provided, the marketing research firm used personal interviews and focus groups to gather
+information. The introduction states the problem, purpose, and significance of the study or investigation. The
+abstract is a synopsis of the report's contents. The results section contains the analysis of the research findings.
+SOURCE: CO:186 Write research reports
+SOURCE: Grand Canyon University Center for Innovation in Research and Teaching. (n.d). Components of a
+research paper. Retrieved September 26, 2022,
+from https://cirt.gcu.edu/research/develop/tutorials/researchpaper
 13. D
-Assessed her strengths and weaknesses. It's important to assess your strengths and weaknesses when applying for a
-job. By applying to jobs where she can utilize her unique skills, it's clear that Kalea has assessed her strengths and
-weaknesses. Being realistic about her strengths and weaknesses does not mean that Kalea is selling herself short in
-her job search, underestimated her own skills, or that she has made set-in-stone plans for her career. Rather, it
-suggests that Kalea is taking the right steps toward a fulfilling career that maximizes her unique talents.
-SOURCE: Earning Income Grade 8
-SOURCE: LAP-EI-902—Assess for Success (Assessing Personal Strengths and Weaknesses)
-14. D
-Innovative, risky, time-intensive. Starting and maintaining a business is no easy task. Entrepreneurs must be
-hardworking, passionate, innovative, and willing to take risks for their companies. Entrepreneurship is inherently risky,
-time-intensive, expensive, and dynamic. A career in entrepreneurship promises to be unpredictable and nonroutine,
-since starting a business requires engaging in a variety of different activities. Entrepreneurship is not low-risk,
-predictable, low-energy, relaxed, or routine.
-SOURCE: Earning Income Grade 8
-SOURCE: Bortz, D. (2022). 9 characteristics of entrepreneurship you should develop. Retrieved October 20, 2022,
-from https://www.monster.com/career-advice/article/entrepreneur-traits
+Phone skills. Customers often judge the quality of a business’s service by the treatment they receive over the
+phone. Handling telephone calls in a prompt, courteous manner helps project a customer service mindset.
+Marketing strategies are plans of action for achieving marketing goals and objectives. Promotional plans are
+frameworks for the promotional activities of a business. Business activities are specific actions that are part of
+the operation of a business.
+SOURCE: CR:004 Demonstrate a customer service mindset
+SOURCE: LAP-CR-004—Set Your Mind to It (Customer Service Mindset)
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 4
-15. B
-Secured. In a secured, or collateral, loan, the borrower pledges to the lender some valuable possession as collateral,
-or security, to guarantee that the loan will be repaid. If the borrower does not repay the loan, the item that was used
-as collateral will then belong to the lender. Among the items that are often used as collateral are real estate, stocks
-and bonds, personal property such as machinery or cars, and the cash value of life insurance. An unsecured loan,
-also known as a signature loan, is an amount of money borrowed by an individual or a business simply by signing a
-promissory note, a written promise to repay the loan. In this type of loan, the borrower is not required to put up
-collateral. Installment credit accounts are designed to handle one total amount of credit, which is paid in installments
-within a certain time period. The credit user makes a down payment and signs an agreement to pay monthly
-installments until the total is paid.
-SOURCE: Managing Credit Grade 12
-SOURCE: LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)
-16. B
-Equal credit opportunity. All individuals are entitled to receive equal opportunity for credit under consumer credit
-protection laws. This means that creditors may not discriminate against an individual because of their race, color,
-religion, national origin, sex, marital status, age, or use of public assistance when they make decisions. Individuals are
-not entitled to a credit guarantee. Methods of notifying candidates of their rejection for credit lines vary, and there is
-not a single "proper" way that is considered appropriate. Maryville Community Credit Union discriminated against
-Bryant because of his religion, but it did not violate his right to practice his religion.
-SOURCE: Managing Credit Grade 12
-SOURCE: Irby, L. (2021, October 24). Consumer credit laws you should be familiar with. Retrieved October 20, 2022,
-from https://www.thebalancemoney.com/consumer-credit-laws-you-should-be-familiar-with-4068374
+14. D
+Offend the clients. Businesspeople should try to learn as much as they can about a client's culture, customs,
+and social values. By understanding and being aware of cultural differences, businesspeople can adapt their
+communication styles to make a positive impression on their clients, earn their clients' trust, and persuade their
+clients to buy. Businesspeople who adapt their communication styles are aware of actions that a particular client
+might view as hospitable, as well as behaviors that the client might find offensive. Offensive behaviors can
+hinder the ability to build long-term relationships with international clients.
+SOURCE: CR:019 Adapt communication to the cultural and social differences among clients
+SOURCE: Lehman, C., Dufrene, D., & Walker, R. (2020). BCOM (10th ed.) [p. 13]. Boston, MA: Cengage
+Learning, Inc.
+15. C
+Do not always benefit consumers. A monopoly exists when a single business influences the entire production of
+a particular good or service. This means that any major competitors are eliminated, and the monopoly can
+control the price of the product by restricting production. Government regulates monopolies to protect
+consumers except in cases in which it is best to have a single provider of a good or service (e.g., utilities).
+Monopolies do not reduce the power of the government and are not necessarily hard to manage. They do pay
+taxes.
+SOURCE: EC:008 Determine the relationship between government and business
+SOURCE: LAP-EC-016—Regulate and Protect (Government and Business)
+16. C
+Net profit. Net profit is the amount of money left after operating expenses are subtracted from gross profit.
+Operating expenses are the daily costs of running the business. Until they are subtracted, the business does
+not have a realistic picture of how it is doing financially. Total income is all the receipts of the business, which is
+an important figure but does not measure financial status.
+SOURCE: EC:010 Identify factors affecting a business's profit
+SOURCE: LAP-EC-910—Risk Rewarded (Factors Affecting Profit)
 17. C
-Memorize your social security number, and keep your card at home. You should avoid keeping your social security
-card in your wallet or purse. Instead, leave the card at home or somewhere safe, and memorize your social security
-number. You should never give out personal information when the other person initiated the contact—instead, you
-should only give out information when you initiated the contact yourself. You shouldn't just throw away credit card
-statements, receipts, and credit offers. Instead, you should shred them. Many thieves practice dumpster diving to find
-documents with bank account or credit card numbers. You shouldn't give out information to someone who says they
-work for a legitimate company, as that person could easily be lying to you. In fact, this is a common phishing scheme.
-Only give out your personal information if the other person has some way to verify who they are (or if you were the
-one who contacted them).
-SOURCE: Managing Risk Grade 8
-SOURCE: Federal Trade Commission. (2021, April). What to know about identity theft. Retrieved October 20, 2022,
-from https://consumer.ftc.gov/articles/what-know-about-identity-theft
+New companies. Competition encourages new businesses to enter the marketplace. When a product is popular
+and successful, others recognize the demand and develop similar products in order to compete. The ongoing
+competition leads to the creation of new products and new companies. Businesses do not necessarily benefit
+from more regulations. Competition usually encourages the creation of businesses that are similar or related to
+successful, existing businesses. Many resources are limited, which means that more cannot be created.
+SOURCE: EC:012 Explain the concept of competition
+SOURCE: LAP-EC-912—Ready, Set, Compete! (Competition)
 18. C
-Cash payment. There are several forms of financial exchange and paying in cash is one of the most common forms.
-Financial exchange involves paying for a good or service. Individuals often pay in cash, especially for products that
-are inexpensive. Also, many individuals prefer to pay in cash because that prevents them from buying products they
-cannot afford. An investment is a financial product that an individual might pay for with cash. Insurance is a
-contractual agreement in which the insurer will pay for specified losses incurred by the insured in return for installment
-payments, also known as a premium.
-SOURCE: Spending Grade 8
-SOURCE: Christensen, T. (2022). Different payment methods. Retrieved October 20, 2022, from
-https://moneyfit.org/blog/different-payment-methods
+It can lead to high inflation. Currency speculation is risky because it can create an artificial demand for currency,
+leading to high inflation. Currency speculation is also risky because predicting currency values is quite difficult.
+Many traders participate in currency speculation—a majority of trades on the foreign exchange market, actually.
+Currency speculation can be extremely profitable, but that is not what makes it risky.
+SOURCE: EC:100 Describe the determinants of exchange rates and their effects on the domestic economy
+SOURCE: LAP-EC-100—Get Your Money's Worth (Exchange Rates)
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 5
-19. A
-Debit card. Similar to a check, a debit card is a form of financial exchange that allows individuals to draw money from
-a checking account. Unlike a check, a debit card makes automatic transactions that are immediately trackable. Cash
-transactions are difficult to track. Credit cards are a form of financial exchange that allows an individual to make
-payments using borrowed funds.
-SOURCE: Spending Grade 8
-SOURCE: Cussen, M.P. (2022, July 13). Credit cards vs. debit cards: What's the difference? Retrieved October 20,
-2022, from https://www.investopedia.com/articles/personal-finance/050214/credit-vs-debit-cards-which
-better.asp
-20. A
-Earned income. Income is money that individuals and businesses receive from other sources. Marshall worked to
-receive wages from his employer, so he has earned income. Unearned income is revenue that individuals and
-businesses passively obtain. In these situations, individuals or businesses do not actually perform work to obtain the
-money. Dividends, rent, and transfer payments are examples of unearned income. Transfer payments are monies
-paid by the government for which no goods or services are received in exchange, such as welfare benefits, veterans'
-benefits, disaster aid, and unemployment. A capital gain refers to the amount of increase in value of an asset in
-relation to its price at the time of purchase.
-SOURCE: Earning Income Grade 12
-SOURCE: Marquit, M. (2022). Earned income vs. unearned income. Retrieved October 20, 2022,
-from https://mirandamarquit.com/earned-income-vs-unearned-income
-21. D
-Yes, you can buy renter's insurance. Renter's insurance is a form of liability coverage that can be purchased by those
-who rent or lease property to cover their possessions. The owner of the property should buy homeowner's insurance
-to cover the property. Life insurance would not protect your belongings as it is not paid out until the death of the
-policyholder.
-SOURCE: Managing Risk Grade 8
-SOURCE: Understand Insurance. (2017). Landlord and renters insurance. Retrieved October 20, 2022, from
-http://understandinsurance.com.au/types-of-insurance/landlord-and-renters-insurance#tab-2
+19. C
+History. If investors avoid a country because of past conflicts there, they are basing their decision on the
+country's history. The country's past conflicts may have been due to its culture or economy, but it is not clear
+whether either was the cause in the situation described. Geography refers to a country's physical features and
+location, not to past events.
+SOURCE: EC:115 Describe the impact of a country's history on world trade
+SOURCE: Boyte-White, C. (2022, August 23). The basic economic effects World War II had on the global
+economy. Retrieved October 17, 2022, from
+https://www.investopedia.com/ask/answers/112814/how-did-world-war-ii-impact-european-gdp.asp
+20. D
+Standing up straight when talking to other people. Posture is the way in which you hold your body. Ways you
+can use posture to express assertiveness include standing up straight when speaking, leaning toward the
+speaker to show your interest in what is being said, or crossing your arms across your chest to indicate a
+negative response to what is being said. Explaining why you must refuse a request for help is an example of
+verbal assertiveness. Raising your eyebrows and frowning are facial expressions used in nonverbal
+assertiveness.
+SOURCE: EI:008 Use appropriate assertiveness
+SOURCE: LAP-EI-008—Assert Yourself (Assertiveness)
+21. B
+Gender. A stereotype is a set image or assumption about a person or thing. When people stereotype others,
+they tend to classify certain people as a group that possesses certain characteristics. These characteristics are
+often based on distorted beliefs or unreliable information. A person who stereotypes others often fails to see an
+individual who possesses unique skills, values, and attitudes. Gender is one characteristic by which people
+often stereotype others. Assuming men are more assertive than women in business situations is a distorted
+belief. In fact, many women are very assertive in business situations. Ethnic stereotyping involves having false
+beliefs about a person on the basis of their race or culture. Stereotypes about religion involve having distorted
+beliefs about a person's spiritual practices. An individual who stereotypes by age might feel that younger people
+do not possess needed knowledge or that older people are feeble and lack adaptability.
+SOURCE: EI:017 Recognize and overcome personal biases and stereotypes
+SOURCE: Lazzari, Z. (2018, October 19). Types of stereotyping in advertising. Retrieved September 26, 2022,
+from https://smallbusiness.chron.com/types-stereotyping-advertising-11937.html
 22. B
-Rent payments received from tenants. Rent payments received from tenants are considered a source of taxable
-income. A personal loan from a friend is not considered a source of income except in cases where the friend forgives
-your loan (i.e., doesn't require you to pay it back). Group medical insurance premiums are monies paid for the cost of
-health insurance and are not considered a source of income. Life insurance payouts are not considered a source of
-taxable income.
-SOURCE: Earning Income Grade 12
-SOURCE: H&R Block. (2021-2022). Taxable and tax free sources of income. Retrieved October 20, 2022, from
-https://www.hrblock.com/tax-center/income/other-income/sources-of-income
+Attitudes can be helped with humor. Being able to laugh at yourself and at annoying things that happen is very
+good for your positive attitude. It keeps you from taking yourself too seriously and helps you keep things in
+perspective. Changing attitudes won't happen overnight. Our attitudes develop from the time we are children,
+and they can't be changed that easily. Energy is like the common cold—contagious. Surrounding yourself with
+positive people will have a positive effect on your attitude. Your attitude is one of the few things in life over
+which you have complete control. The choice to be positive is one you make every day, and no one else can
+make that decision for you.
+SOURCE: EI:019 Exhibit a positive attitude
+SOURCE: LAP-EI-003—Opt for Optimism (Positive Attitude)
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 6
 23. C
-$471.30. The present value of money is equal to the future value of the money divided by the interest factor, which is
-equal to the sum of the interest rate and one, raised to the nth power (n is equal to the number of years). To find the
-present value of $500 two years in the future, first convert the interest rate to a decimal and add one to it (0.03 + 1 =
-1.03). Then, raise that sum to the second power, which is the same as multiplying that number by itself (1.03 X 1.03 =
-1.0609). Finally, divide the amount of money in the future by the interest factor that you just calculated ($500 / 1.0609
-= $471.30). To have $500 in two years, you need to deposit $471.30 into a savings account at 3% interest today.
-SOURCE: Investing Grade 8
-SOURCE: Carlson, R. (2020, September 29). How to calculate the future value of an investment. Retrieved October
-20, 2022, from https://www.thebalancemoney.com/how-to-calculate-the-future-value-of-an-investment
-393391
-24. C
-Dollar cost averaging. Dollar cost averaging involves investing a fixed dollar amount in a particular investment on a
-regular schedule, regardless of share price. With this strategy, an investor buys more when prices are low and buys
-less when prices are high. The example does not illustrate diversification, growth investing, or buy-and-hold.
-SOURCE: Investing Grade 12
-SOURCE: Hayes, A. (2022, August 19). Dollar-cost averaging (DCA). Retrieved October 20, 2022,
-from http://www.investopedia.com/terms/d/dollarcostaveraging.asp
-25. C
-Compound interest. Compound interest is often referred to as "interest on interest." In this example, Omar is earning
-compound interest on his original deposit because he is earning interest on the principle plus interest on that interest.
-If Omar was earning simple interest, he would only be earning interest on the principle amount. The present value of
-money is what money is worth at any given time. Inflation is a rise in the prices of consumer goods and services over
-a period of time. The present value of money and inflation rates are not demonstrated in this example.
-SOURCE: Saving Grade 8
-SOURCE: Fernando, J. (2022, July 19). The power of compound interest: Calculations and examples. Retrieved
-October 20, 2022, from https://www.investopedia.com/terms/c/compoundinterest.asp
-26. B
-Repayment schedule. Individuals and businesses usually borrow money from financial institutions for large
-purchases, such as business equipment. A borrower must apply for the loan with the lender and provide the lender
-with necessary financial status information. The lender reviews this information to determine if the potential borrower
-is a good risk and is likely to pay back the loan. If the lender determines that the borrower meets the necessary
-criteria, the application is accepted and the loan process begins. The lender develops a formal document (contract)
-that the borrower must sign. The document contains information regarding the loan repayment terms and schedules.
-The contract does not include a tax code list, a proposal (request) for disbursement, or a guarantee of eminent
-domain.
-SOURCE: Managing Credit Grade 12
-SOURCE: Fay, B. (2022, February 23). What is a loan agreement? Retrieved October 20, 2022, from
-https://www.debt.org/credit/loans/contracts
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-7
-27. A
-12.8%. The lender is required to inform a borrower of the finance charge that is to be paid on their installment loans,
-as well as the annual percentage rate (APR) for the loan. To calculate the approximate APR for Annie's loan, first find
-the total installment cost for the loan by multiplying the monthly payment by the number of payments and then adding
-this answer to the down payment for the loan ($283.27 X 24 = $6,798.48 + $0 = $6,798.48). Then, find the finance
-charge—the total interest that Annie will be required to pay on the loan—by subtracting the amount of the loan from
-the total installment cost ($6,798.48 - $6,000 = $798.48). To find the approximate APR, multiply the finance charge by
-24, which is a constant in the formula for approximate APR ($798.48 X 24 = $19,163.52). Next, add one (also a
-constant in the formula) to the number of payments (1 + 24 = 25). Multiply this sum by the amount financed (25 X
-$6,000 = $150,000). Finally, divide this answer into $19,163.52 ($19,163.52 / $150,000 = 0.128 = 12.8%).
-SOURCE: Managing Credit Grade 8
-SOURCE: Fernando, J. (2022, February 4). Annual percentage rate (APR): What it means and how it works.
-Retrieved October 20, 2022, from https://www.investopedia.com/terms/a/apr.asp
-28. A
-Meet needs and wants. Financial planning helps you meet needs and wants by setting goals and working toward
-them. It does not help you understand economics and finance. It can help you plan for the future, but it does not help
-you predict it. Financial planning does not increase your income, but it does help you make the most of it.
-SOURCE: Spending Grade 8
-SOURCE: Fontinelle, A. (2022, October 8). How to set financial goals for your future. Retrieved October 20, 2022,
-from https://www.investopedia.com/articles/personal-finance/100516/setting-financial-goals
-29. D
-$144.17. To find how much Sophia should save each month, first determine how much birthday money she can put
-toward the car by multiplying the amount that she usually receives each year by the number of years she has to save
-($400 X 3 = $1,200). Next, subtract her birthday money for the three years from the cost of the car ($6,390 - $1,200 =
-$5,190). Finally, divide the difference by 36 months (3 years) to determine how much she needs to save each month
-to reach her financial goal ($5,190 / 36 = $144.17).
-SOURCE: Saving Grade 8
-SOURCE: Fontinelle, A. (2022, October 8). How to set financial goals for your future. Retrieved October 20, 2022,
-from https://www.investopedia.com/articles/personal-finance/100516/setting-financial-goals
-30. D
-Plan how much you'll need to set aside each month. Financial planning is necessary to achieving goals because it
-allows you to develop a process for getting where you need to be. If you want to save enough to buy a phone, you
-won't just do it overnight—instead, you'll need to plan how much to set aside each month to get there. Borrowing
-money from a family member or friend is not necessarily a realistic option. Opening a credit card account will not
-necessarily help you work toward your goal to save money, because credit cards do not help you save money.
-Dipping into your emergency fund to buy a phone is not a good idea, because then your emergency fund will be
-depleted, and it will be difficult to save back up again.
-SOURCE: Saving Grade 8
-SOURCE: Fontinelle, A. (2022, October 8). How to set financial goals for your future. Retrieved October 20, 2022,
-from https://www.investopedia.com/articles/personal-finance/100516/setting-financial-goals
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-8
-31. A
-To pay for unexpected expenses. Experts recommend that people have an emergency fund as part of a personal
-financial plan to pay for unexpected expenses such as car repairs or medical bills. A personal financial plan should
-also include a budget to plan and pay for monthly expenses such as rent. Vacations and college are planned
-purchases, not unexpected expenses to be paid for out of an emergency fund.
-SOURCE: Spending Grade 12
-SOURCE: Fontinelle, A. (2022, October 8). How to set financial goals for your future. Retrieved October 20, 2022,
-from https://www.investopedia.com/articles/personal-finance/100516/setting-financial-goals
-32. D
-Interest on balances. Interest increases the amount of money owed if a balance remains on a credit card. Interest can
-make it difficult to pay off a credit card because the balance continues to grow. Budgets are tools to allocate money to
-achieving financial goals. A deductible is the amount of money paid for services before insurance kicks in. Insurance
-copayments are just the portion of a medical bill that a person will pay, while insurance pays for the remainder of the
-cost.
-SOURCE: Managing Credit Grade 8
-SOURCE: Kagan, J. (2021, December 1). Credit card debt. Retrieved October 20, 2022, from
-https://www.investopedia.com/terms/c/credit-card-debt.asp
-33. C
-Salary. An individual's income is the source of money that the person receives. A person earns income by working
-and collecting a salary from their employer. Other income sources include child support payments, alimony, interest,
-and profits from investments (e.g., rental properties). Insurance, clothing, and utilities are types of personal expenses.
-SOURCE: Spending Grade 12
-SOURCE: Dantus, C.R. (2019, June 5). Budgeting: How to create a budget and stick with it. Retrieved October 20,
-2022, from https://www.consumerfinance.gov/about-us/blog/budgeting-how-to-create-a-budget-and-stick
-with-it
-34. C
-Car payment. Developing a personal budget helps individuals manage their income and expenses. An important
-consideration in budgeting involves identifying fixed expenses, which are the expenses (cash outflows) that do not
-fluctuate or change from month to month. Car payments, insurance, and rent are examples of fixed expenses.
-Groceries, home repairs, and clothing are variable expenses, or expenses that may fluctuate slightly from month to
-month.
-SOURCE: Spending Grade 12
-SOURCE: Pant, P. (2022, July 31). What's the difference between fixed and variable expenses? Retrieved October
-20, 2022, from https://www.thebalancemoney.com/what-s-the-difference-between-fixed-and-variable
-expenses-453774
-35. C
-$398.44. Sales tax is a fee that the government charges on retail products. Businesses collect the taxes from the
-customers and pay the government the taxes at set intervals. To calculate the amount of sales tax Logan owes for his
-car, multiply the car's price by the sales tax rate ($6,375 X .0625 or 6.25% = $398.44).
-SOURCE: Earning Income Grade 12
-SOURCE: WikiHow. (2022, August 27). How to calculate sales tax. Retrieved October 20, 2022, from
-https://www.wikihow.com/Calculate-Sales-Tax
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-9
-36. D
-$807.53. Richard's gross pay consists of his total income for the week before income taxes and other deductions are
-subtracted from his pay. To determine Richard's total gross pay for last week, first multiply his standard 40 hours
-worked by his regular hourly rate (40 X $14.55 = $582.00). Then, determine his hourly rate for overtime hours by
-multiplying his regular hourly rate by 1.5 ($14.55 X 1.5 = $21.825). Next, multiply the number of overtime hours by the
-hourly rate for overtime (5 X $21.825 = $109.125). To calculate his hourly rate for holiday hours, multiply the regular
-hourly rate by two ($14.55 X 2 = $29.10). Multiply his hourly rate for holiday hours by the number of hours worked on
-New Year's Day, which is a holiday ($29.10 X 4 = $116.40). Finally, to determine his total gross pay, add his earnings
-for regular hours, overtime hours, and holiday hours together and round to the nearest cent ($582.00 + $109.125 +
-$116.40 = $807.525 = $807.53).
-SOURCE: Earning Income Grade 8
-SOURCE: Doyle, A. (2022, September 20). How to read a pay stub. Retrieved October 20, 2022, from
-https://www.thebalancemoney.com/what-is-included-on-a-pay-stub-2062766
-37. C
-Optional deductions. To calculate your net pay, you need to subtract taxes and optional deductions such as health
-insurance, life insurance, and retirement plan contributions from your gross pay. By claiming exemptions and
-dependents, you can lower your tax rate, but they are not subtracted from gross pay. Capital gains are earnings from
-the appreciation of a stock investment. Exemptions, dependents, and capital gains are not considered when
-determining net pay.
-SOURCE: Earning Income Grade 8
-SOURCE: Indeed. (2022, October 12). How to calculate net pay in 3 steps (plus definition). Retrieved October 20,
-2022, from https://www.indeed.com/career-advice/career-development/how-to-calculate-net-pay
-38. A
-Timeliness. For certain types of information, it is crucial for the source to be up to date because data are always
-changing. Length and style are not necessarily indicators of reliability, though depending on the type of source, they
-may be important. The type of source does not always indicate reliability; many different types of sources are reliable.
-SOURCE: Spending Grade 8
-SOURCE: Johns Hopkins Sheridan Libraries. (2021, June 19). Evaluating sources. Retrieved October 20, 2022,
-from https://guides.library.jhu.edu/c.php?g=202581&p=1334914
-39. D
-Purchase. When individuals make investments, they receive purchase documents that include information about the
-cost of the investment and any commissions or fees that were paid. Individuals should keep these documents in their
-records to verify ownership and to be able to determine if it was a good investment over a period of time. For
-example, the purchase record would indicate the cost (perhaps it was $25 a share), the total amount purchased (100
-shares for a total of $2,500), and a fee of $30. By comparing the purchase records to actual value in five years, an
-individual will be able to decide if the investment was worthwhile. Perhaps the cost per share is $40 a share in five
-years. An individual might consider this to be a good return on the investment. Deposit and credit records usually do
-not contain information about investments. Logistics refer to managing the flow of goods and services from production
-to consumption.
-SOURCE: Spending Grade 12
-SOURCE: Wang, P. (2022, February 25). How long to keep tax records and other documents. Retrieved October 20,
-2022, from https://www.consumerreports.org/taxes/how-long-to-keep-tax-documents-a5302825423
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-10
-40. D
-Charitable gifts. A deduction is a tax write-off that reduces the gross amount of an individual's income, which in turn
-reduces the taxes owed. Deductible expenses include donations to qualified charities. By claiming the charitable gift
-deduction, you can decrease your taxable income and lower your tax bill. To successfully claim the charitable
-contribution deduction, you need to donate cash or property, contribute to a qualified tax-exempt organization, and
-meet recordkeeping requirements. Political contributions, rent payments, and lunches with coworkers are not
-expenses that are tax deductible.
-SOURCE: Spending Grade 12
-SOURCE: Perez, W. (2022, February 14). Tax deductions for charitable donations. Retrieved October 20, 2022, from
-https://www.thebalancemoney.com/tax-deduction-for-charity-donations-3192983
-41. B
-Loan. A loan is a sum of money lent to a person or business for a specific time period that is repayable with interest.
-Credit is the arrangement by which a person purchases now and pays later. A lending institution issues credit cards,
-which allow people to purchase now and pay later. The lender provides credit card users with a limit within which they
-can charge purchases. The lender pays for the purchases and then sends the credit card user a bill/statement each
-month that indicates the monthly minimum payment and interest charges due to the lender. It is important for people
-to pay credit card balances responsibly so they do not accumulate so much debt that they cannot afford to pay the
-lender. Using credit for purchases helps a person build a personal credit history, which lenders consider when a
-person applies for a large loan to purchase a car or a house. An asset is something of value that a person owns.
-Credit is not an asset or a tax. Because credit is so widely used, it is not necessarily a privilege.
-SOURCE: Managing Credit Grade 8
-SOURCE: Federal Trade Commission. (2022). Using credit. Retrieved October 20, 2022, from
-https://consumer.gov/credit-loans-debt/using-credit
-42. D
-Manage your spending. When you have one or two credit cards, it is easier to manage your spending because you
-have a limited amount of purchases that you can place on each card. With fewer cards, it is easier to track your
-purchases and this may enable you to pay more than the minimum amount due on each card, which helps you reduce
-your debt more quickly. Having one or two credit cards may not enable you to buy everything that you want, but it can
-help you prioritize your needs and wants so you don't overspend. The credit card service provider establishes the
-policies for transaction fees and credit limits, regardless of the number of credit cards that you hold.
-SOURCE: Managing Credit Grade 8
-SOURCE: Irby, L.T. (2021, July 4). 10 worst credit card mistakes you could make. Retrieved October 20, 2022, from
-https://www.thebalancemoney.com/worst-credit-card-mistakes-961138
-43. A
-$431.75. First, determine the monthly periodic rate by dividing the APR (annual percentage rate) by 12 (18% / 12 =
-0.015 or 1.5%). Next, multiply the monthly periodic rate by the previous balance to determine the finance charges
-(1.5% X 450 = $6.75). Then, add the finance charge to the previous balance ($450 + $6.75 = $456.75). Then, subtract
-the $25 payment from the new balance to get the total new balance ($456.75 - $25 = $431.75).
-SOURCE: Managing Credit Grade 8
-SOURCE: Fernando, J. (2022, February 4). Annual percentage rate (APR): What it means and how it works.
-Retrieved October 20, 2022, from https://www.investopedia.com/terms/a/apr.asp
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-11
-44. A
-To avoid being denied credit. Individuals should periodically validate their credit histories to make sure that the
-information is correct. In some cases, inaccurate or false information may appear in a credit history, which will result in
-an individual being denied credit. To make sure this doesn't happen, individuals should review the information and
-contact the credit bureau to change or remove inaccurate information. Individuals do not validate their credit histories
-to understand credit laws, find out about different types of credit, or protect themselves from slander.
-SOURCE: Managing Credit Grade 12
-SOURCE: Billingsley, R., Gitman, L.J., & Joehnk, M.D. (2020). PFIN (7th ed.) [pp. 158-161]. Boston, MA: Cengage
-Learning, Inc.
-45. D
-401(k) plans. Many employers offer 401(k) plans, which are defined-contribution pension plans, to their employees.
-Employees contribute to their 401(k) plans on a pretax basis, and many employers match employees' contributions up
-to a certain percentage. Both the employee's and employer's contributions become part of the employee's nest-egg
-for retirement. A traditional IRA (individual retirement account) is a personal savings plan that an employee can set up
-independent of their employer. Contributions to a traditional IRA are usually tax deductible, but the money in the
-account is taxed when it is withdrawn during retirement. Money contributed to a Roth IRA is not tax deductible, but the
-money withdrawn from a Roth IRA during retirement is not taxed. A Keogh plan is a defined contribution pension plan
-specifically for self-employed individuals. Contributions to a Keogh plan are typically tax deductible, but withdrawals
-from the account during retirement are taxed.
-SOURCE: Saving Grade 12
-SOURCE: Edelman Financial Engines. (2022, September 15). Should I max out my 401K? Retrieved October 20,
-2022, from https://www.edelmanfinancialengines.com/education/retirement/should-i-max-out-my-401k/
-46. A
-Use secure web browsers when purchasing online. Identity theft occurs when an individual obtains and uses another
-person's information (e.g., credit cards) without that person's consent. To reduce the risk of identity theft, people
-should use secure web browsers to make purchases. Because internet sales transactions often require a person to
-provide credit card information, it is important to make sure that the web browsers are secure. Using secure websites
-reduces the risk of computer hackers obtaining confidential information for fraudulent purposes. Another way to
-reduce the risk of identity theft is to memorize passwords. If a personal planner is stolen, the risk of identity theft goes
-up because the passwords are written down. Also, people should not share bank account numbers with others. When
-more people know an individual's banking information, the risk of identity theft increases. Everyday cash transactions
-do not require a purchaser to provide personal information and, therefore, do not pose a high risk for identity theft.
-SOURCE: Managing Risk Grade 8
-SOURCE: Stay Safe Online. (2022, May 26). Online shopping. Retrieved October 20, 2022, from
-https://staysafeonline.org/resources/online-shopping
-47. B
-Monitor your credit and bank accounts continuously. By reviewing your credit card statements and your bank
-accounts on a regular basis, you are more likely to detect credit purchases or bank withdrawals that you did not make.
-If unauthorized transactions have occurred, you can quickly close accounts to stop identity thieves from accessing
-your accounts. Other things you can do to protect yourself from identity theft are use different passwords for each of
-your online accounts and use secure websites when paying bills and shopping online. Not all online sites are secure.
-You should use the same caution with your debit card as you do with your credit accounts and other bank accounts.
-SOURCE: Managing Risk Grade 8
-SOURCE: Federal Trade Commission. (n.d.). Identity theft. Retrieved October 20, 2022, from
-https://consumer.ftc.gov/features/identity-theft
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-12
-48. D
-Access to credit is an important financial tool. It is important that all consumers have equal access to credit to finance
-purchases. A high earning individual may be denied credit because of poor credit use. Consumer credit laws are not
-intended to increase loans or consumer spending to stimulate the economy.
-SOURCE: Managing Credit Grade 12
+Admitting that she made a mistake and apologizing. Integrity includes being accountable for your actions—even
+when you make a mistake. Admitting when you are wrong is a part of being honest. When Rhea makes an
+error, she should own up to it, rather than ignore the problem, let others take the blame, or defend or cover up
+the mistake.
+SOURCE: EI:022 Demonstrate honesty and integrity
+SOURCE: LAP-EI-138—Sincerely Yours (Demonstrating Honesty and Integrity)
+24. B
+Intrinsic. Intrinsic motivation comes from within a person. Internal motivators include a personal sense of
+satisfaction, enjoyment, or challenge. Extrinsic motivation is external and includes things like a salary, a
+promotion, or benefits. Intrinsic motivation is not ineffective for Shawn.
+SOURCE: EI:059 Motivate team members
+SOURCE: LAP-EI-059—Raise Them Up (Motivating Others)
+25. A
+Build a strong, trusting relationship. When you manage commitments well, you are living up to your obligations,
+which means you are being fair and respectful to others. This allows you to build strong, trusting relationships,
+as is the case with your boss in this example. Following through on a promise to your boss will not necessarily
+ensure you will never get fired or lead you to receive a promotion, although it might help you grow in your
+career. It is not necessarily related to becoming more organized.
+SOURCE: EI:077 Manage commitments in a timely manner
+SOURCE: LAP-EI-077—Commit to It! (Managing Commitments in a Timely Manner)
+26. A
+Financial risk. Anytime you spend money, you expose yourself to financial risk because it affects your budget
+and your savings. Spending money on yourself does not necessarily affect your relationships or cause you to
+experience future debt or poverty.
+SOURCE: EI:091 Assess risks of personal decisions
+SOURCE: LAP-EI-091—Worth the Risk (Assessing Risks of Personal Decisions)
+27. B
+Make a responsible and informed decision. You should make sure that you've heard the whole story before
+making a decision about whether or not you agree with a viewpoint. If you don't, you risk walking away without
+fully understanding the topic or event. Learning about a viewpoint helps you make a good decision about
+whether or not you agree with it; it does not help you prove that you are right, have the upper hand in
+arguments, or avoid interacting with people who are different than you.
+SOURCE: EI:136 Consider conflicting viewpoints
+SOURCE: LAP-EI-136—Pick a Side (Considering Conflicting Viewpoints)
+28. D
+Add to the cost of the purchase. Using credit can add to the total cost of goods and services. For example,
+interest or finance charges are added to accounts that are not paid in full at the end of each payment period.
+When customers buy products with a credit card, they often pay over a period of time. Then, each month they
+pay interest on the unpaid balance. The interest charges add to the cost of the purchase. Interest charges do
+not increase the retail price, because customers who pay in cash are not charged interest. Interest usually is
+calculated monthly rather than yearly. Interest generates profit for the credit card company rather than the store.
+SOURCE: FI:002 Explain the purposes and importance of credit
 SOURCE: LAP-FI-002—Give Credit Where Credit Is Due (Credit and Its Importance)
-49. B
-$38,394. Janine's taxable income is equal to her gross income plus taxable interest minus her standard deduction and
-exemption amounts. The first step in calculating Janine's taxable income is adding together her gross income and
-taxable interest ($47,355 + $389 = $47,744). This sum is her adjusted gross income. Then, subtract the single
-standard deduction and exemption amount from her adjusted gross income ($47,744 - $5,700 - $3,650 = $38,394).
-SOURCE: Earning Income Grade 12
-SOURCE: Internal Revenue Service. (2022, March 14). What is taxable and nontaxable income? Retrieved October
-20, 2022, from https://www.irs.gov/businesses/small-businesses-self-employed/what-is-taxable-and
-nontaxable-income
-50. D
-You can qualify for a lower tax rate. Finding tax deductions that reduce your taxable income typically allows you to be
-taxed at a lower rate. Tax deductions do not necessarily eliminate the need to pay taxes. Tax deductions do not
-increase your gross income or decrease net income.
-SOURCE: Earning Income Grade 12
-SOURCE: Billingsley, R., Gitman, L.J., & Joehnk, M.D. (2020). PFIN (7th ed.) [pp. 63-64]. Boston, MA: Cengage
-Learning, Inc.
-51. C
-Commercial bank. A commercial bank is a full-service bank offering a variety of banking services including checking
-and savings accounts, secured and unsecured loans, installment credit, and bank credit cards. Debit cards, which are
-connected to checking accounts, are offered through commercial banks. Insurance companies, stock brokerage firms,
-and accounting firms do not offer debit cards.
-SOURCE: Saving Grade 8
-SOURCE: Horton, M. (2021, April 29). What are the 9 major types of financial institutions? Retrieved October 20,
-2022, from https://www.investopedia.com/ask/answers/061615/what-are-major-categories-financial
-institutions-and-what-are-their-primary-roles.asp
-52. C
-Credit union. A credit union is a financial cooperative that is set up to provide savings and credit services to its
-members. A certified bank is a fictitious term. A central bank is a country's main monetary authority. A commercial
-bank is a full-service bank offering a variety of banking services including checking and savings accounts, secured
-and unsecured loans, and other options. Commercial banks generally serve a wider range of people than credit
-unions.
-SOURCE: Saving Grade 8
-SOURCE: Horton, M. (2021, August 29). What are the 9 major financial institutions? Retrieved October 20, 2022,
-from https://www.investopedia.com/ask/answers/061615/what-are-major-categories-financial-institutions
-and-what-are-their-primary-roles.asp
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+7
+29. D
+Read all paperwork carefully. Lyla should make sure she has read and understood all of the paperwork
+associated with the loan before signing it. She should be up front about her financial situation, so she should not
+inaccurately report her debts or overstate her assets. She should never sign a blank document, as doing so can
+lead to fraud.
+SOURCE: FI:063 Explain legal responsibilities associated with consumer financial products and services
+SOURCE: Mortgage Calculator. (2007-2022). Mortgage application tips. Retrieved September 26, 2022, from
+https://www.mortgagecalculator.org/helpful-advice/ups-and-downs-with-mortgages.php
+30. A
+Attorneys. Certain types of financial services often require the assistance of attorneys. For example, most
+people hire attorneys to help them prepare their wills to make sure that their assets are distributed properly.
+Also, some people set up guardianships to manage assets for minor children. Attorneys usually provide these
+types of financial services because wills and guardianship papers are legal documents. To protect the assets, it
+is important that these documents be prepared correctly. Executors are the individuals who carry out the terms
+of the will. Wills and guardianship papers often are filed with the appropriate court. Beneficiaries are the heirs.
+SOURCE: FI:075 Describe types of financial-services providers
+SOURCE: Tatum, M. (2022, September 11). What does an attorney do? Retrieved September 26, 2022, from
+https://www.mylawquestions.com/what-does-an-attorney-do.htm
+31. C
+Rewarding. An important aspect of managing a project team is motivating the team members. Project managers
+can motivate team members by showing appreciation for their efforts and by rewarding them for reaching
+certain goals. A reward might include a nice meal, time off, or a financial bonus. Mentoring is an activity in which
+one experienced employee helps or guides a new employee on the job. Evaluating is a controlling activity.
+Encouragement is the act of giving someone support, confidence, or hope.
+SOURCE: PJ:007 Manage project team
+SOURCE: Project Risk Coach. (2021, August 2). How to recognize and reward your project teams. Retrieved
+September 26, 2022, from https://projectriskcoach.com/how-to-recognize-and-reward-your-project
+teams/
+32. C
+Equity. Equity refers to the assets a company already owns. Since Marina's company already has employees,
+equipment, and money, these things are considered equity. Debt refers to taking out a loan from a bank or other
+lending institution. A dividend is a sum of money paid to an investor or stockholder as earnings on an
+investment. Return on capital (also known as return on invested capital) is another key component of managing
+working capital.
+SOURCE: FI:354 Explain the role of finance in business
+SOURCE: LAP-FI-354—Money Matters (Role of Finance)
+33. A
+A cash flow statement is derived from the income statement and the balance sheet. When calculating cash flow,
+companies use income statements and balance sheets to observe how cash is flowing in and out of the
+company. A negative cash flow does not typically indicate that a company is financially healthy and stable.
+Generally, a negative cash flow is indicative of financial struggles. Therefore, investors are not likely to be
+happy if a company doesn't have much cash available for business operations. A positive cash flow indicates
+that a company is financially healthy and stable—not unhealthy.
+SOURCE: FI:541 Interpret cash-flow statements
+SOURCE: Murphy, C.B. (2022, April 4). Understanding the cash flow statement. Retrieved September 26,
+2022, from https://www.investopedia.com/investing/what-is-a-cash-flow-statement
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+8
+34. D
+Become more innovative and competitive. A business can use the knowledge that it collects from its employees
+and customers to identify unmet wants and needs in the marketplace. The AMR Company used the knowledge
+that it collected and implemented a systematic innovation process to develop and market a new product line to
+satisfy the market's wants and needs. By introducing a new product line, the AMR Company is competitive in
+the marketplace. The business did not use its knowledge management system to reduce its overhead expenses
+or prevent inventory turnover. There is not enough information provided to determine if the business used
+natural resources to produce the new products.
+SOURCE: KM:001 Explain the nature of knowledge management
+SOURCE: LAP-KM-001—Know Go (The Nature of Knowledge Management)
+35. D
+Camilla is exhibiting ethical behavior by passing along personal knowledge to help Cecily learn how to do her
+job. Many times, employees find ways that help them manage their workload—things that aren't always written
+in their job descriptions. This personal knowledge is acquired by trial and error, which occurs by repeating tasks
+and activities over time. Personal knowledge might include tips that help the employee work with or around
+deficit computer processes, or shortcuts that eliminate waste or improve efficiency. If Camilla did not provide
+these tips, it would likely take Cecily more time to become proficient at her job, which can affect the company's
+efficiency and ability to achieve its goals. Therefore, Camilla is behaving in an ethical manner by providing
+Cecily with tips and personal knowledge. Until Cecily gets acclimated with her job, she will not know if she has a
+better way to complete tasks than the way that Camilla suggests. There isn't evidence to indicate that Camilla
+would provide incorrect information.
+SOURCE: KM:002 Discuss the role of ethics in knowledge management
+SOURCE: Fonseca, N. (2021, May 12). Helping new employees succeed. Retrieved September 26, 2022, from
+https://www.greatplacetowork.ca/en/articles/helping-new-employees-succeed
+36. C
+Accountability matrix. An accountability matrix is a table that assigns tasks to workers and tracks the workers'
+progress in relation to various business or project activities. Accountability matrices are components of project
+management software. Businesses may design their own accountability matrices through word processing or
+spreadsheet applications. A customer database is a central location in which the business records and
+maintains information about its customers. A surveillance system consists of audio/visual equipment that is
+used to monitor various activities. Magnetic cards (e.g., debit cards, credit cards) contain data that can be read
+by electronic devices. Businesses do not use customer databases, surveillance systems, or magnetic cards to
+assign and track various business tasks.
+SOURCE: KM:003 Explain the use of technology in knowledge management
+SOURCE: Gordon, J. (2021, June 26). Accountability matrix - Explained. Retrieved September 26, 2022, from
+https://thebusinessprofessor.com/en_US/mgmt-operations/accountability-matrix-definition
+37. D
+Nondisclosure agreement. A nondisclosure agreement is a contract between an employer and an employee
+that states that the employee will not reveal the employer's trade secrets (e.g., formula, recipe, manufacturing
+technique) to future employers for whom the employee might work. The purpose of a nondisclosure agreement
+is to provide businesses with legal protection if a competitor attempts to use revealed information for financial
+gain or benefit. Nondisclosure provisions or agreements are often part of the noncompete agreement, which is
+a contract between an employer and an employee that states that the employee will not work for a competitor
+for a certain length of time after leaving the company. An indictment is a court-issued statement that formally
+charges an individual with a crime. An injunction is a court order forbidding a business or a person to perform
+certain activities.
+SOURCE: KM:004 Explain legal considerations for knowledge management
+SOURCE: Twin, A. (2022, July 10). Non-disclosure agreement (NDA) explained, with pros & cons. Retrieved
+September 26, 2022, from https://www.investopedia.com/terms/n/nda.asp
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+9
+38. B
+Hierarchical information. A hierarchy arrangement sets information in a certain order, rank, or level. The
+laddering technique is a tool that helps an organization capture information and categorize it into a meaningful
+and useful order. The business can obtain information by collecting tacit knowledge from internal and external
+sources. The laddering technique, which can be implemented manually or with a computer program, can help a
+business organize the steps necessary to complete a certain activity or process. By doing so, the business
+might discover ways that it can change the ordering system to increase efficiency, such as eliminating an
+unnecessary task or a task that is being performed twice. Horizontal communication occurs among individuals
+at the same level, such as coworkers.
+SOURCE: KM:005 Identify techniques that can be used to capture and transfer knowledge in an organization
+SOURCE: Grubert, T. (2022). Laddering technique: A method to discover what people value. Retrieved
+September 26, 2022, from https://www.b2binternational.com/publications/laddering-technique-find
+what-people-value
+39. D
+Participating in a community of practice. A community of practice is an informal group that is formed by people
+who have common interests. In communities of practice, group members share ideas, discuss problems, and
+brainstorm solutions. By doing so, the group members are transferring their knowledge among themselves. One
+or all members can capture and record the collected knowledge for future personal or group use. In the
+example, Jack and his friends share a common bond because all of them work in technology. When the group
+met, Jack's friends offered suggestions for resolving his work dilemma; therefore, the group is a community of
+practice. Groupthink is a situation that occurs when conforming to the group becomes more important than
+expressing individual judgment and ideas. A strategic alliance is an arrangement that involves two or more
+businesses entering into a relationship by combining complementary resources such as technology, skills,
+capital, or distribution channels for the benefit of all parties; the relationship is usually short-term or for a single
+project/transaction. The situation is not an example of a formal interview.
+SOURCE: KM:005 Identify techniques that can be used to capture and transfer knowledge in an organization
+SOURCE: Learning For All. (2016). What is a community of practice? Retrieved September 26, 2022, from
+https://www.communityofpractice.ca/background/what-is-a-community-of-practice
+40. B
+Recognized. The first phase of the knowledge management process is discovery and detection, during which
+knowledge is recognized and categorized. Knowledge must be recognized before it can be embedded,
+analyzed, or manipulated.
+SOURCE: KM:018 Apply knowledge management processes
+SOURCE: Knowledge Management Tools. (2018, July 23). Knowledge discovery and detection. Retrieved
+September 26, 2022, from http://www.knowledge-management-tools.net/knowledge-discovery-and
+detection.php
+41. B
+Tell their family and friends about it. When customers have a negative experience with a business, they are
+likely to tell their family and friends about it, harming the business’s reputation. They are unlikely to contact the
+owner or manager, give the business another chance, or do nothing at all.
+SOURCE: MK:019 Demonstrate connections between company actions and results (e.g., influencing consumer
+buying behavior, gaining market share, etc.)
+SOURCE: LAP-MK-019—Just Do It…Right (Company Actions and Results)
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+10
+42. D
+Update the customer's record in the company database. Businesses keep a variety of customer information in a
+central location—a computer database. When customers change their contact information (e.g., email address
+or phone address) or move, companies need to update their customer database to reflect those changes. If the
+information is not changed, the business does not have current contact information. This can be costly to the
+business in situations that involve delinquent accounts and returned mail. The business does not need to create
+a new record to reflect changes—this would clutter the system with unnecessary data—nor does the business
+need to create a new database every time a customer's contact information needs to be updated. Employee
+records, rather than customer records, appear in the company or employee directory.
+SOURCE: NF:002 Maintain customer records
+SOURCE: Taylor, H. (2017, September 26). How to update customer information. Retrieved September 26,
+2022, from https://bizfluent.com/how-7463544-update-customer-information.html
+43. C
+State. A database software program allows a business to sort customer information by various criteria—
+ customer name, sales volume, customer type, zip code, etc. Queries are database fields that the business uses
+to sort the data. The type of data that the business wants to retrieve or analyze determines the database query
+(sorting mechanism) that the business uses. To obtain a list of customers in specific geographic regions, the
+business should sort by state. Depending on the business's needs, it may also use zip code, city name, or
+country to sort by geographic location. Sales volume, customer name, and street numbers are not queries that
+will sort customer information by geographic location.
+SOURCE: NF:009 Demonstrate basic database applications
+SOURCE: Chapple, M. (2021, October 9). What is the definition of a database query? Retrieved September 26,
+2022, from https://www.lifewire.com/query-definition-1019180
+44. D
+Accounts-payable records. Accounts payable are the monies that a business owes to others (e.g., vendors).
+Because the accounts-payable function or department of a business is responsible for tracking and paying
+expenses, Delia can obtain information about a specific vendor by obtaining an accounts-payable report or by
+reviewing copies of the vendor's invoices. Production status reports, customer invoices, and sales reports will
+not provide Delia with the information she needs regarding the business's purchases from a specific vendor.
+SOURCE: NF:014 Monitor internal records for business information
+SOURCE: U.S. Chamber of Commerce. (2021, May 14). A quick guide to accounts payable. Retrieved
+September 26, 2022, from https://www.uschamber.com/co/run/finance/what-is-accounts-payable
+45. B
+Inflation, investor confidence, and interest rates. Businesses generally examine six categories of information
+when conducting an environmental scan: the economy, demographics, society and culture, competition,
+government, and technology. Economic factors that business should pay attention to include inflation, investor
+confidence, and interest rates, as well as the stage of the business cycle, unemployment rates, tax rates,
+currency exchange rates, and foreign economic conditions. Demographics are the physical and social
+characteristics of the population. Businesses consider social trends, or changes in society and culture, so that
+they can remain sensitive to customer needs and wants. Businesses may also examine the general
+competition, brand competition, and substitute products during an environmental scan. Even within a private
+enterprise system, the government still affects business decision-making, so businesses often research
+changing laws and regulations, monetary and fiscal policies, import/export restrictions, etc. Lastly, businesses
+examine new developments in technology to determine challenges as well as opportunities that may result.
+SOURCE: NF:015 Conduct an environmental scan to obtain business information
+SOURCE: LAP-NF-015—Get the 4-1-1 (Conducting an Environmental Scan)
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+11
+46. D
+Creates a variety of evaluative reports. Project management software has many applications and features that
+help businesspeople effectively manage both short- and long-term projects. One application of effective project
+management software is the ability to generate reports that summarize a variety of information, such as
+expenses, timing, and activity data. Some software can provide cost and variance analyses. Depending on the
+type of software being used, it may also allow users the ability to integrate word processing functions to create
+custom or free-format reports. Because data are entered manually, project management software cannot
+eliminate the coding problems related to human error. Project management software does not provide job
+training, nor does it reduce the need to monitor costs.
+SOURCE: NF:130 Utilize project-management software
+SOURCE: Andre, L. (2022, September 26). What is project management software? Retrieved September 26,
+2022, from https://project-management-software.financesonline.com/#history-of
+47. A
+Communicate data change. When data changes, companies should communicate these changes to all people
+who are affected, including employees, customers, etc., not just those who are actively involved with the
+changes. There is no indication that the company has failed to adapt to new technology, track changes in data,
+or attend to industry trends.
+SOURCE: NF:264 Adhere to data change best practices
+SOURCE: Chow, C. (2019, July 29). 7 reasons internal communications is at the center of change
+management. Retrieved September 26, 2022, from https://learn.g2.com/internal-communications-in
+change-management
+48. A
+Schedules. When planning a project, businesses often develop schedules to identify what tasks need to be
+done and how long it will take to perform those tasks. The use of schedules helps a business organize work and
+establish completion dates to make sure the work is done on time. Scheduling an effective use of time helps a
+business achieve the objectives, or goals, of the project. Policies are guidelines that businesses follow when
+making decisions about projects. Objectives, policies, and guidelines are other project-planning tools, but they
+do not involve planning the use of time.
+SOURCE: OP:002 Apply project-management tools to monitor and communicate project progress
+SOURCE: Palmer, M. (2019, December 28). What are the advantages of scheduling? Retrieved September 26,
+2022, from https://www.calendar.com/blog/what-are-the-advantages-of-scheduling/
+49. C
+Fraud. Deceiving or cheating an individual or a business out of money or property is fraud. Customers,
+employees, vendors, and others may commit fraud against a business. There are many types of fraud including
+internal theft, payroll fraud, and computer fraud. Burglary is any illegal entry into a building to commit a theft.
+Robbery is theft that involves the use of force, violence, or fear. Pilferage is theft of small sums of money or
+inexpensive items.
+SOURCE: OP:013 Explain routine security precautions
+SOURCE: Chen, J. (2022, July 24). What is fraud? Definition, types, and consequences. Retrieved September
+26, 2022, from https://www.investopedia.com/terms/f/fraud.asp
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+12
+50. C
+Production. The process of converting resources into goods and services is called production. This process
+makes resources more useful to ultimate consumers and industrial users. Marketing is all those functions
+involved in getting goods, services, and ideas to the final user. Refinement is the process of making ongoing
+product improvements. Entrepreneurship involves taking the risks of business ownership.
+SOURCE: OP:017 Explain the concept of production
+SOURCE: LAP-OP-017—Can You Make It? (Nature of Production)
+51. B
+Scatter diagram. A scatter diagram, or scatter plot, is a graphical representation of two variables that is used to
+determine cause and effect. A histogram shows the distribution of a variable. A check sheet is simply a form for
+collecting data on the spot. A flow chart is used to analyze a sequence of events and uncover the relationships
+within it.
+SOURCE: OP:163 Identify quality-control measures
+SOURCE: LAP-OP-163—Take Control (Quality-Control Measures)
+52. B
+Ongoing cooperation. When a business is continuously willing to work with other businesses (e.g., vendors) to
+achieve their mutual goals, it is exhibiting ongoing cooperation. Ongoing cooperation involves a willingness to
+negotiate fairly and to communicate (interact) openly and honestly on a continuous basis. These actions help
+build a trusting and favorable relationship. In most situations, a company does not need to fully disclose all of its
+business information to its vendors—only relevant information.
+SOURCE: OP:241 Maintain vendor/supplier relationships
+SOURCE: Klugerman, Y. (2017, November 14). Top 7 ways to build and maintain strong vendor relationships.
+Retrieved September 26, 2022, from https://feedvisor.com/resources/e-commerce-strategies/top-7
+ways-build-strong-relationships-vendors
+53. A
+Captive. A captive insurance company is one that is wholly owned by a parent company and is a form of self
+insurance. The parent company is able to pay its premiums to its own captive insurer to protect the company
+against particular forms of risk. There are a number of reasons that a company may form its own captive
+insurer, many of which are focused on lowering the costs of risk management. Professional liability insurance
+protects businesses against claims of negligence. While it may be covered by a captive insurer, it is most often
+covered by a third-party insurer. Medical malpractice insurance is a form of professional liability insurance.
+Compulsory insurance is a term for any type of insurance that is required by law.
+SOURCE: RM:043 Discuss legal considerations affecting risk management
+SOURCE: Kagan, J. (2022, August 31). Captive insurance company. Retrieved September 26, 2022, from
+https://www.investopedia.com/terms/c/captive-insurance-company.asp
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 13
-53. B
-Fee structure. Financial-services providers are compensated in different ways. Therefore, it is important to consider
-the fee structure when selecting a financial-services provider to make sure the fee is affordable. Some providers may
-charge a flat fee while others may charge based on number and size of transactions. Some may charge for consulting
-time or for gathering information. Office location, tax status, and gross income are not important considerations when
-selecting a financial-services provider.
-SOURCE: Investing Grade 12
-SOURCE: Repke, W.J. (2021, March 9). How to select a financial services provider. Retrieved October 20, 2022,
-from http://msue.anr.msu.edu/news/how_to_select_a_financial_services_provider
-54. A
-$375. Financial advisors are compensated in a number of different ways. One common way in which they earn their
-income is by charging an asset management fee. The amount of this asset management fee depends on the size of
-an investor's account. Financial advisors typically charge between 0.5% and 2% to oversee their clients' investments.
-Sherise's potential financial advisor charges an asset management fee of 1.5% per year. To determine how much
-Sherise would be required to pay per year to have this financial advisor manage her investments, multiply the asset
-management fee by the amount of money Sherise has to invest (1.5% X $25,000 = $375).
-SOURCE: Investing Grade 12
-SOURCE: Anspach, D. (2021, October 29). Six ways financial advisors charge fees. Retrieved October 20, 2022,
-from http://moneyover55.about.com/od/findingqualifiedadvisors/a/finadvisorfees.htm
+54. D
+Alan placed a large order on March 10 for a new video game that is to be released on June 1. An advance
+order is a regular order that is placed now with delivery requested at a future time (e.g., weeks, months).
+Because the item is new, Alan wants to make sure that he orders enough games to meet the anticipated
+demand upon its release date. Katherine placed a reorder, which is ordering items that have been previously
+ordered. Fred placed a special order, which is a request for a custom item that a vendor does not normally carry
+in stock. Lindsey placed a blanket order. A blanket order is an order that covers all or part of a retailer's
+seasonal requirements. Blanket orders typically are placed several months before the season and do not
+contain detailed specifications or shipping dates.
+SOURCE: OP:250 Describe types of purchase orders
+SOURCE: Kenton, W. (2022, July 3). Advance payment. Retrieved September 26, 2022, from
+https://www.investopedia.com/terms/a/advance-payment.asp
 55. A
-Bonds. A lending investment is one in which a lender allows a borrower to use their money during a period of time for
-a specified fee or rate of interest. A bond is a type of lending investment in which individuals lend money to a
-government, municipality, or corporation to earn a set rate of interest for a specified time period. Homes, antiques,
-and stocks are ownership investments.
-SOURCE: Investing Grade 8
-SOURCE: LAP-FI-077—Invest for Success (Types of Investments)
-56. C
-Pay for the right to own something. With an ownership investment, investors pay for the right to own something. When
-they do this, they may buy a home to live in, collect popular items, or even invest in multiple corporations through
-stock mutual funds.
-SOURCE: Investing Grade 8
-SOURCE: LAP-FI-077—Invest for Success (Types of Investments)
-57. D
-Mutual funds. A mutual fund is a collection of shareholders' money that is invested by professional fund managers in
-an assortment of different securities, such as stocks and bonds. Because the money is spread out over different types
-of investments, it provides the investor with a diversified portfolio. If one stock performs poorly, the investor still has
-many other types of investments in the fund that may be performing well, which reduces the risk of severe financial
-losses. Corporations sell corporate bonds to investors as a way to raise cash for their businesses. The corporation
-(borrower) pays back the full amount plus interest to the investor within a certain time. A certificate of deposit is a type
-of lending investment in which the investor lends the money to the bank at a set interest rate for a particular period of
-time. The government issues Treasury bonds. The government pays back the full amount of the bond plus interest to
-the investor over a certain time frame, which varies by the type of Treasury bond purchased.
-SOURCE: Investing Grade 8
-SOURCE: LAP-FI-077—Invest for Success (Types of Investments)
+Blanket. A blanket order is an order that covers all or part of a business's product requirements for a certain
+period of time. A special order is a request for a custom product or a product that a vendor does not normally
+carry in stock. A service order is a request for service, such as an equipment repair or installation. A referral is a
+recommendation rather than a type of purchase order.
+SOURCE: OP:250 Describe types of purchase orders
+SOURCE: Sleimen, M. (2022). Types of purchase order processes & purchase order examples. Retrieved
+September 26, 2022, from https://www.tradogram.com/blog/the-different-types-of-purchase-orders
+and-their-functions-explained
+56. A
+Variable. Variable costs change based on the level of output from production. If more units are produced than
+are sold, holding costs (warehousing, pilferage, taxes, etc.) will increase. Fixed costs are not related to the
+amount of output produced. Direct costs are related to the specific unit being produced and include material and
+labor costs. Order costs are those related to making a purchase of materials and are examples of costs that are
+both direct and variable.
+SOURCE: OP:303 Discuss the nature of supply chain management
+SOURCE: Wisner, J.D., Tan, K., & Leong, G.K. (2019). Principles of supply chain management (5th ed.)
+[Lesson 7-2b]. Boston, MA: Cengage Learning, Inc.
+57. B
+Evaluate the effectiveness of the project's solutions. Once a business analysis project has been completed, a
+business analyst should evaluate their work to determine whether the project had the intended outcomes.
+Determining the primary stakeholders related to the project, attempting to understand the existing processes
+that are in place, and clarifying the project's business objectives are all steps of business analysis that should
+be completed before evaluating the project's effectiveness.
+SOURCE: OP:327 Discuss the nature of business analysis
+SOURCE: Martin, M. (2022, August 27). What is business analysis? Process & techniques. Retrieved
+September 26, 2022, from https://www.guru99.com/business-analysis-process-techniques.html
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 14
-58. D
-Potentially high fees. Mutual funds carry the advantage of professional management; however, it comes at a price.
-High fees may cut into a mutual fund investor's returns. Mutual fund investors don't risk their personal time and effort
-like entrepreneurs do. As ownership investments, mutual funds have a high potential for return. There is no penalty for
-early withdrawal from a mutual fund.
-SOURCE: Investing Grade 8
-SOURCE: LAP-FI-077—Invest for Success (Types of Investments)
+58. A
+Buffer. A business carries buffer inventory when the supply of and demand for goods are uncertain. If the
+demand goes up and supply goes down, having buffer inventory helps the business cover its needs until supply
+is stable and available. Maintenance inventory refers to items the business uses to maintain the facility such as
+cleaning supplies and light bulbs. Perpetual inventory is a record of inventory information that is continuously
+updated. Customary inventory is sometimes used to describe the regularly stocked goods that the business
+carries.
+SOURCE: OP:336 Discuss types of inventory
+SOURCE: Reference for Business. (2022). Inventory types. Retrieved September 26, 2022, from
+https://www.referenceforbusiness.com/management/Int-Loc/Inventory-Types.html
 59. C
-You can often write checks from a money market account. Money market accounts and savings accounts are very
-similar. One advantage of a money market account over a savings account, however, is that you can often write
-checks from your money market account (something savings accounts don't allow). Stocks, not money market
-accounts, provide corporate ownership rights. The rate of return for money market accounts is currently just about the
-same as the rates for savings accounts. Both types of accounts are insured by the FDIC.
-SOURCE: Saving Grade 12
-SOURCE: LAP-FI-077—Invest for Success (Types of Investments)
-60. A
-You must pay a penalty for withdrawing your money early. Certificates of deposit (CDs) are bank-issued securities
-that guarantee a set rate of return for a specific period of time. If you withdraw your money before that time period has
-ended, you will pay a penalty for doing so. CDs are considered low-risk investments. Their return is guaranteed, so
-depreciation is not a concern for investors.
-SOURCE: Saving Grade 12
-SOURCE: LAP-FI-077—Invest for Success (Types of Investments)
-61. D
-Interest from a savings account. Interest from a savings account is considered unearned income. Unearned income is
-any income that comes from investments and other sources that are not related to employment. A salary, tips from
-waiting tables, and union strike benefits are all considered to be earned income—taxable income and wages from
-employment.
-SOURCE: Earning Income Grade 12
-SOURCE: Marquit, M. (2022). Earned income vs. unearned income. Retrieved October 20, 2022,
-from https://mirandamarquit.com/earned-income-vs-unearned-income
-62. C
-Risk. Insurance is a contractual agreement in which one company (insurer) will pay for specified losses incurred by
-the other company (insured) in return for installment payments (premiums). Businesses and individuals buy insurance
-to manage risk, which is the possibility of loss or failure. Insurance protects the business or person from many types
-of risk such as property damage. For example, if a business facility is vandalized, insurance will pay for the repairs.
-Coverage is the amount an insurance company will pay for a loss. Injury and damage are types of risk for which
-businesses and individuals can buy insurance.
-SOURCE: Managing Risk Grade 8
-SOURCE: The Library of Economics and Liberty. (1999-2019). Insurance. Retrieved October 20, 2022, from
-http://www.econlib.org/library/Topics/HighSchool/Insurance.html
+Deadline driven. Establishing and stating deadlines is one tactic that businesses often use when negotiating
+with vendors. By providing the vendor with specific deadlines (e.g., shipping orders within 24 hours of order
+placement), the business is making sure that its requests are met. Limited authority is a negotiation strategy in
+which one party claims that they do not have the authority to meet certain requests. Bargaining involves “give
+and-take” tactics by both parties to reach an agreement. Silence involves not speaking and is a good
+negotiating tactic to use when the discussion becomes heated or when the other party does not like what is
+being said.
+SOURCE: OP:337 Negotiate terms with vendors in business
+SOURCE: Real Estate Negotiation Institute. (2022). Use deadlines as a negotiation tactic to motivate a
+response. Retrieved September 26, 2022, from https://thereni.com/deadlines-negotiation-tactic
+motivate-response
+60. D
+Using labels and boxes that contain the business's logo. Businesses, including those that market generic and
+private brands, often negotiate terms with their vendors about ways in which products are labeled, boxed, and
+packaged. The use of an electronic data exchange system is a technological consideration. Restocking fees are
+a factor affecting the terms of sale. Warranties are a product-performance issue.
+SOURCE: OP:337 Negotiate terms with vendors in business
+SOURCE: Paranikas, P., Whiteford, G.P., Tevelson, B., & Belz, D. (2015). How to negotiate with powerful
+suppliers. Retrieved September 26, 2022, from https://hbr.org/2015/07/how-to-negotiate-with
+powerful-suppliers
+61. B
+Environmental, employment and labor, insurance. Environmental regulations are designed to protect the
+environment and natural resources. Many aspects of operations are directly affected by environmental law,
+including location, supply chains, transportation, and manufacturing. Employment and labor laws also affect
+operations as they relate to regulations affecting human resources. Insurance law also touches many aspects
+including manufacturing processes and human resources management. Advertising regulation is unlikely to
+directly affect operations management. Antitrust laws may affect some aspects of supply chain management
+but also affect other areas of business management. Tax codes affect operations management only indirectly, if
+at all. Privacy regulation doesn't always affect operations management; where it does, it only affects certain
+industries.
+SOURCE: OP:339 Discuss legal considerations in operations
+SOURCE: Wood, M. (2020, October 15). 11 important government regulations on business you must know.
+Retrieved September 26, 2022, from https://www.fundera.com/blog/government-regulations-on
+business
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 15
+62. A
+Process thinking. This type of thinking focuses on the step-by-step processes that will contribute to achieving a
+specific goal. Since every outcome is a result of at least one process (and usually multiple processes), process
+thinking is an excellent way to plan ahead for maximum success. Mark is demonstrating process thinking in this
+example—not necessarily agile project management, critical thinking, or goal setting. Agile project management
+involves making continuous improvements to a project over time. Critical thinking is the act of reflecting on and
+processing information in an objective manner to form a judgment. Goal setting involves determining objectives
+that you would like to accomplish in a set amount of time.
+SOURCE: OP:474 Discuss business process thinking and its impact
+SOURCE: Pitagorsky, G. (2016, August 3). The importance of process thinking. Retrieved September 26, 2022,
+from https://www.projecttimes.com/articles/the-importance-of-process-thinking
 63. C
-$758.25. To calculate the premium that an employee with family coverage pays monthly, first divide the individual
-annual insurance premium by the number of months in the year ($4,479 / 12 = $373.25). Next, subtract the amount
-that the company contributes toward the premium each month ($373.25 - $250.00 = $123.25). Finally, add the
-additional cost for family coverage ($123.25 + $635.00 = $758.25).
-SOURCE: Managing Risk Grade 12
-SOURCE: Medical Mutual. (2022). Understanding health insurance costs: Premums, deductibles & more. Retrieved
-October 20, 2022, from https://www.medmutual.com/For-Individuals-and-Families/Health-Insurance
-Education/Health-Insurance-Basics/Understanding-Costs.aspx
-64. B
-An investor receives on the date of maturity. The face value of a corporate bond is printed on the bond and is the
-amount an investor receives on the date of maturity. For example, an investor buys a $1,000 corporate bond that pays
-10% interest a year for five years. When the bond matures in five years, the investor is repaid the investment of
-$1,000. However, over the five-year period, the investor also is paid 10% annual interest on the face value of the
-bond. The interest is not the face value. The face value is the amount an investor pays for the bond but is not the
-quarterly dividend. The face value is the actual amount of the bond rather than the amount a business believes the
-bond is worth.
-SOURCE: Investing Grade 8
-SOURCE: U.S. Securities and Exchange Commission. (2022). What are corporate bonds? Retrieved October 20,
-2022, from https://www.sec.gov/files/ib_corporatebonds.pdf
-65. B
-Less than $10,000. When determining the present value of money received in the future, the dollar amount of the
-money is multiplied by the value that corresponds to the available interest rate (also called the discount rate or cost of
-capital) and number of periods on a present value table. As noted above, the value for 20 years at 10% is $.149. The
-present value of that $50,000 is $7,450 ($50,000 X $.149 = $7,450), which is less than $10,000.
-SOURCE: Saving Grade 8
-SOURCE: Heyford, S.C. (2022, May 23). Understanding the time value of money. Retrieved October 20, 2022, from
-https://www.investopedia.com/articles/03/082703.asp
-66. C
-When you have people who are dependent on you. Life insurance provides financial benefits to loved ones in the
-event of your death. When you have people who are financially dependent on you, you'll want to take out a life
-insurance policy to ensure that they are taken care of. Age and/or property ownership do not dictate whether or not
-you need life insurance. Finally, if you have no debt, you are actually less likely to need life insurance than if you have
-debt because the insurance could be used to pay off your debt in the event of your death.
-SOURCE: Managing Risk Grade 12
-SOURCE: Gerber Life Insurance. (2022). Do I need life insurance if I have no dependents? Retrieved October 20,
-2022, from https://www.gerberlife.com/understanding-life-insurance/life-insurance-101/life-insurance-no
-children
+Human factors. The process was created by considering how employees are affected when handling heat
+treated parts. Technology may have helped create the process, but employees' ability to handle the parts more
+quickly was the reason for the process change. There is no indication that regulations or product design were
+considerations in the process change.
+SOURCE: OP:475 Describe the factors that influence business process design
+SOURCE: Taylor, H. (2017, September 26). Factors that affect process design. Retrieved September 26, 2022,
+from https://bizfluent.com/list-7444011-factors-affect-process-design.html
+64. A
+Result in more errors. The design of a process should be as simple as possible to avoid unnecessary steps
+which can cause more errors to occur. Each step in the process should be validated and documented
+regardless of its simplicity or complexity. Automation should be avoided unless it results in a more efficient
+process. While it's unadvisable and difficult to automate a complex process, it is not impossible.
+SOURCE: OP:475 Describe the factors that influence business process design
+SOURCE: Oliveira, W. (2015, December 11). The nine principles of process design. Retrieved September 26,
+2022, from https://www.heflo.com/blog/bpm/business-process-design-principles
+65. A
+Can reflect conditions unrelated to performance. Organizational costs, revenue, and profitability are of limited
+use in measuring supply chain performance because external conditions can cause these measures to fluctuate
+regardless of supply chain performance. Profitability, for example, can be easily affected by a drop in material
+costs that are unrelated to any managerial decisions. These measures are also limited in that they are not
+useful in pinpointing issues in specific departments or units due to interdependence in the supply chain. Even
+though there are limits to these measures, they can still be useful when considered with other factors. These
+measures are useful because they can be altered by managerial decisions and because they can be used in a
+wide variety of industries.
+SOURCE: OP:477 Explain the impact of supply chain on business performance
+SOURCE: Wisner, J.D., Tan, K., & Leong, G.K. (2019). Principles of supply chain management (5th ed.)
+[Lesson 14-2]. Boston, MA: Cengage Learning, Inc.
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 16
-67. D
-Saving money benefits your overall well-being. Saving money is important for many reasons, including benefiting your
-overall well-being. This is because you have money available to engage in relaxing, enriching activities such as going
-on vacation. This example is not related to an emergency fund. Spending money on unnecessary purchases is not
-necessarily risky, especially if you have money saved up. Finally, there is no certain income level needed to start
-saving.
-SOURCE: Saving Grade 12
-SOURCE: Caldwell, M. (2022, January 29). Learn the most important reasons to save money. Retrieved October 20,
-2022, from https://www.thebalance.com/learn-the-most-important-reasons-to-save-money-2386123
-68. D
-Financial statements. Publicly-traded companies are required by law to provide financial statements to their
-shareholders every 90 days. Company report cards and yearly newsletters are not typical items that they are required
-to provide. Stock research is usually something that external sources provide to stockholders.
-SOURCE: Investing Grade 12
-SOURCE: U.S. Securities and Exchange Commission. (2022). The laws that govern the securities industry. Retrieved
-October 20, 2022, from https://www.sec.gov/answers/about-lawsshtml.html#secact1933
-69. C
-They uniquely identify a company. Ticker symbols are simply a type of shorthand for company names that uniquely
-identify them, but they do not tell investors anything else about the company, such as what kind of stock the symbol
-represents. Sometimes the ticker symbols correspond to a company name, but not always. And as such, they would
-typically not be made up of a company's first three letters. All stock markets use ticker symbols, not just the New York
-Stock Exchange.
-SOURCE: Investing Grade 8
-SOURCE: LAP-QS-037—Table Talk
-70. A
-The previous day's closing price was $34.39, $0.62 less than the last price for today. To calculate the previous day's
-closing price, investors can subtract the net change (the difference between the closing price and the previous day's
-closing price) from the last price for the day ($35.01 - $0.62 = $34.39). The price/earnings ratio (P/E) indicates how
-much higher the stock share price is than its earnings per share. So, Home Depot's stock share price is 18.92 times
-higher than its earnings per share. The lowest price paid for Home Depot stock during the last year was $26.62. An
-investor who owned 100 shares of Home Depot's stock last quarter earned $95 in dividends (100 shares X $0.95 per
-share = $95).
-SOURCE: Investing Grade 8
-SOURCE: Investopedia. (2022, February 6). How to read a stock ticker. Retrieved October 20, 2022, from
-https://www.investopedia.com/articles/01/070401.asp
+66. A
+Jury selection. Litigation means taking legal action, or resolving a case through the court system. Not all
+litigation cases require a jury, but for the ones that do, jury selection is an important part of that process.
+Arbitration is a form of alternative dispute resolution that attempts to settle a dispute out of the litigation system.
+Online dispute resolution is a low-cost option for those whose issues are not worth the cost of litigation. Attorney
+recertification is not a recognized term or process.
+SOURCE: BL:160 Describe the litigation process
+SOURCE: Miller, R.L. (2020). Business law today: The essentials (12th ed.) [p. 61]. Boston, MA: Cengage
+Learning, Inc.
+67. A
+Redesigned. Factors such as changing laws, new companies, companies going out of business, and material
+availability can cause companies to redesign their supply chain networks often. Supply chain networks should
+not be eliminated because they are not unimportant. A properly designed supply chain network should help a
+company become more profitable.
+SOURCE: OP:479 Describe supply chain networks
+SOURCE: River Logic. (2022). Supply chain network optimization: What you need to be successful. Retrieved
+September 26, 2022, from https://www.riverlogic.com/blog/supply-chain-network-optimization-what
+you-need-to-be-successful
+68. A
+Supply chain network. Supply chain networks encompass the flow and movement of materials and information
+among connected organizations. Because of the plant closure, the manufacturer would be unable to provide
+steel to the distributors and stores that need it. This would result in a disruption of the supply chain network.
+This situation would probably not influence the company's chain of command, marketing department, or
+advertising budget.
+SOURCE: OP:479 Describe supply chain networks
+SOURCE: Hayes, A. (2022, July 30). Supply chain. Retrieved September 26, 2022, from
+https://www.investopedia.com/terms/s/supplychain.asp
+69. A
+Work with experienced partners abroad. Working with a partner that has experience in a particular market can
+help companies learn about and mitigate the risks particular to that market. Hiring only local workers will not
+necessarily help manage risks; in fact, it could bring more risks due to different labor laws. Working within the
+same time zone might help eliminate some risks, but it will also limit the company's ability to expand into most
+markets. Finally, accepting lower quality levels will not manage risks; it can create more risk by making the
+company liable for defects.
+SOURCE: OP:480 Discuss global supply chain issues
+SOURCE: Brosch, A. (2015, July). 6 global supply chain challenges to ignore at your own risk. Retrieved
+September 26, 2022, from https://www.inboundlogistics.com/articles/6-global-supply-chain
+challenges-to-ignore-at-your-own-risk/
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 17
-71. B
-Money market fund. A money market fund's purpose is to provide investors with a safe place to invest easily
-accessible, cash-equivalent assets. It is a type of mutual fund characterized as a low-risk, low-return investment. A
-stock option is a method of putting down money on the chance that the value of a stock will increase. An individual
-purchasing a stock option is not buying the stock; they are buying the opportunity to buy the stock if the prices reach a
-predesignated level. Investing in an initial public offering (IPO) means purchasing stocks from a company that has just
-become public. Investing in a startup company, often referred to as venture capitalism, refers to providing funds to
-companies that need money to get their business started. Stock options, IPO's, and venture capitalism are all high
-risk methods of investing. An individual with a very low tolerance for risk would most likely not invest using these
-methods.
-SOURCE: Saving Grade 12
-SOURCE: Segal, T. (2022, April 7). Money market fund. Retrieved October 20, 2022,
-from http://www.investopedia.com/terms/m/money-marketfund.asp
-72. C
-Savings account. A savings account is a bank account that earns interest. It is an effective short-term saving option
-because you can withdraw money at any time with no penalty fees. A savings account would be a good tool for Abdul
-because he could set aside money for his study-abroad experience without worrying about when he can access it. An
-emergency fund should be 3-6 months' worth of living expenses in case you lose your source of income or have an
-unplanned expense. It is not an appropriate savings tool for study abroad. A 401(k) is a retirement account that you
-most likely cannot access until you have reached retirement age, so it would not be appropriate for this situation. A
-certificate of deposit is an agreement with a bank to deposit money for a fixed period of time, during which the bank
-will pay you interest. A certificate of deposit would not necessarily be appropriate for Abdul because he would not be
-able to access the money at will and might incur penalties if he does not wait the fixed amount of time.
-SOURCE: Saving Grade 12
-SOURCE: Goldberg, M., & Wells, L. (2022, June 30). Savings strategies for different goals. Retrieved October 20,
-2022, from https://www.bankrate.com/banking/savings/savings-strategies-for-different-goals/
-73. A
-Rachel placed $250 in a savings account and accumulated $12.50 in interest. The time value of money states that
-money available today is more valuable than the same amount of money in the future—because you can invest the
-money today and earn a return on that investment. Because Rachel placed her money in an interest-earning account,
-her money is worth $12.50 more than it was last year. Buying a phone, the amount of annual income allocated for
-expenses, and property taxes paid do not indicate the future value of a set amount of money.
-SOURCE: Saving Grade 8
-SOURCE: Heyford, S.C. (2022, May 23). Understanding the time value of money. Retrieved October 20, 2022,
-from https://www.investopedia.com/articles/03/082703.asp
-74. D
-Mortgage company. A primary function of a non-deposit financial institution is to lend money to qualified customers.
-For example, mortgage companies arrange loans for individuals to purchase homes and for businesses to purchase
-office buildings, production facilities, or warehouses. Deposit-taking financial institutions accept funds from customers
-(depositors) and pay interest on the accepted funds. Credit unions, commercial banks, savings and loan associations
-(banks), and mutual savings banks are types of deposit-taking financial institutions.
-SOURCE: Investing Grade 12
-SOURCE: Investopedia. (2021, September 7). What is a mortgage company? Retrieved October 24, 2022, from
-https://www.investopedia.com/terms/m/mortgage-company.asp
+70. D
+Limit installation of outside software programs. Companies should set clear standards for what employees can
+install and keep on their computers at work. Outside software programs can bring security risks to a company's
+network and data. Using the same password for all accounts is not a good strategy, because it makes accounts
+more vulnerable to hacking. Backing up your work is a good strategy for protecting customer data. Finally,
+giving all employees access to customer information is risky. Instead, information should be restricted to only
+those who need it.
+SOURCE: OP:518 Comply with strategies to protect digital customer data (e.g., information about customers,
+customers' credit-card numbers, passwords, customer transactions)
+SOURCE: American Family Mutual Insurance. (2022). 14 ways to protect customer data. Retrieved September
+26, 2022, from https://www.amfam.com/resources/articles/your-business/ways-to-protect-customer
+information
+71. A
+A flow chart. Flow charts help you schedule your project and figure out the order of work that you'll need to
+complete. To-do lists help you keep track of all the tasks you need to accomplish. Online collaboration platforms
+make it easy to plan your project digitally with others. Focus groups help you collect data from people on a
+specific topic.
+SOURCE: OP:519 Plan project
+SOURCE: LAP-OP-519—Plan On It! (Planning Projects)
+72. A
+Earned a bachelor’s degree. The best business career prospects are available to candidates who have earned
+a bachelor’s degree. Some jobs require only a high school diploma, but these are only entry-level jobs. A
+background in accounting or a stockbroker’s license may be helpful for certain careers or jobs, but neither of
+these is as useful without the foundation of a bachelor’s degree.
+SOURCE: PD:025 Explain employment opportunities in business
+SOURCE: LAP-PD-025—Go for It! (Careers in Business)
+73. C
+Labor union. A labor union is a group of workers who have joined together for a common purpose to improve
+the terms and conditions under which employees work. Local labor unions are good sources for job leads
+particularly for such industries as construction which usually hires seasonal workers. Many local unions operate
+some type of worker placement service for industries in their area. County offices, local merchants, and family
+friends probably would not have helpful information about the availability of seasonal jobs in the construction
+industry.
+SOURCE: PD:026 Utilize job-search strategies
+SOURCE: Luther, C. (2018, June 29). How to join a construction union. Retrieved October 17, 2022, from
+https://work.chron.com/join-construction-union-20338.html
+74. B
+Ongoing education. For employees like Joseph, ongoing education is a way to enhance current skills and gain
+new skills that can improve employment opportunities and personal achievement. This situation is not an
+example of the importance of mentorship programs or student loan forgiveness; however, both are beneficial in
+the workplace. Frequent training is also important at work, but is not demonstrated in this example because
+Joseph received his additional training outside of the workplace.
+SOURCE: PD:033 Explain the need for ongoing education as a worker
+SOURCE: Cohen, I. (2015, July 9). Benefits of continuing education for everyone. Retrieved September 26,
+2022, from https://www.linkedin.com/pulse/benefits-continuing-education-everyone-ian-cohen/
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 18
-75. D
-Completed through financial institutions. Financial institutions are organizations that conduct financial transactions,
-such as banks, insurance companies, and investment companies. Most financial transactions must go through a
-financial institution. Financial transactions do not have to be conducted by the government, though the government is
-often involved in regulating them. Financial transactions are not always between two individual people, nor are they
-always taxed at a high rate.
-SOURCE: Saving Grade 12
-SOURCE: Horton, M. (2021, April 29). Types of financial institutions and their roles. Retrieved October 20, 2022,
-from https://www.investopedia.com/walkthrough/corporate-finance/1/financial-institutions.aspx
-76. C
-Late fees and interest charges. It is important to pay your credit card bills in full each month because interest charges
-and fees can quickly accumulate if you pay late. There are penalties and consequences of failing to pay your credit
-card bills on time; you will receive interest charges and/or late fees, and your credit score may decrease. It is unlikely
-that you would be fired from your job because you failed to pay your credit card bills on time, since employers do not
-have access to your credit information.
-SOURCE: Managing Credit Grade 8
-SOURCE: Credit Karma. (2022, June 8). How late payments can affect your credit. Retrieved October 20, 2022, from
-https://www.creditkarma.com/credit-cards/i/late-payments-affect-credit-score/
-77. C
-Forbearance. With this option, you and your loan provider agree to temporarily suspend or reduce your monthly
-payments for a specific period of time. Forbearance lets you deal with your short-term financial problems by giving
-you time to get back on your feet before resuming payments. Bankruptcy is a process that allows consumers and
-businesses to repay some or all of their debts under the protection of the federal bankruptcy court. Filing for
-bankruptcy is a last-resort option and is not a process that should be pursued to relieve temporary hardship.
-Reimbursement and loan subsidy are not options for postponing loan payments.
-SOURCE: Managing Credit Grade 12
-SOURCE: Fannie Mae. (2017). Forbearance. Retrieved October 20, 2022, from
-https://www.knowyouroptions.com/avoid-foreclosure/options-to-stay-in-your-home/forbearance
+75. A
+Organizational. Organizational goals affect the overall organization. Organizational goals may involve things
+such as increasing efficiency levels, growing the business, or expanding market share. Ideological goals involve
+the vision and general purpose of the company's existence. Financial goals address the company's income and
+expenses. Inputs are resources that are used to produce outputs.
+SOURCE: PD:254 Determine the nature of organizational goals
+SOURCE: Griffin, R.W. (2018). Fundamentals of management (8th ed.) [Lesson 3-1a]. Boston, MA: Cengage
+Learning, Inc.
+76. D
+Human resources management. Helping the company achieve its goals through the proper hiring and use of
+employees is one common human resources management job duty. This is not a job duty for employees in
+supply chain management, operations management, or business analytics.
+SOURCE: PD:297 Discuss employment opportunities in business management and administration
+SOURCE: LAP-PD-297—Career Opportunities in Business Management and Administration
+77. A
+Terms and commitments. The statement of work (SOW) is a document that outlines the terms, commitments,
+and conditions of the project. It includes information about the project's activities, timelines, and deliverables.
+The project team and the project's stakeholders should agree to the SOW contents before beginning the
+project. A request for proposal is a document that solicits bids for an activity, project, or order from vendors. A
+results summary contains the results of the project and is provided to stakeholders upon completion of the
+project. Charts and materials do not need to be included in the SOW.
+SOURCE: PJ:005 Initiate project
+SOURCE: Aston, B. (2022, July 7). How to write a project statement of work: Template & example. Retrieved
+September 26, 2022, from https://thedigitalprojectmanager.com/how-write-statement-of-work
+complete-guide/
 78. A
-You only make minimum payments on bills. Only paying the minimum amount due each month means that, in the
-future, you are expected to pay both the balance due and an additional fee for interest. For someone paying the
-minimum each month, paying off this additional money is difficult, so it becomes an endless cycle of debt. Having an
-emergency fund, even small, is not necessarily an indicator of excessive debt. Many people in excessive debt don't
-know actually how much they owe; chances are, if they “hide” from their debt, they have a large amount they are
-afraid they cannot pay. Another sign of excessive debt is if your credit cards are generally declined, not accepted.
-SOURCE: Managing Credit Grade 8
-SOURCE: Hayes, M. (2018, April 19). 5 signs you have too much debt. Retrieved October 20, 2022,
-from https://www.wcnc.com/article/money/magnify-money/5-signs-you-have-too-much-debt/507
-543116829
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-19
+To identify and better manage all project activities. Work breakdown structure (WBS) is the process of dividing
+project tasks into meaningful components to complete the project. Dividing the entire project into smaller
+components helps the project manager identify tasks and effectively schedule, assign, and monitor complex
+project activities. Project objectives are provided to stakeholders in the statement of work (SOW) document,
+which may also include information about the costs associated with the project. Although it is important for
+project managers to provide team members with feedback to improve their performance levels, this is not a
+primary reason for developing a WBS.
+SOURCE: PJ:006 Prepare work breakdown structure (WBS)
+SOURCE: Mathis, M. (2022). Work breakdown structure (WBS) purpose, process, and pitfalls. Retrieved
+September 26, 2022, from https://www.projectsmart.co.uk/work-breakdown-structure/work
+breakdown-structure-purpose-process-pitfalls.php
 79. D
-Verify its accuracy. A credit report is a record of your credit history. Businesses and individuals can obtain their credit
-reports from authorized credit bureaus. The advantage to reviewing your credit report on a regular basis is that you
-can verify that the information is correct. Incorrect information can affect your ability to obtain credit or a loan, so it is
-important to check for and correct any inaccurate information that you find in your credit report. Businesses and
-individuals can improve their credit scores by using credit wisely and by taking action to correct inaccurate
-information; however, they cannot change credit scores—only authorized credit bureaus can do so. Credit card
-issuers set credit limits and often review your credit report to determine the amount of credit they are willing to extend
-to you. Credit reports do not identify discriminatory practices.
-SOURCE: Managing Credit Grade 8
-SOURCE: Experian. (2022). Understanding your Experian credit report. Retrieved October 20, 2022, from
-https://www.experian.com/blogs/ask-experian/credit-education/report-basics/understanding-your-experian
-credit-report
-80. C
-Someone who is not personally disciplined to save for retirement. If a person lacks the discipline to save for
-retirement, working for a company that makes retirement contributions on their behalf is ideal. An employee working
-for Company B would receive a salary of $45,000 plus 10% of their salary, which equals $4,500 per year. The total
-financial gains received from Company B starting in year two would equal $49,500, which is only $500 less in overall
-compensation than Company A offers. People who are skilled at investing or disciplined to save for retirement may
-benefit more from the slightly larger salary offered by Company A. A person who will work less than one year will not
-gain the $4,500 retirement contribution, so they would gain much more income from Company A.
-SOURCE: Earning Income Grade 12
-SOURCE: Fidelity. (2021, December 22). How to evaluate a job offer. Retrieved October 20, 2022, from
-https://www.fidelity.com/viewpoints/personal-finance/evaluate-a-job-offer
+Delegating work. An important aspect of managing a project team is delegating work to team members.
+Delegating is assigning authority or responsibility to another person. Project managers need to match project
+tasks and activities with the team members who have the skills and expertise to perform the necessary tasks
+and activities. Corrine is not monitoring processes, providing guidance, or evaluating performance in the
+presented situation.
+SOURCE: PJ:007 Manage project team
+SOURCE: Khinda, B. (2015, August 25). How to delegate tasks effectively in project management. Retrieved
+September 26, 2022, from https://wellingtone.co.uk/how-to-delegate-tasks-in-project-management/
+Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+19
+80. A -$375. Cash flow is calculated by subtracting total cash paid out from total cash receipts. Total cash receipts
+include cash sales and interest income ($5,300 + $200 = $5,500). Total cash paid out includes cost of goods,
+fixed expenses, and variable expenses ($1,750 + $2,150 + $1,975 = $5,875). Subtract total cash paid out from
+total cash receipts to determine cash flow ($5,500 - $5,875 = $-375).
+SOURCE: FI:091 Describe the nature of cash flow statements
+SOURCE: LAP-FI-091—Count the Cash (Cash Flow Statements)
 81. A
-Contributions are deducted before earnings are taxed. Deducting contributions from earnings reduces taxable income,
-which also lowers the amount of tax withheld from a person's paychecks. Contributions to a 401(k) are not taxed when
-they are contributed, but are taxed upon withdrawal instead. Net earnings are not taxed. While many employers
-match 401(k) contributions, doing so doesn't reduce the taxes withheld from a person's paycheck.
-SOURCE: Investing Grade 12
-SOURCE: Cussen, M. (2021, December 13). The basics of a 401(k) retirement plan. Retrieved October 20, 2022,
-from https://www.investopedia.com/articles/retirement/08/401k-info.asp
-82. A
-Dividends. Dividends are sums of money paid to an investor or stockholder as earnings on an investment. If Allen
-plans for his retirement well, he will invest his money and earn dividends while he is retired. If Allen is retired, he won't
-be working, so he won't receive a salary, bonuses, or tips.
-SOURCE: Earning Income Grade 8
-SOURCE: Fidelity Investments. (2022). Getting ready to retire: Income sources. Retrieved October 20, 2022, from
-https://www.fidelity.com/retirement-planning/get-started
+Holding a team meeting to evaluate the project's successes and mistakes. Project managers and team
+members often meet at the end of the project (close) to discuss the things that went well during the project and
+the mistakes made along the way. Evaluating the successes and mistakes made during the course of the
+project helps the project manager and team members determine how to improve or better handle similar
+projects in the future. Obtaining resources, determining technology needs, and developing a production
+schedule are project-planning activities.
+SOURCE: PJ:008 Close project
+SOURCE: Wroblewski, M.T. (2019, February 19). What are the most important project closure activities?
+Retrieved September 26, 2022, from https://smallbusiness.chron.com/important-project-closure
+activities-35973.html
+82. C
+Update the project plan. During the execution phase of the project, project team members carry out project
+tasks. During that time, the project manager is highly involved in controlling activities, such as monitoring the
+work effort. While monitoring the work effort, the project manager may detect problems. Sometimes, processes,
+tasks, and budgets need to be changed or corrected. Therefore, the project manager may need to update the
+project plan when changes occur. The project manager develops the project charter during the initiation phase
+and, if necessary, forms a steering committee during the project-definition phase. The project's sponsors
+(stakeholders) would determine changes to their requirements and advise the project manager to implement the
+revisions.
+SOURCE: PJ:009 Execute and control projects
+SOURCE: Weedmark, D. (2019, August 23). Why a project plan is important. Retrieved September 26, 2022,
+from https://bizfluent.com/about-6404005-project-plan-important.html
+83. C
+Finish-to-start. Finish-to-start dependency is a logical relationship in which a successor activity cannot start until
+a previous activity has finished. In the given scenario, it would be impossible for the construction team to start
+painting walls if the drywall installation has not been finished. A finish-to-finish dependency is a logical
+relationship in which a successor activity cannot finish until a predecessor has finished. A start-to-start
+relationship describes a situation in which a successor activity cannot start until a predecessor activity has
+started. A start-to-finish relationship occurs when a successor activity cannot finish until a predecessor activity
+has started. None of these three dependencies describes the homebuilder's situation.
+SOURCE: PJ:010 Manage project schedule
+SOURCE: Roseke, B. (2022, January 5). Types of task dependencies. Retrieved September 26, 2022, from
+https://www.projectengineer.net/types-of-task-dependencies
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 20
-83. B
-Lower. APR stands for annual percentage rate, which represents the amount of interest on your total loan that you'll
-pay annually. It takes into account the interest rates, the length of the loan agreement, and other fees or charges. If
-you have a lower APR, your monthly payments will be lower. A higher APR means higher monthly payments. Whether
-or not monthly payments are stable or fluctuating depends on whether or not the interest rate is fixed or adjustable.
-SOURCE: Managing Credit Grade 8
-SOURCE: U.S. Bank. (2022). What is the mortgage APR? Retrieved October 20, 2022, from
-https://www.usbank.com/home-loans/mortgage/what-is-mortgage-apr.aspx
 84. B
-Personal loans generally have higher interest rates than secured loans. Personal loans are a type of unsecured
-loan—an amount of money borrowed by an individual simply by signing a written promise to repay the loan. Because
-they are considered high-risk loans, personal loans tend to have high interest rates and are generally reserved for
-people with excellent credit ratings. Personal loans are very flexible, meaning they can be used for a variety of
-purposes. For applicants with good credit scores, personal loans are generally easy to apply for and to receive.
-SOURCE: Managing Credit Grade 12
-SOURCE: Simple. Thrifty. Living. (2020, December 7). The pros and cons of personal loans. Retrieved October 20,
-2022, from https://www.simplethriftyliving.com/the-pros-and-cons-of-personal-loans/
-85. D
-Both employees and employers must pay Medicare tax. Both employees and employers are responsible for paying
-Medicare and Social Security tax. While Social Security tax is only levied on the first $147,000 of an employee's gross
-earnings, all of an employee's gross earnings are subject to Medicare tax. Employees cannot choose to contribute to
-either Social Security or Medicare—they must pay both. A withholding allowance, also called an exemption, is a
-portion of gross earnings that is not subject to tax.
-SOURCE: Managing Risk Grade 12
-SOURCE: Center on Budget and Policy Priorities. (2022, July 28). Policy basics: Where do our federal tax dollars go?
-Retrieved October 24, 2022, from https://www.cbpp.org/research/federal-budget/where-do-our-federal-tax
-dollars-go
-86. A
-Suggest the friend group go to a cost-conscious restaurant. By going out to eat with his friends but selecting a less
-expensive restaurant, Jared is able to satisfy both of his goals: spend less money and spend time with his friends.
-Eating dinner at home would be the cheapest option, but then Jared would not see his friends. Going out to dinner but
-not leaving a tip is considered rude and might not save Jared that much money. Ordering something from the
-restaurant but taking it to-go means Jared would both spend more money than he needs to by eating out and not be
-able to eat with his friends.
-SOURCE: Spending Grade 8
-SOURCE: Livingston, A. (2022, February 7). 12 ways to save money eating out at restaurants. Retrieved October 20,
-2022, from https://www.moneycrashers.com/save-money-eating-out-restaurants/
+Satisfaction. If customers are not satisfied with a business's goods and services, they will start buying from
+competitors. Therefore, businesses need to continuously monitor customer-satisfaction levels and take steps to
+maintain or improve satisfaction levels. Quality improvement involves using a systematic approach to increase
+the levels of excellence in relation to a process, good, or service. In the example, the bookstore surveyed
+customers to obtain their opinions about the store's goods and services, which will provide input about the
+customers' level of satisfaction. The example does not indicate if product durability, safety, or customization
+were topics included in the survey.
+SOURCE: QM:001 Explain the nature of quality management
+SOURCE: LAP-QM-001—Keep It Quality (Nature of Quality Management)
+85. B
+Preventing problems. Six Sigma is a quality improvement framework that involves continuously setting higher
+goals of perfection. The framework builds upon previous goals to set higher goals that continuously improve the
+quality of the business's goods, services, or processes. The steps the business takes to improve quality help
+prevent problems in the future. Hiring qualified employees is a human resources activity. Expanding product
+lines is a product/service management consideration. Critics of Six Sigma claim that the framework tends to
+stifle innovation because the focus is on continuously improving existing processes.
+SOURCE: QM:002 Describe the nature of quality management frameworks (e.g., Six Sigma, ITIL, CMMI)
+SOURCE: Kumar, P. (2022, September 7). What is Six sigma: Everything you need to know about it. Retrieved
+September 26, 2022, from https://www.simplilearn.com/what-is-six-sigma-a-complete-overview
+article
+86. C
+Increased revenue. Continuous improvement is an ongoing process that looks for ways to increase the levels of
+excellence in relation to a process, good, or service. Potential benefits of improved processes often increase
+productivity, which lowers costs and increases revenue. When quality improves, customer satisfaction levels
+often increase, which often results in a higher demand for the business's goods and services.
+SOURCE: QM:003 Discuss the need for continuous improvement of the quality process
+SOURCE: Weedmark, D. (2019, September 4). Benefits of continuous quality improvement (CQI). Retrieved
+September 26, 2022, from https://bizfluent.com/facts-5317408-benefits-continuous-quality
+improvement-cqi.html
+87. D
+Act. The first step in the PDCA continuous improvement technique is planning a change. During the second
+step of the process, the business implements (does) the small-scale change. The third step involves checking
+the results to determine if the small-scale change was effective. If the change was successful, then the
+business acts to implement the change on a larger scale.
+SOURCE: QM:003 Discuss the need for continuous improvement of the quality process
+SOURCE: American Society for Quality. (2022). What is the plan-do-check-act (PDCA) cycle? Retrieved
+September 26, 2022, from https://asq.org/quality-resources/pdca-cycle
+88. B
+Make sure customers won't be harmed. Many products carry the risk of harming or injuring customers. Risk
+management is concerned with protecting companies from being liable if their products cause harm. However,
+companies also need to consider the ethics of product safety. Merely providing warning labels is not necessarily
+ethical; instead, companies should make sure that their products do not do any harm. Having a strong legal
+team in place and avoiding conflicts of interest are not related to the ethical handling of product liabilities.
+SOURCE: RM:041 Explain the role of ethics in risk management
+SOURCE: LAP-RM-041—Manage Risk the Right Way (Ethics in Risk Management)
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
 21
-87. C
-Quality of information. For information to be useful, it must be accurate and current. Therefore, businesses and
-individuals evaluate the quality of information they obtain to determine if it is relevant to the issue, accurate, and
-current. Information that is out-of-date or that includes errors will not be helpful. The business or individual might make
-poor decisions based on information that is of low quality. Businesses and individuals do not evaluate the research
-procedure, type of statistics, or hardware application to determine if data are accurate and current.
-SOURCE: Spending Grade 8
-SOURCE: OWL Purdue Online Writing Lab. (2022). Evaluating sources of information. Retrieved October 20, 2022,
-from
-https://owl.purdue.edu/owl/research_and_citation/conducting_research/evaluating_sources_of_information/
- index.html
-88. D
-Determine whether the information is unbiased, accurate, and current. Before doing anything with financial
-information, you should make sure that it is objective (unbiased), accurate, and current. You don't want to make any
-important decisions with faulty or inaccurate information. You shouldn't blindly trust that the information is reliable,
-since not everyone has your best interests in mind. However, it is not true that financial-services providers can never
-be trusted. You should review the information that you are provided carefully before taking any recommended steps.
-SOURCE: Investing Grade 12
-SOURCE: OWL Purdue Online Writing Lab. (2022). Evaluating sources of information. Retrieved October 20, 2022,
-from https://owl.purdue.edu/owl/research_and_citation/conducting_research/
- evaluating_sources_of_information/index.html
-89. B
-Overestimate the amount of loss. Fraud is a deception purposely carried out to secure unfair or unlawful gain. If a
-person deliberately overestimates the amount of loss in an attempt to receive a larger settlement, they might be
-involved in insurance fraud. The person is trying to obtain compensation for a loss they did not incur. A person is not
-involved in insurance fraud if they attempt to reduce the coverage, calculate the value of property, or limit their scope
-of liability.
-SOURCE: Managing Risk Grade 12
-SOURCE: FBI. (2018). Insurance fraud. Retrieved October 20, 2022, from https://www.fbi.gov/stats
-services/publications/insurance-fraud
-90. B
-Occupational publications. The library is a good source for people to get information about career opportunities.
-Governments and private publishers often develop and print up-to-date reference books that contain information
-about career trends, salaries, skills, training and education for a wide variety of jobs. These types of reference books
-usually are available at the library. Fictitious magazine articles, technical books, and international data almanacs are
-not the best sources for Janelle to obtain credible career information.
-SOURCE: Earning Income Grade 8
-SOURCE: Net Industries. (2019). Getting a job: Sources of career information. Retrieved October 20, 2022,
-from https://jobs.stateuniversity.com/pages/56/Getting-Job-SOURCES-CAREER-INFORMATION.html
-Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-22
-91. B
-The project manager can tell him what a real day on the job is like. Perry can gain many benefits from doing an
-informational interview with a current project manager. The project manager can tell him what their typical work day is
-like, what sort of education or training they had, what they like or dislike about the job, and what sorts of skills it takes
-to excel in their position. Personal information like this may help Perry decide whether or not project management is
-the profession for him. Perry shouldn't assume the project manager will give him a job, although having a connection
-may come in handy when he's job hunting many years down the road. The project manager will not be able to make
-Perry's decisions for him; all they can do is tell Perry about their experience. It's probably not a good idea for Perry to
-expect the project manager to help him with his application; after all, it's a pretty big favor to ask someone to speak
-with him. He should make sure not to ask too much of the interviewee. He also should make sure to write a thank-you
-note.
-SOURCE: Earning Income Grade 8
-SOURCE: Doyle, A. (2021, July 15). How an informational interview can boost your career. Retrieved October 20,
-2022, from https://www.thebalancecareers.com/how-an-informational-interview-can-help-your-career
-2058564
+89. C
+Risk modeling. Businesses commonly use risk modeling to quantify the potential losses that they would incur if
+certain events took place, such as a tornado destroying a company's largest manufacturing plant. Because risk
+modeling is a very complex process, businesses usually rely on risk-management technology to aid in the
+analyses and forecasts. Cost-benefit analysis involves quantifying the costs and benefits of a certain project to
+determine the most appropriate course of action to pursue. Risk transference is a risk-response strategy that
+involves moving the impact of a risk to someone or something else. In investing, fundamental analysis is the
+study of all aspects of a company in an effort to understand its intrinsic value.
+SOURCE: RM:042 Describe the use of technology in risk management
+SOURCE: Risk modeling. (2021, January 9). Retrieved September 26, 2022, from
+https://nms.kcl.ac.uk/reimer.kuehn/riskmodeling.html
+90. A
+Make your expectations known early. Defining your expectations as clearly as possible in the contract will help
+ensure a good vendor/supplier relationship. Although separating the people from the company, understanding
+that the supplier has other customers, and learning the marketplace are all smart tactics to ensure a good
+relationship, none of these are achieved in the contract.
+SOURCE: OP:241 Maintain vendor/supplier relationships
+SOURCE: Klugerman, Y. (2017, November 14). Top 7 ways to build and maintain strong vendor relationships.
+Retrieved September 26, 2022, from https://feedvisor.com/resources/e-commerce-strategies/top-7
+ways-build-strong-relationships-vendors
+91. C
+International risk management. International risk management poses unique challenges to companies, including
+the potential for weak foreign economies, pricing pressures from other countries or competing companies,
+regulatory changes within foreign governments, and global supply chain disruptions. These factors may also
+affect domestic shipping processes, internal change management, or cultural literacy initiatives; however,
+international risk management would be most affected.
+SOURCE: RM:092 Describe international considerations affecting risk management
+SOURCE: Beers, B. (2021, December 11). Top risks for international businesses. Retrieved September 26,
+2022, from https://www.investopedia.com/ask/answers/06/internationalfinancerisks.asp
 92. C
-Their personalities. Personality is an individual's distinctive qualities or traits and behavior. Each person has a unique
-personality that will have an effect on the type of occupation that will be of interest to them. For example, people who
-are outgoing and friendly will be interested in different careers than those that will interest people who prefer to work
-alone. Individuals should consider their personality when identifying possible occupations, rather than family history,
-parents' occupations, or friends' opinions.
-SOURCE: Earning Income Grade 8
-SOURCE: Hansen, R. (2019). Developing a strategic vision for your career plan. Retrieved October 20, 2022, from
-https://www.livecareer.com/quintessential/career-plan
-93. D
-Yes, it is important to learn about many careers before selecting one. Even if Laney thinks she knows what she wants
-to do, she may find she has interests in careers she didn't even know existed. Career exploration will allow Laney to
-make an informed decision that may or may not result in becoming a singer. Learning about careers and pursuing her
-dreams are not necessarily mutually exclusive. Career exploration is simply research into careers, interests, and
-aptitudes. What she does with the research is up to her. Everyone needs to plan for their career. This doesn't mean
-things will go as planned, but putting together a plan will increase the odds of being successful.
-SOURCE: Earning Income Grade 8
-SOURCE: Career Key. (2016). How to choose a career. Retrieved October 20, 2022,
-from https://www.careerkey.org/choose-a-career/how-to-choose-a-career.html#.WC9YYvkrKUk
-94. C
-What buyers are willing to pay for the stock. How much a stock sells for depends directly on what buyers are willing to
-pay for it. The company's earnings and new products may influence what buyers are willing to pay, but they do not
-directly affect how much a stock sells for. A stock's volatility (its movement in relation to the market as a whole) does
-not determine how much a stock sells for—but rather, reflects the stock's price changes over time.
-SOURCE: Investing Grade 12
-SOURCE: LAP-QS-040—Swing HI, Swing LO (Causes of Stock Price Fluctuations)
+Finances. Controlling the finances of a business is critical if the business wants to succeed. Managers need to
+understand the finances and be able to use financial tools, such as income statements and balance sheets, to
+monitor the business's income and expenses. Managers need to be prepared to take action to correct problems
+with the bottom line if financial controls indicate that the business is losing money. It is not possible to control
+competitors. Benefits and incentives are advantages or payments employees receive in addition to their wages.
+Businesses usually establish benefit and incentive programs that are comparable to those of similar businesses
+in the same industry. Reducing benefits and incentives is a step that managers might take if they identify a
+problem with the business's finances.
+SOURCE: SM:004 Describe the nature of managerial control (control process, types of control, what is
+controlled)
+SOURCE: LAP-SM-400—Measure Up! (Managerial Control)
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-23
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+22
+93. B
+Feedback. Feedback control occurs after a business activity has been completed. In the situation described, the
+manager asks an employee to take action (make a correction) based on the feedback that they received from a
+customer. Feedforward is a form of control that bases and establishes procedures by predicting or anticipating
+activities and their outcomes. Concurrent control involves monitoring business activities as employees perform
+them. Coercive attitudes involve using aggressive behavior or bullying to get another person to do something.
+SOURCE: SM:004 Describe the nature of managerial control (control process, types of control, what is
+controlled)
+SOURCE: Cromwell, J. (n.d.). How feedback control impacts the four functions of management in your selected
+organization. Retrieved September 26, 2022, from https://smallbusiness.chron.com/feedback
+control-impacts-four-functions-management-selected-organization-37663.html
+94. D
+Planning. Planning is the management function of deciding what will be done and how it will be accomplished.
+Brainstorming is a creative-thinking technique that is often used during the planning process. Deciding what will
+be done involves establishing objectives. After establishing objectives, the business can implement processes
+to achieve those objectives. The business analyzes its performance to determine if it achieved its objectives.
+SOURCE: SM:063 Discuss the nature of managerial planning
+SOURCE: CliffsNotes. (2022). Functions of managers. Retrieved September 26, 2022, from
+https://www.cliffsnotes.com/study-guides/principles-of-management/the-nature-of
+management/functions-of-managers
 95. A
-Liability. Liability insurance pays for costs related to another person's injuries and/or damage to another person's
-property. Gavin would likely need liability coverage to pay for repairs to the fence. Uninsured motorist coverage pays
-your bills when a driver without insurance hits you. Comprehensive coverage is used to pay for costs associated with
-theft, fire, vandalism, and natural disaster. Medical payments coverage is used if you, your passengers, or family
-members are injured in an accident.
-SOURCE: Managing Risk Grade 12
-SOURCE: Allstate Insurance Company. (2019, January). Typical components of an auto insurance policy. Retrieved
-October 20, 2022, from https://www.allstate.com/tools-and-resources/car-insurance/components-auto
-insurance.aspx
-96. B
-His car loan. Car insurance covers many of the expenses associated with car accidents, including medical bills, car
-repairs, and property damage. However, most typical car insurance coverage does not cover his loan payments or the
-remainder of the car loan that is left if the car is totaled. Damian will likely still have to pay off anything that is
-remaining.
-SOURCE: Managing Risk Grade 8
-SOURCE: Marquand, B. (2017, December 6). 5 surprising things car insurance doesn't cover. Retrieved October 20,
-2022, from https://www.huffpost.com/entry/5-surprising-things-car-i_b_8402738
+Share organizational charts with them. Managers need to integrate the work of employees and teams together
+to achieve organizational goals. The manager is in charge of facilitating this coordination by clearly
+communicating with employees, making connections among departments, and demonstrating the relationships
+among work tasks. One way to do this is to share organizational charts with employees so they have an
+understanding of where they fall in the larger scheme of the company. Telling employees what to do, giving
+them the equipment they need, and evaluating their results are not related to coordinating their activities.
+SOURCE: SM:064 Explain managerial considerations in organizing
+SOURCE: LAP-SM-064—Put It All Together (Managerial Considerations in Organizing)
+96. D
+Staffing. Staffing is the management function of finding workers for a business. The staffing function identifies
+qualified candidates to perform the work. To identify qualified candidates, the manager must know what skills
+are needed to perform the work. Because Nadine is determining what skills are needed to operate the new
+computer system, she is focusing her efforts on the staffing function of management. Controlling is the
+management function of monitoring the work effort. Training involves teaching or developing a new skill.
+Planning is the management function of deciding what will be done and how it will be accomplished.
+SOURCE: SM:065 Describe managerial considerations in staffing
+SOURCE: LAP-SM-065—Dream Team Maker (Staffing)
 97. A
-Insured person. Only the death of the insured person fulfills the legal requirements for death benefits to be paid to the
-beneficiary.
-SOURCE: Managing Risk Grade 12
-SOURCE: Fontinelle, A. (2022, May 25). Life insurance: What it is, how it works, and how to buy a policy. Retrieved
-October 20, 2022, from https://www.investopedia.com/terms/l/lifeinsurance.asp
-98. A
-Investing can help you reach your long-term financial goals. Investing has a high rate of return that can allow you to
-save enough money to retire, send your children to college, and meet any other goals that you may have. It has a
-higher rate of return than savings accounts. However, investing is not a short-term deal. It takes time to accumulate
-wealth. Investing also brings risks, but it also can bring greater reward.
-SOURCE: Investing Grade 8
-SOURCE: Quicken. (2022). 3 steps to financial planning for long-term goals. Retrieved October 20, 2022,
-from https://www.quicken.com/3-steps-financial-planning-long-term-goals
-99. D
-Short-term disability. Short-term disability insurance temporarily pays a percentage of your salary if you get hurt and
-cannot work. Delia would benefit from short-term disability insurance because she cannot perform her job and receive
-wages for two months. Long-term disability would not be appropriate because Delia does not have a long-term
-disability that requires indefinite support. Personal liability insurance protects you if someone else is injured or hurt on
-your property. Workers' compensation is only used in situations when a person is injured at work, which Delia was
-not.
-SOURCE: Managing Risk Grade 12
-SOURCE: Guardian. (2022). Disability insurance. Retrieved October 20, 2022, from
-https://www.guardianlife.com/disability-insurance
+Initiates changes smoothly. A strong, directive manager helps make transitions smoother and provide the
+guidance employees need. Managers instruct employees on the best ways to adapt to changes and make sure
+they understand shifts in responsibilities. The managers at BlueLight, Inc. are attempting to initiate the changes
+associated with their merger smoothly. They are not motivating employees, coordinating work and effort, or
+building group dynamics in this example.
+SOURCE: SM:066 Discuss managerial considerations in directing
+SOURCE: LAP-SM-066—Take Action (Managerial Considerations in Directing)
 Copyright © 2023 by MBA Research and Curriculum Center®, Columbus, Ohio
-Test 1276
-PERSONAL FINANCIAL LITERACY EXAM—KEY
-24
+Test 1273
+BUSINESS MANAGEMENT AND ADMINISTRATION CLUSTER EXAM—KEY
+23
+98. C
+Learn. For successful innovation to occur, employees must be willing to learn while developing ideas. The
+development process involves learning and accepting change. Employees do not necessarily have to teach
+while developing ideas. They should review their results and learn from them, not avoid them. Innovation does
+not necessarily occur when employees work alone; it may happen when employees are working together.
+SOURCE: SM:094 Describe relationship among innovation, learning, and change
+SOURCE: Management Library. (2022, January 18). Cultivating innovation and creativity in the workplace.
+Retrieved September 26, 2022, from https://managementhelp.org/innovation/index.htm
+99. A
+Sponsorship. One key aspect of change management is sponsorship, which involves gaining support for the
+change at the top executive level of the company. It is important to gain this support, as the marketers in this
+case are doing, for a change to be successful. Involvement means including the right people in the design and
+implementation of the change. Impact means assessing and addressing how changes will affect people.
+Readiness is preparing people to adapt to the changes.
+SOURCE: SM:095 Explain the nature of change management
+SOURCE: Mind Tools. (2022). The four principles of change management. Retrieved September 26, 2022, from
+https://www.mindtools.com/pages/article/newPPM_87.htm
 100. C
-Warranty. A warranty is a promise made by the seller or the producer to the consumer that the seller will repair or
-replace a product that does not perform as expected. A guarantee is a promise made by the seller to the consumer
-that the seller will refund the consumer's purchase price if the product does not perform as expected. A limited
-warranty does not contain the provisions of a full warranty but may be limited to specific parts or repairs. Guarantees
-are often called money-back guarantees because they promise a refund to the customer if the good/service does not
-meet expectations.
-SOURCE: Managing Risk Grade 8
-SOURCE: LAP-PM-920—Promises, Promises (Warranties and Guarantees)
+Develop a project impact assessment. Prior to initiating any significant change, businesses should develop a
+project impact assessment. The impact assessment should detail whom is most likely to be impacted by the
+change and what the anticipated effects of the change will be on these individuals. Businesses should wait to
+measure changes in employee behavior, implement corrective action plans, and recognize staff who have
+changed successfully until after the change has been initiated.
+SOURCE: SM:096 Explain the change-management lifecycle
+SOURCE: Prosci. (n.d.). Prosci methodology. Retrieved October 17, 2022, from
+https://www.prosci.com/resources/articles/prosci-methodology
