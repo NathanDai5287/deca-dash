@@ -73,10 +73,10 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 	};
 
 	return (
-		<div key={question.id} className='mb-4 p-2 border-b'>
+		<div key={question.id} className='m-4 p-2 border-b'>
 			<div className='flex flex-row items-center'>
 				<h2 className='basis-7/8 text-lg font-semibold'>{question.question}</h2>
-				<button
+				{/* <button
 					id='report-question-button'
 					className='mx-10 bg-red-500 text-white rounded hover:bg-red-700 transition-colors'
 					onClick={() => {
@@ -84,7 +84,7 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 					}}
 				>
 					<FontAwesomeIcon className='m-4' icon={faExclamationTriangle} />
-				</button>
+				</button> */}
 			</div>
 			<div className='mt-2'>
 				{question.options.map((option, optionIndex) => (

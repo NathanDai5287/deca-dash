@@ -1,72 +1,34 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
+
 import data from '../data/data.json'; // Import the JSON data
+import Question from '@/components/Question';
 
-export default function Marketing() {
-  // State to store user's answers and explanations
-  const [userAnswers, setUserAnswers] = useState({});
-  const [explanations, setExplanations] = useState({});
-  // State to store the selected answer index
-  const [selectedAnswerIndex, setSelectedAnswerIndex] = useState({});
+const Marketing = () => {
+	const [questions] = useState(new Set(data['Marketing']));
+	const [completedQuestions] = useState(new Set());
+	const [missedQuestions] = useState(new Set());
+	const [reportedQuestions] = useState(new Set());
 
-  // Handle option change
-  const handleOptionChange = (questionIndex, optionIndex) => {
-    setSelectedAnswerIndex({
-      ...selectedAnswerIndex,
-      [questionIndex]: optionIndex,
-    });
-  };
+	const [question, setQuestion] = useState(data['Marketing'][0]);
 
-  // Function to check answers
-  const checkAnswer = (questionIndex) => {
-    const correctAnswer = data.Marketing[questionIndex].correctAnswerIndex;
-    const isCorrect = selectedAnswerIndex[questionIndex] === correctAnswer;
-    setUserAnswers({
-      ...userAnswers,
-      [questionIndex]: isCorrect,
-    });
-    // Set explanation only if the answer is correct
-    setExplanations({
-      ...explanations,
-      [questionIndex]: isCorrect ? "Correct! " + data.Marketing[questionIndex].explanation : "Incorrect, try again!",
-    });
-  };
+	useEffect(() => {
+		const startI = Math.floor(Math.random() * questions.size);
+		setQuestion(data['Marketing'][startI]);
+	}, [questions.size]);
 
-  return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold text-center my-6">Marketing</h1>
-      <div>
-        {data.Marketing.map((item, questionIndex) => (
-          <div key={questionIndex} className="mb-4 p-2 border-b">
-            <h2 className="text-lg font-semibold">{item.question}</h2>
-            <div className="mt-2">
-              {item.options.map((option, optionIndex) => (
-                <label key={optionIndex} className="block">
-                  <input
-                    type="radio"
-                    name={`question-${questionIndex}`}
-                    value={optionIndex}
-                    onChange={() => handleOptionChange(questionIndex, optionIndex)}
-                    className="mr-2"
-                  />
-                  {option}
-                </label>
-              ))}
-            </div>
-            <button
-              className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors"
-              onClick={() => checkAnswer(questionIndex)}
-            >
-              Check Answer
-            </button>
-            {/* Show explanation or incorrect message */}
-            {userAnswers[questionIndex] !== undefined && (
-              <p className={`mt-2 ${userAnswers[questionIndex] ? 'text-green-500' : 'text-red-500'}`}>
-                {explanations[questionIndex]}
-              </p>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+	return (
+		<div id='container' className='w-4/5'>
+			<Question
+				question={question}
+				setQuestion={setQuestion}
+				questions={questions}
+				completedQuestions={completedQuestions}
+				missedQuestions={missedQuestions}
+				reportedQuestions={reportedQuestions}
+			/>
+		</div>
+	);
 }
+
+export default Marketing;
