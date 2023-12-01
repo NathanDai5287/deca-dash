@@ -8,7 +8,6 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions, reportedQuestions }) => {
 	const [explanation, setExplanation] = useState('');
-	const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
 
 	const toggleCheckAnswerButton = () => {
 		const button = document.getElementById('check-answer-button');
@@ -24,7 +23,20 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 		});
 	};
 
-	const checkAnswer = (selectedAnswerIndex) => {
+	const checkAnswer = () => {
+		const buttons = document.getElementsByName(`question-${question.id}`);
+		let selectedAnswerIndex = -1;
+		for (let i = 0; i < buttons.length; i++) {
+			if (buttons[i].checked) {
+				selectedAnswerIndex = i;
+				break;
+			}
+		}
+
+		if (selectedAnswerIndex === -1) {
+			return;
+		}
+
 		if (selectedAnswerIndex == question.correctAnswerIndex) {
 			setExplanation(question.explanation);
 			toggleCheckAnswerButton();
@@ -94,9 +106,6 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 							name={`question-${question.id}`}
 							value={optionIndex}
 							className='mr-2'
-							onChange={(e) => {
-								setSelectedAnswerIndex(e.target.value);
-							}}
 						/>
 						{option}
 					</label>
@@ -107,7 +116,7 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 				id='check-answer-button'
 				className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
 				onClick={() => {
-					checkAnswer(selectedAnswerIndex);
+					checkAnswer();
 				}}
 			>
 				Check Answer
