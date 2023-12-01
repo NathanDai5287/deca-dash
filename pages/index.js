@@ -10,7 +10,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from 'firebase/
 import { getFirestore, collection, getDocs, doc, setDoc } from 'firebase/firestore';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
-// import { useCollectionData } from "react-firebase-hooks/firestore";
+import { signInWithGoogle, auth } from '@/firebase/firebase';
 
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -21,19 +21,6 @@ const navigation = [
 	//   { name: "Business Management & Administration", href: "#", current: false },
 	//   { name: "Hospitality & Tourism", href: "#", current: false },
 ];
-
-const firebaseConfig = {
-	apiKey: 'AIzaSyAmU2bGMHOrv4OPUphkjwJwKMKTXAReV-s',
-	authDomain: 'deca-dash.firebaseapp.com',
-	projectId: 'deca-dash',
-	storageBucket: 'deca-dash.appspot.com',
-	messagingSenderId: '469040583347',
-	appId: '1:469040583347:web:470294aa236fcd4957d6c6',
-	measurementId: 'G-WS8ZFNED11',
-};
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ');
@@ -55,29 +42,7 @@ export default function Home() {
 	);
 }
 
-function SignIn() {
-	const signInWithGoogle = () => {
-		const provider = new GoogleAuthProvider();
-		signInWithPopup(auth, provider)
-			.then((result) => {
-				const user = result.user;
-				const db = getFirestore();
-				const docRef = doc(db, 'users', user.uid);
-
-				return setDoc(docRef, {
-					email: user.email,
-          completedQuestions: [],
-          missedQuestions: [],
-				});
-			})
-			.then(() => {
-				console.log('Document successfully written!');
-			})
-			.catch((error) => {
-				console.error('Error writing document: ', error);
-			});
-	};
-
+const SignIn = () => {
 	return (
 		<div className='relative bg-white overflow-hidden h-screen	'>
 			<div className='max-w-7xl mx-auto'>
@@ -117,7 +82,7 @@ function SignIn() {
 			</div>
 		</div>
 	);
-}
+};
 
 function Dashboard() {
 	var photo = auth.currentUser.photoURL;

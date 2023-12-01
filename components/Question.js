@@ -1,14 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { db } from '@/firebase/firebase';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { collection, doc, onSnapshot } from 'firebase/firestore';
 
-const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions, reportedQuestions }) => {
+const Question = ({ question, setQuestion, questions, category, userId }) => {
 	const [explanation, setExplanation] = useState('');
-	const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
+	const [completedQuestions, setCompletedQuestions] = useState([]);
+
+	useEffect(() => {
+		const docRef = doc(db, 'users', userId);
+		const unsub = onSnapshot(docRef, (doc) => {
+			if (doc.exists()) {
+				const userData = doc.data();
+				const completedQuestions = userData[category]['completedQuestions'];
+				setCompletedQuestions(completedQuestions);
+			} else {
+				console.log('No such document!');
+			}
+		});
+
+		return unsub;
+	}, [category, userId]);
 
 	const toggleCheckAnswerButton = () => {
 		const button = document.getElementById('check-answer-button');
@@ -24,7 +41,19 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 		});
 	};
 
-	const checkAnswer = (selectedAnswerIndex) => {
+	const checkAnswer = () => {
+		const buttons = document.getElementsByName(`question-${question.id}`);
+		let selectedAnswerIndex = -1;
+		for (let i = 0; i < buttons.length; i++) {
+			if (buttons[i].checked) {
+				selectedAnswerIndex = i;
+			}
+		}
+
+		if (selectedAnswerIndex === -1) {
+			return;
+		}
+
 		if (selectedAnswerIndex == question.correctAnswerIndex) {
 			setExplanation(question.explanation);
 			toggleCheckAnswerButton();
@@ -33,6 +62,8 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 			missedQuestions.add(question);
 		}
 	};
+
+	const updateCompletedQuestions = () => {};
 
 	const nextQuestion = (setQuestion) => {
 		const getRandomItem = (set) => {
@@ -48,7 +79,7 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 			return new Set([...a, ...b]);
 		};
 
-		completedQuestions.add(question);
+		// completedQuestions.add(question);
 
 		// get a random question that is (not completed) or is missed
 		setQuestion(getRandomItem(union(difference(questions, completedQuestions), missedQuestions)));
@@ -65,7 +96,7 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 		button.disabled = !button.disabled;
 
 		// checkmark icon TODO
-	}
+	};
 
 	const reportQuestion = () => {
 		reportedQuestions.add(question);
@@ -94,9 +125,6 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 							name={`question-${question.id}`}
 							value={optionIndex}
 							className='mr-2'
-							onChange={(e) => {
-								setSelectedAnswerIndex(e.target.value);
-							}}
 						/>
 						{option}
 					</label>
@@ -107,7 +135,7 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 				id='check-answer-button'
 				className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
 				onClick={() => {
-					checkAnswer(selectedAnswerIndex);
+					checkAnswer();
 				}}
 			>
 				Check Answer
