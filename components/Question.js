@@ -6,7 +6,7 @@ import { db } from '@/firebase/firebase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import { collection, doc, onSnapshot } from 'firebase/firestore';
+import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 
 const Question = ({ question, setQuestion, questions, category, userId }) => {
 	const [explanation, setExplanation] = useState('');
@@ -57,13 +57,24 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		if (selectedAnswerIndex == question.correctAnswerIndex) {
 			setExplanation(question.explanation);
 			toggleCheckAnswerButton();
+			updateCompletedQuestions(question);	
 		} else {
 			setExplanation('Incorrect, try again!');
 			missedQuestions.add(question);
 		}
 	};
 
-	const updateCompletedQuestions = () => {};
+	const updateCompletedQuestions = async (question) => {
+		const docRef = doc(db, 'users', userId);
+		const payload = {
+			[category]: {
+				completedQuestions: [...completedQuestions, question],
+			},
+		};
+		setCompletedQuestions([...completedQuestions, question]);
+
+		await updateDoc(docRef, payload);
+	};
 
 	const nextQuestion = (setQuestion) => {
 		const getRandomItem = (set) => {
