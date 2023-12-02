@@ -10,7 +10,8 @@ import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 
 const Question = ({ question, setQuestion, questions, category, userId }) => {
 	const [explanation, setExplanation] = useState('');
-	const [completedQuestions, setCompletedQuestions] = useState([]);
+
+  const [completedQuestions, setCompletedQuestions] = useState([]);
 	const [missedQuestions, setMissedQuestions] = useState([]);
 
 	useEffect(() => {
