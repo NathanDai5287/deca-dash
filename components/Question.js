@@ -11,7 +11,7 @@ import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 const Question = ({ question, setQuestion, questions, category, userId }) => {
 	const [explanation, setExplanation] = useState('');
 
-  const [completedQuestions, setCompletedQuestions] = useState([]);
+	const [completedQuestions, setCompletedQuestions] = useState([]);
 	const [missedQuestions, setMissedQuestions] = useState([]);
 
 	useEffect(() => {
@@ -73,11 +73,11 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		const docRef = doc(db, 'users', userId);
 		const payload = {
 			[category]: {
-				completedQuestions: [...completedQuestions, question],
+				completedQuestions: [...completedQuestions, question.id],
 				missedQuestions: missedQuestions,
 			},
 		};
-		setCompletedQuestions([...completedQuestions, question]);
+		setCompletedQuestions([...completedQuestions, question.id]);
 
 		await updateDoc(docRef, payload);
 	};
@@ -87,10 +87,10 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		const payload = {
 			[category]: {
 				completedQuestions: completedQuestions,
-				missedQuestions: [...missedQuestions, question],
+				missedQuestions: [...missedQuestions, question.id],
 			},
 		};
-		setMissedQuestions([...missedQuestions, question]);
+		setMissedQuestions([...missedQuestions, question.id]);
 
 		await updateDoc(docRef, payload);
 	};
@@ -109,14 +109,24 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			return new Set([...a, ...b]);
 		};
 
-		// completedQuestions.add(question);
-
-		// get a random question that is (not completed) or is missed
-		setQuestion(
-			getRandomItem(
-				union(difference(questions, new Set(completedQuestions)), new Set(missedQuestions))
+		const randomId = getRandomItem(
+			union(
+				difference(
+					Array.from(questions).map((question) => {
+						return question.id;
+					}),
+					new Set(completedQuestions)
+				),
+				new Set(missedQuestions)
 			)
 		);
+
+		const question = Array.from(questions).find((question) => {
+			return question.id === randomId;
+		});
+
+		setQuestion(question);
+
 		toggleCheckAnswerButton();
 
 		setExplanation('');
