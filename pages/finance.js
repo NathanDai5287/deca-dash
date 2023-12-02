@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 
-import data from '../data/data.json'; // Import the JSON data
+import data from '../data/data.json';
 import Question from '@/components/Question';
+
+import { getFirestore } from 'firebase/firestore';
 
 const Finance = () => {
 	const [questions] = useState(new Set(data['Finance']));
-	const [completedQuestions] = useState(new Set());
-	const [missedQuestions] = useState(new Set());
-	const [reportedQuestions] = useState(new Set());
 
 	const [question, setQuestion] = useState(data['Finance'][0]);
 
@@ -23,12 +22,11 @@ const Finance = () => {
 				question={question}
 				setQuestion={setQuestion}
 				questions={questions}
-				completedQuestions={completedQuestions}
-				missedQuestions={missedQuestions}
-				reportedQuestions={reportedQuestions}
+				category='finance'
+				userId='PBZCaqq6JNO57rjF9wAGe8xQbut1' // TODO: no hard code
 			/>
 		</div>
 	);
-}
+};
 
 export default Finance;

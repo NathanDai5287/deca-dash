@@ -1,13 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { db } from '@/firebase/firebase';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 
-const Question = ({ question, setQuestion, questions, completedQuestions, missedQuestions, reportedQuestions }) => {
+const Question = ({ question, setQuestion, questions, category, userId }) => {
 	const [explanation, setExplanation] = useState('');
+
+  const [completedQuestions, setCompletedQuestions] = useState([]);
+	const [missedQuestions, setMissedQuestions] = useState([]);
+
+	useEffect(() => {
+		const docRef = doc(db, 'users', userId);
+		const unsub = onSnapshot(docRef, (doc) => {
+			if (doc.exists()) {
+				const userData = doc.data();
+				const completedQuestions = userData[category]['completedQuestions'];
+				const missedQuestions = userData[category]['missedQuestions'];
+
+				setCompletedQuestions(completedQuestions);
+				setMissedQuestions(missedQuestions);
+			} else {
+				console.log('No such document!');
+			}
+		});
+
+		return unsub;
+	}, [category, userId]);
 
 	const toggleCheckAnswerButton = () => {
 		const button = document.getElementById('check-answer-button');
@@ -29,7 +52,6 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 		for (let i = 0; i < buttons.length; i++) {
 			if (buttons[i].checked) {
 				selectedAnswerIndex = i;
-				break;
 			}
 		}
 
@@ -40,10 +62,37 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 		if (selectedAnswerIndex == question.correctAnswerIndex) {
 			setExplanation(question.explanation);
 			toggleCheckAnswerButton();
+			updateCompletedQuestions(question);
 		} else {
 			setExplanation('Incorrect, try again!');
-			missedQuestions.add(question);
+			updateMissedQuestions(question);
 		}
+	};
+
+	const updateCompletedQuestions = async (question) => {
+		const docRef = doc(db, 'users', userId);
+		const payload = {
+			[category]: {
+				completedQuestions: [...completedQuestions, question],
+				missedQuestions: missedQuestions,
+			},
+		};
+		setCompletedQuestions([...completedQuestions, question]);
+
+		await updateDoc(docRef, payload);
+	};
+
+	const updateMissedQuestions = async (question) => {
+		const docRef = doc(db, 'users', userId);
+		const payload = {
+			[category]: {
+				completedQuestions: completedQuestions,
+				missedQuestions: [...missedQuestions, question],
+			},
+		};
+		setMissedQuestions([...missedQuestions, question]);
+
+		await updateDoc(docRef, payload);
 	};
 
 	const nextQuestion = (setQuestion) => {
@@ -60,29 +109,33 @@ const Question = ({ question, setQuestion, questions, completedQuestions, missed
 			return new Set([...a, ...b]);
 		};
 
-		completedQuestions.add(question);
+		// completedQuestions.add(question);
 
 		// get a random question that is (not completed) or is missed
-		setQuestion(getRandomItem(union(difference(questions, completedQuestions), missedQuestions)));
+		setQuestion(
+			getRandomItem(
+				union(difference(questions, new Set(completedQuestions)), new Set(missedQuestions))
+			)
+		);
 		toggleCheckAnswerButton();
 
 		setExplanation('');
 	};
 
-	const toggleReportQuestionButton = () => {
-		const button = document.getElementById('report-question-button');
+	// const toggleReportQuestionButton = () => {
+	// 	const button = document.getElementById('report-question-button');
 
-		button.classList.toggle('hover:bg-red-700');
-		button.classList.toggle('bg-gray-500');
-		button.disabled = !button.disabled;
+	// 	button.classList.toggle('hover:bg-red-700');
+	// 	button.classList.toggle('bg-gray-500');
+	// 	button.disabled = !button.disabled;
 
-		// checkmark icon TODO
-	}
+	// 	// checkmark icon TODO
+	// };
 
-	const reportQuestion = () => {
-		reportedQuestions.add(question);
-		toggleReportQuestionButton();
-	};
+	// const reportQuestion = () => {
+	// 	reportedQuestions.add(question);
+	// 	toggleReportQuestionButton();
+	// };
 
 	return (
 		<div key={question.id} className='m-4 p-2 border-b'>
