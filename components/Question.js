@@ -11,6 +11,7 @@ import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 const Question = ({ question, setQuestion, questions, category, userId }) => {
 	const [explanation, setExplanation] = useState('');
 	const [completedQuestions, setCompletedQuestions] = useState([]);
+	const [missedQuestions, setMissedQuestions] = useState([]);
 
 	useEffect(() => {
 		const docRef = doc(db, 'users', userId);
@@ -18,7 +19,10 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			if (doc.exists()) {
 				const userData = doc.data();
 				const completedQuestions = userData[category]['completedQuestions'];
+				const missedQuestions = userData[category]['missedQuestions'];
+
 				setCompletedQuestions(completedQuestions);
+				setMissedQuestions(missedQuestions);
 			} else {
 				console.log('No such document!');
 			}
@@ -57,10 +61,10 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		if (selectedAnswerIndex == question.correctAnswerIndex) {
 			setExplanation(question.explanation);
 			toggleCheckAnswerButton();
-			updateCompletedQuestions(question);	
+			updateCompletedQuestions(question);
 		} else {
 			setExplanation('Incorrect, try again!');
-			missedQuestions.add(question);
+			updateMissedQuestions(question);
 		}
 	};
 
@@ -69,9 +73,23 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		const payload = {
 			[category]: {
 				completedQuestions: [...completedQuestions, question],
+				missedQuestions: missedQuestions,
 			},
 		};
 		setCompletedQuestions([...completedQuestions, question]);
+
+		await updateDoc(docRef, payload);
+	};
+
+	const updateMissedQuestions = async (question) => {
+		const docRef = doc(db, 'users', userId);
+		const payload = {
+			[category]: {
+				completedQuestions: completedQuestions,
+				missedQuestions: [...missedQuestions, question],
+			},
+		};
+		setMissedQuestions([...missedQuestions, question]);
 
 		await updateDoc(docRef, payload);
 	};
@@ -93,26 +111,30 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		// completedQuestions.add(question);
 
 		// get a random question that is (not completed) or is missed
-		setQuestion(getRandomItem(union(difference(questions, completedQuestions), missedQuestions)));
+		setQuestion(
+			getRandomItem(
+				union(difference(questions, new Set(completedQuestions)), new Set(missedQuestions))
+			)
+		);
 		toggleCheckAnswerButton();
 
 		setExplanation('');
 	};
 
-	const toggleReportQuestionButton = () => {
-		const button = document.getElementById('report-question-button');
+	// const toggleReportQuestionButton = () => {
+	// 	const button = document.getElementById('report-question-button');
 
-		button.classList.toggle('hover:bg-red-700');
-		button.classList.toggle('bg-gray-500');
-		button.disabled = !button.disabled;
+	// 	button.classList.toggle('hover:bg-red-700');
+	// 	button.classList.toggle('bg-gray-500');
+	// 	button.disabled = !button.disabled;
 
-		// checkmark icon TODO
-	};
+	// 	// checkmark icon TODO
+	// };
 
-	const reportQuestion = () => {
-		reportedQuestions.add(question);
-		toggleReportQuestionButton();
-	};
+	// const reportQuestion = () => {
+	// 	reportedQuestions.add(question);
+	// 	toggleReportQuestionButton();
+	// };
 
 	return (
 		<div key={question.id} className='m-4 p-2 border-b'>

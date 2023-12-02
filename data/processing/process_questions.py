@@ -1,4 +1,5 @@
-with open('questions.txt', encoding='utf-8') as f:
+# with open('questions.txt', encoding='utf-8') as f:
+with open(r'C:\Users\natha\Programming\deca-dash\data\processing\questions.txt', encoding='utf-8') as f:
 	raw = f.read()
 
 raw = raw.replace('  ', '').split('\n')
@@ -19,6 +20,9 @@ for i, line in enumerate(raw):
 		continue
 
 	if not (is_question(line) or is_answer(line)):
+		if (len(processed) == 0):
+			continue
+
 		processed[-1] += ' ' + line
 	else:
 		processed.append(line[line.find('.') + 1:])

@@ -1,4 +1,5 @@
-with open('answers.txt', encoding='utf-8') as f:
+# with open('answers.txt', encoding='utf-8') as f:
+with open(r'C:\Users\natha\Programming\deca-dash\data\processing\answers.txt', encoding='utf-8') as f:
 	raw = f.read()
 
 raw = raw.split('\n')

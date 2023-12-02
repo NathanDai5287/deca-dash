@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import { getFirestore, doc, setDoc } from 'firebase/firestore';
+import { getFirestore, doc, setDoc, getDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
 	apiKey: 'AIzaSyAmU2bGMHOrv4OPUphkjwJwKMKTXAReV-s',
@@ -14,28 +14,48 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-
 const db = getFirestore(app);
 
 const provider = new GoogleAuthProvider();
 
-const signInWithGoogle = () => {
-	signInWithPopup(auth, provider)
-		.then((result) => {
-			const user = result.user;
-			const db = getFirestore();
-			const docRef = doc(db, 'users', user.uid);
+const signInWithGoogle = async () => {
+	const result = await signInWithPopup(auth, provider);
 
-			return setDoc(docRef, {
-				email: user.email,
-			});
-		})
-		.then(() => {
-			console.log('Document successfully written!');
-		})
-		.catch((error) => {
-			console.error('Error writing document: ', error);
+	const user = result.user;
+	const db = getFirestore();
+	const docRef = doc(db, 'users', user.uid);
+
+	const docSnap = await getDoc(docRef);
+	if (!docSnap.exists()) {
+		await setDoc(docRef, {
+			email: user.email,
+
+			finance: {
+				completedQuestions: [],
+				missedQuestions: [],
+			},
+			hospitalityTourism: {
+				completedQuestions: [],
+				missedQuestions: [],
+			},
+			marketing: {
+				completedQuestions: [],
+				missedQuestions: [],
+			},
+			businessManagementAdministration: {
+				completedQuestions: [],
+				missedQuestions: [],
+			},
+			personalFinancialLiteracy: {
+				completedQuestions: [],
+				missedQuestions: [],
+			},
+			entrepreneurship: {
+				completedQuestions: [],
+				missedQuestions: [],
+			},
 		});
+	}
 };
 
 export { signInWithGoogle, auth, db };
