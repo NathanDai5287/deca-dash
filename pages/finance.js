@@ -4,12 +4,23 @@ import { useEffect } from 'react';
 import data from '../data/data.json';
 import Question from '@/components/Question';
 
-import { getFirestore } from 'firebase/firestore';
+import { onAuthStateChanged } from 'firebase/auth';
+import { auth } from '@/firebase/firebase';
 
 const Finance = () => {
 	const [questions] = useState(new Set(data['Finance']));
-
 	const [question, setQuestion] = useState(data['Finance'][0]);
+	const [userId, setUserId] = useState();
+
+	useEffect(() => {
+		onAuthStateChanged(auth, (user) => {
+			if (user) {
+				setUserId(user.uid);
+			} else {
+				console.log('No user signed in');
+			}
+		});
+	}, []);
 
 	useEffect(() => {
 		const startI = Math.floor(Math.random() * questions.size);
@@ -18,13 +29,15 @@ const Finance = () => {
 
 	return (
 		<div id='container' className='w-4/5'>
-			<Question
-				question={question}
-				setQuestion={setQuestion}
-				questions={questions}
-				category='finance'
-				userId='PBZCaqq6JNO57rjF9wAGe8xQbut1' // TODO: no hard code
-			/>
+			{userId && (
+				<Question
+					question={question}
+					setQuestion={setQuestion}
+					questions={questions}
+					category='finance'
+					userId={userId}
+				/>
+			)}
 		</div>
 	);
 };
