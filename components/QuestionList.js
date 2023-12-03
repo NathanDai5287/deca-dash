@@ -16,13 +16,13 @@ const QuestionList = ({ userId }) => {
 		'entrepreneurship',
 	];
 	const clusterDataMap = {
-		'finance': 'Finance',
-		'hospitalityTourism': 'Hospitality and Tourism',
-		'marketing': 'Marketing',
-		'businessManagementAdministration': 'Business Management and Administration',
-		'personalFinancialLiteracy': 'Personal Financial Literacy',
-		'entrepreneurship': 'Entrepreneurship',
-	}
+		finance: 'Finance',
+		hospitalityTourism: 'Hospitality and Tourism',
+		marketing: 'Marketing',
+		businessManagementAdministration: 'Business Management and Administration',
+		personalFinancialLiteracy: 'Personal Financial Literacy',
+		entrepreneurship: 'Entrepreneurship',
+	};
 
 	useEffect(() => {
 		console.log(userId);
@@ -49,17 +49,41 @@ const QuestionList = ({ userId }) => {
 	}, []);
 
 	return (
-		<div>
+		<div className='container mx-auto p-4'>
 			{Object.keys(allMissedQuestions).map((cluster) => (
-				<div key={cluster} className=''>
-					<h1>{clusterDataMap[cluster]}</h1>
+				<div key={cluster}>
+					{allMissedQuestions[cluster].length > 0 && (
+						<h1 className='text-3xl font-bold text-center'>{clusterDataMap[cluster]}</h1>
+					)}
 					{allMissedQuestions[cluster].map((id) => {
 						const question = data[clusterDataMap[cluster]].find((question) => question.id === id);
 
 						return (
-							<div key={id} className=''>
-								<p>{question['question']}</p>
-								<p>{question['options'][question['correctAnswerIndex']]}</p>
+							<div key={id} className='mb-4 p-2 border-b'>
+								<h2 className='text-lg font-semibold'>{question.question}</h2>
+								<div className='mt-2'>
+									{question.options.map((option, optionIndex) => (
+										<label
+											key={optionIndex}
+											className={
+												'block ' +
+												(optionIndex === question.correctAnswerIndex
+													? ' text-green-500 font-bold '
+													: '')
+											}
+										>
+											<input
+												type='radio'
+												name={`question-${question.id}`}
+												value={optionIndex}
+												className={'mr-2'}
+												disabled
+												checked={optionIndex === question.correctAnswerIndex}
+											/>
+											{option}
+										</label>
+									))}
+								</div>
 							</div>
 						);
 					})}
