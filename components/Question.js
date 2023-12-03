@@ -4,8 +4,7 @@ import { useState } from 'react';
 import { db } from '@/firebase/firebase';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle, faBookmark } from '@fortawesome/free-solid-svg-icons';
 import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 
 const Question = ({ question, setQuestion, questions, category, userId }) => {
@@ -136,34 +135,13 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		setExplanation('');
 	};
 
-	// const toggleReportQuestionButton = () => {
-	// 	const button = document.getElementById('report-question-button');
-
-	// 	button.classList.toggle('hover:bg-red-700');
-	// 	button.classList.toggle('bg-gray-500');
-	// 	button.disabled = !button.disabled;
-
-	// 	// checkmark icon TODO
-	// };
-
-	// const reportQuestion = () => {
-	// 	reportedQuestions.add(question);
-	// 	toggleReportQuestionButton();
+	// const bookmarkQuestion = () => {
 	// };
 
 	return (
 		<div key={question.id} className='m-4 p-2 border-b'>
 			<div className='flex flex-row items-center'>
 				<h2 className='basis-7/8 text-lg font-semibold'>{question.question}</h2>
-				{/* <button
-					id='report-question-button'
-					className='mx-10 bg-red-500 text-white rounded hover:bg-red-700 transition-colors'
-					onClick={() => {
-						reportQuestion();
-					}}
-				>
-					<FontAwesomeIcon className='m-4' icon={faExclamationTriangle} />
-				</button> */}
 			</div>
 			<div className='mt-2'>
 				{question.options.map((option, optionIndex) => (
@@ -179,27 +157,34 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 				))}
 			</div>
 
-			<button
-				id='check-answer-button'
-				className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
-				onClick={() => {
-					checkAnswer();
-				}}
-			>
-				Check Answer
-			</button>
-
-			{/* show next button if the right answer was checked */}
-			{explanation === question.explanation && (
+			<div>
 				<button
-					className='mt-2 mx-1 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors'
+					id='check-answer-button'
+					className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
 					onClick={() => {
-						nextQuestion(setQuestion);
+						checkAnswer();
 					}}
 				>
-					Next
+					Check Answer
 				</button>
-			)}
+
+				{/* show next button if the right answer was checked */}
+				{explanation === question.explanation && (
+					<button
+						className='mt-2 mx-1 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors'
+						onClick={() => {
+							nextQuestion(setQuestion);
+						}}
+					>
+						Next
+					</button>
+				)}
+			</div>
+
+			{/* bookmark button on new line */}
+			<button className='absolute top-0 right-1.5 mt-2 mx-1 px-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-700 bg-gray-100 text-black hover:bg-gray-700 hover:text-white transition-colors ease-in-out'>
+				<FontAwesomeIcon icon={faBookmark} />
+			</button>
 
 			{/* show explanation or incorrect message */}
 			{explanation !== '' && (
