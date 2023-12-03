@@ -83,6 +83,10 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 	};
 
 	const updateMissedQuestions = async (question) => {
+		if (missedQuestions.includes(question.id)) {
+			return;
+		}
+
 		const docRef = doc(db, 'users', userId);
 		const payload = {
 			[category]: {
