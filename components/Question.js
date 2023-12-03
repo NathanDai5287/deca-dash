@@ -12,7 +12,9 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 
 	const [completedQuestions, setCompletedQuestions] = useState([]);
 	const [missedQuestions, setMissedQuestions] = useState([]);
+	const [isBookmarked, setIsBookmarked] = useState(false);
 
+	// get completed and missed questions from firestore
 	useEffect(() => {
 		const docRef = doc(db, 'users', userId);
 		const unsub = onSnapshot(docRef, (doc) => {
@@ -23,13 +25,18 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 
 				setCompletedQuestions(completedQuestions);
 				setMissedQuestions(missedQuestions);
+
+				// if current question is in missedQuestions, setIsBookmarked to true
+				if (missedQuestions.includes(question.id)) {
+					setIsBookmarked(true);
+				}
 			} else {
 				console.log('No such document!');
 			}
 		});
 
 		return unsub;
-	}, [category, userId]);
+	}, [category, userId, question.id]);
 
 	const toggleCheckAnswerButton = () => {
 		const button = document.getElementById('check-answer-button');
@@ -64,6 +71,7 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			updateCompletedQuestions(question);
 		} else {
 			setExplanation('Incorrect, try again!');
+			setIsBookmarked(true);
 			updateMissedQuestions(question);
 		}
 	};
@@ -135,8 +143,42 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		setExplanation('');
 	};
 
-	// const bookmarkQuestion = () => {
-	// };
+	const toggleBookmarkQuestion = () => {
+		setIsBookmarked(!isBookmarked);
+
+		const bookmarkButton = document.getElementById('bookmark-button');
+		bookmarkButton.classList.toggle('border-gray-700');
+		bookmarkButton.classList.toggle('border-gray-500');
+		bookmarkButton.classList.toggle('bg-gray-700');
+		bookmarkButton.classList.toggle('bg-gray-100');
+		bookmarkButton.classList.toggle('text-white');
+		bookmarkButton.classList.toggle('text-black');
+
+		const docRef = doc(db, 'users', userId);
+		// if bookmarked, add to missedQuestions if not already there
+		if (!missedQuestions.includes(question.id)) {
+			const payload = {
+				[category]: {
+					completedQuestions: completedQuestions,
+					missedQuestions: [...missedQuestions, question.id],
+				},
+			};
+			setMissedQuestions([...missedQuestions, question.id]);
+
+			updateDoc(docRef, payload);
+		} else {
+			// if not bookmarked, remove from missedQuestions if there
+			const payload = {
+				[category]: {
+					completedQuestions: completedQuestions,
+					missedQuestions: missedQuestions.filter((id) => id !== question.id),
+				},
+			};
+			setMissedQuestions(missedQuestions.filter((id) => id !== question.id));
+
+			updateDoc(docRef, payload);
+		}
+	};
 
 	return (
 		<div key={question.id} className='m-4 p-2 border-b'>
@@ -182,7 +224,13 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			</div>
 
 			{/* bookmark button on new line */}
-			<button className='absolute top-0 right-1.5 mt-2 mx-1 px-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-700 bg-gray-100 text-black hover:bg-gray-700 hover:text-white transition-colors ease-in-out'>
+			<button
+				id='bookmark-button'
+				className={
+					'absolute top-0 right-1.5 mt-2 mx-1 px-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-700 bg-gray-100 text-black hover:bg-gray-700 hover:text-white transition-colors ease-in-out'
+				}
+				onClick={toggleBookmarkQuestion}
+			>
 				<FontAwesomeIcon icon={faBookmark} />
 			</button>
 
