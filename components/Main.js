@@ -62,7 +62,7 @@ export default function Main() {
                   src={cluster.imageUrl} // Use the imageUrl from the cluster object
                   alt={cluster.name}
                   fill // For Next.js 13
-                  className="transition-opacity duration-300 ease-in-out"
+                  className="transition-opacity duration-300 ease-out"
                 />
                 <div
                   className="absolute inset-0"

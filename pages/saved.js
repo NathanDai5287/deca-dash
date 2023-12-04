@@ -4,6 +4,8 @@ import { db, auth } from '@/firebase/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import QuestionList from '@/components/QuestionList';
 
+import Navigation from '@/components/Navbar';
+
 const Profile = () => {
 	const [userId, setUserId] = useState();
 
@@ -18,13 +20,10 @@ const Profile = () => {
 	}, []);
 
 	return (
-		<div>
-			{userId && (
-				<QuestionList
-					userId={userId}
-				/>
-			)}
-		</div>
+		<>
+			<Navigation />
+			<div>{userId && <QuestionList userId={userId} />}</div>
+		</>
 	);
 };
 

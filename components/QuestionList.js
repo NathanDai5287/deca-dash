@@ -49,9 +49,7 @@ const QuestionList = ({ userId }) => {
 		return unsub;
 	}, []);
 
-	const removeBookmark = (buttonId, cluster, questionId) => {
-		console.log('remove bookmark');
-
+	const removeBookmark = (cluster, questionId) => {
 		const docRef = doc(db, 'users', userId);
 		const payload = {
 			[cluster]: {
@@ -68,6 +66,18 @@ const QuestionList = ({ userId }) => {
 		updateDoc(docRef, payload);
 	};
 
+	const showExplanation = (i) => {
+		const explanation = document.getElementById('explanation-' + i);
+		const showExplanationButton = document.getElementById('show-explanation-button-' + i);
+		if (explanation.style.display === 'none') {
+			explanation.style.display = 'block';
+			showExplanationButton.innerHTML = 'Hide Explanation';
+		} else {
+			explanation.style.display = 'none';
+			showExplanationButton.innerText = 'Show Explanation';
+		}
+	};
+
 	return (
 		<div className='container mx-auto p-4 w-4/5'>
 			{Object.keys(allMissedQuestions).map((cluster) => (
@@ -80,18 +90,6 @@ const QuestionList = ({ userId }) => {
 
 						return (
 							<div key={id} className='mb-4 p-2 border-b'>
-								<button
-									id={'bookmark-button-' + i}
-									className={
-										'absolute right-1.5 mt-2 mx-1 px-3 py-1 pr-3 border rounded border-gray-500 hover:border-red-600 bg-gray-100 text-black hover:bg-red-600 hover:text-white transition-colors ease-in-out'
-									}
-									onClick={() => {
-										removeBookmark('bookmark-button-' + i, cluster, question.id);
-									}}
-								>
-									<FontAwesomeIcon icon={faTrash} />
-								</button>
-
 								<h2 className='text-lg font-semibold'>{question.question}</h2>
 								<div className='mt-2'>
 									{question.options.map((option, optionIndex) => (
@@ -115,6 +113,36 @@ const QuestionList = ({ userId }) => {
 											{option}
 										</label>
 									))}
+								</div>
+								<div>
+									<button
+										id={'show-explanation-button-' + i}
+										className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors'
+										onClick={() => {
+											showExplanation(i);
+										}}
+									>
+										Show Explanation
+									</button>
+									<button
+										id={'bookmark-button-' + i}
+										className={
+											'mt-2 mx-1 px-l-3 py-1 pr-3 border rounded border-gray-500 hover:border-red-500 bg-gray-100 text-black hover:bg-red-500 hover:text-white transition-colors ease-out'
+										}
+										onClick={() => {
+											removeBookmark(cluster, question.id);
+										}}
+									>
+										<FontAwesomeIcon className='ml-2 mr-1' icon={faTrash} />
+										Remove
+									</button>
+								</div>
+								<div
+									id={'explanation-' + i}
+									className='mt-2 text-green-500'
+									style={{ display: 'none' }}
+								>
+									<p>{question.explanation}</p>
 								</div>
 							</div>
 						);
