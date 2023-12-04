@@ -66,9 +66,9 @@ const QuestionList = ({ userId }) => {
 		updateDoc(docRef, payload);
 	};
 
-	const showExplanation = (i) => {
-		const explanation = document.getElementById('explanation-' + i);
-		const showExplanationButton = document.getElementById('show-explanation-button-' + i);
+	const showExplanation = (cluster, i) => {
+		const explanation = document.getElementById('explanation-' + cluster  + '-'  + i);
+		const showExplanationButton = document.getElementById('show-explanation-button-' + cluster  + '-'  + i);
 		if (explanation.style.display === 'none') {
 			explanation.style.display = 'block';
 			showExplanationButton.innerHTML = 'Hide Explanation';
@@ -116,16 +116,16 @@ const QuestionList = ({ userId }) => {
 								</div>
 								<div>
 									<button
-										id={'show-explanation-button-' + i}
+										id={'show-explanation-button-' + cluster  + '-'  + i}
 										className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors'
 										onClick={() => {
-											showExplanation(i);
+											showExplanation(cluster, i);
 										}}
 									>
 										Show Explanation
 									</button>
 									<button
-										id={'bookmark-button-' + i}
+										id={'bookmark-button-' + cluster  + '-'  + i}
 										className={
 											'mt-2 mx-1 px-l-3 py-1 pr-3 border rounded border-gray-500 hover:border-red-500 bg-gray-100 text-black hover:bg-red-500 hover:text-white transition-colors ease-out'
 										}
@@ -138,7 +138,7 @@ const QuestionList = ({ userId }) => {
 									</button>
 								</div>
 								<div
-									id={'explanation-' + i}
+									id={'explanation-' + cluster  + '-'  + i}
 									className='mt-2 text-green-500'
 									style={{ display: 'none' }}
 								>
