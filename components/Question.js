@@ -230,8 +230,8 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 				}
 				onClick={toggleBookmarkQuestion}
 			>
+				<FontAwesomeIcon className='mr-2' icon={faBookmark} />
 				Bookmark
-				<FontAwesomeIcon className='ml-2' icon={faBookmark} />
 			</button>
 			</div>
 
