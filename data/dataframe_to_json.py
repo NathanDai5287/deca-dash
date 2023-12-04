@@ -1,6 +1,8 @@
 import json
 import pandas as pd
 
+from hashlib import md5
+
 def df_to_json(df, path: str):
 	category_gb = df.groupby('Category')
 
@@ -8,7 +10,7 @@ def df_to_json(df, path: str):
 	for category, group in category_gb:
 		data[category] = [
 			{
-				'id': hash(str(row['Question']) + str(row['A']) + str(row['B']) + str(row['C']) + str(row['D']) + str(row['Explanation']) + str(category)),
+				'id': md5((str(row['Question']) + str(row['A']) + str(row['B']) + str(row['C']) + str(row['D']) + str(row['Explanation']) + str(category)).encode()).hexdigest(),
 				'question': row['Question'],
 				'options': [row['A'], row['B'], row['C'], row['D']],
 				'correctAnswerIndex': row['Answer'],
