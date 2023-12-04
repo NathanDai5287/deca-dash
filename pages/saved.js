@@ -5,7 +5,6 @@ import { onAuthStateChanged } from 'firebase/auth';
 import QuestionList from '@/components/QuestionList';
 
 const Profile = () => {
-	const [missedQuestions, setMissedQuestions] = useState([]);
 	const [userId, setUserId] = useState();
 
 	useEffect(() => {
