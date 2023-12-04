@@ -221,19 +221,19 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 						Next
 					</button>
 				)}
-			</div>
 
 			{/* bookmark button on new line */}
 			<button
 				id='bookmark-button'
 				className={
-					'absolute top-2 right-1.5 mt-2 mx-1 pl-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-400 bg-gray-100 text-black hover:bg-gray-400 hover:text-white transition-colors ease-out'
+					'mt-2 mx-1 pl-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-400 bg-gray-100 text-black hover:bg-gray-400 hover:text-white transition-colors ease-out'
 				}
 				onClick={toggleBookmarkQuestion}
 			>
 				Bookmark
 				<FontAwesomeIcon className='ml-2' icon={faBookmark} />
 			</button>
+			</div>
 
 			{/* show explanation or incorrect message */}
 			{explanation !== '' && (
