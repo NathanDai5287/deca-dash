@@ -2,12 +2,26 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'next/image';
 
 const Navigation = () => {
 	return (
 		<Navbar expand='lg' className='bg-body-secondary' bg='primary'>
 			<Container>
-				<Navbar.Brand href='/'>Deca Dash</Navbar.Brand>
+				<Navbar.Brand href='/'>
+					<div className='flex flex-shrink-0 items-center'>
+						<Image
+							className='h-8 w-auto'
+							src='/DECA-Diamond-1.png'
+							alt='Your Company'
+							width={500}
+							height={500}
+						/>
+						<span className='text-blue-500 font-semibold rounded-md px-3 py-2 text-base'>
+							DECA Dashboard
+						</span>
+					</div>
+				</Navbar.Brand>
 				<Nav className='me-auto'>
 					<NavDropdown
 						className='mr-1 p-1 border-blue-400 hover:bg-blue-100 hover:border-blue-500 border-2 rounded transition-colors ease-out'
