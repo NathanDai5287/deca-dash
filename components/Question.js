@@ -4,8 +4,7 @@ import { useState } from 'react';
 import { db } from '@/firebase/firebase';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faExclamationTriangle, faBookmark } from '@fortawesome/free-solid-svg-icons';
 import { collection, doc, onSnapshot, updateDoc } from 'firebase/firestore';
 
 const Question = ({ question, setQuestion, questions, category, userId }) => {
@@ -13,7 +12,9 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 
 	const [completedQuestions, setCompletedQuestions] = useState([]);
 	const [missedQuestions, setMissedQuestions] = useState([]);
+	const [isBookmarked, setIsBookmarked] = useState(false);
 
+	// get completed and missed questions from firestore
 	useEffect(() => {
 		const docRef = doc(db, 'users', userId);
 		const unsub = onSnapshot(docRef, (doc) => {
@@ -24,13 +25,18 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 
 				setCompletedQuestions(completedQuestions);
 				setMissedQuestions(missedQuestions);
+
+				// if current question is in missedQuestions, setIsBookmarked to true
+				if (missedQuestions.includes(question.id)) {
+					setIsBookmarked(true);
+				}
 			} else {
 				console.log('No such document!');
 			}
 		});
 
 		return unsub;
-	}, [category, userId]);
+	}, [category, userId, question.id]);
 
 	const toggleCheckAnswerButton = () => {
 		const button = document.getElementById('check-answer-button');
@@ -65,6 +71,7 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			updateCompletedQuestions(question);
 		} else {
 			setExplanation('Incorrect, try again!');
+			setIsBookmarked(true);
 			updateMissedQuestions(question);
 		}
 	};
@@ -83,6 +90,10 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 	};
 
 	const updateMissedQuestions = async (question) => {
+		if (missedQuestions.includes(question.id)) {
+			return;
+		}
+
 		const docRef = doc(db, 'users', userId);
 		const payload = {
 			[category]: {
@@ -132,34 +143,47 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		setExplanation('');
 	};
 
-	// const toggleReportQuestionButton = () => {
-	// 	const button = document.getElementById('report-question-button');
+	const toggleBookmarkQuestion = () => {
+		setIsBookmarked(!isBookmarked);
 
-	// 	button.classList.toggle('hover:bg-red-700');
-	// 	button.classList.toggle('bg-gray-500');
-	// 	button.disabled = !button.disabled;
+		const bookmarkButton = document.getElementById('bookmark-button');
+		bookmarkButton.classList.toggle('border-gray-700');
+		bookmarkButton.classList.toggle('border-gray-500');
+		bookmarkButton.classList.toggle('bg-gray-700');
+		bookmarkButton.classList.toggle('bg-gray-100');
+		bookmarkButton.classList.toggle('text-white');
+		bookmarkButton.classList.toggle('text-black');
 
-	// 	// checkmark icon TODO
-	// };
+		const docRef = doc(db, 'users', userId);
+		// if bookmarked, add to missedQuestions if not already there
+		if (!missedQuestions.includes(question.id)) {
+			const payload = {
+				[category]: {
+					completedQuestions: completedQuestions,
+					missedQuestions: [...missedQuestions, question.id],
+				},
+			};
+			setMissedQuestions([...missedQuestions, question.id]);
 
-	// const reportQuestion = () => {
-	// 	reportedQuestions.add(question);
-	// 	toggleReportQuestionButton();
-	// };
+			updateDoc(docRef, payload);
+		} else {
+			// if not bookmarked, remove from missedQuestions if there
+			const payload = {
+				[category]: {
+					completedQuestions: completedQuestions,
+					missedQuestions: missedQuestions.filter((id) => id !== question.id),
+				},
+			};
+			setMissedQuestions(missedQuestions.filter((id) => id !== question.id));
+
+			updateDoc(docRef, payload);
+		}
+	};
 
 	return (
 		<div key={question.id} className='m-4 p-2 border-b'>
 			<div className='flex flex-row items-center'>
 				<h2 className='basis-7/8 text-lg font-semibold'>{question.question}</h2>
-				{/* <button
-					id='report-question-button'
-					className='mx-10 bg-red-500 text-white rounded hover:bg-red-700 transition-colors'
-					onClick={() => {
-						reportQuestion();
-					}}
-				>
-					<FontAwesomeIcon className='m-4' icon={faExclamationTriangle} />
-				</button> */}
 			</div>
 			<div className='mt-2'>
 				{question.options.map((option, optionIndex) => (
@@ -175,27 +199,40 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 				))}
 			</div>
 
-			<button
-				id='check-answer-button'
-				className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
-				onClick={() => {
-					checkAnswer();
-				}}
-			>
-				Check Answer
-			</button>
-
-			{/* show next button if the right answer was checked */}
-			{explanation === question.explanation && (
+			<div>
 				<button
-					className='mt-2 mx-1 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors'
+					id='check-answer-button'
+					className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors'
 					onClick={() => {
-						nextQuestion(setQuestion);
+						checkAnswer();
 					}}
 				>
-					Next
+					Check Answer
 				</button>
-			)}
+
+				{/* show next button if the right answer was checked */}
+				{explanation === question.explanation && (
+					<button
+						className='mt-2 mx-1 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors'
+						onClick={() => {
+							nextQuestion(setQuestion);
+						}}
+					>
+						Next
+					</button>
+				)}
+			</div>
+
+			{/* bookmark button on new line */}
+			<button
+				id='bookmark-button'
+				className={
+					'absolute top-0 right-1.5 mt-2 mx-1 px-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-700 bg-gray-100 text-black hover:bg-gray-700 hover:text-white transition-colors ease-in-out'
+				}
+				onClick={toggleBookmarkQuestion}
+			>
+				<FontAwesomeIcon icon={faBookmark} />
+			</button>
 
 			{/* show explanation or incorrect message */}
 			{explanation !== '' && (

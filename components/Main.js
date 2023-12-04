@@ -55,7 +55,7 @@ export default function Main() {
           {clusters.map((cluster, index) => (
             <Link href={cluster.path} key={index}>
               <div
-                
+
                 className="relative border rounded-lg shadow-lg h-64 overflow-hidden"
               >
                 <img
