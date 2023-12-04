@@ -227,11 +227,12 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			<button
 				id='bookmark-button'
 				className={
-					'absolute top-0 right-1.5 mt-2 mx-1 px-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-700 bg-gray-100 text-black hover:bg-gray-700 hover:text-white transition-colors ease-in-out'
+					'absolute top-2 right-1.5 mt-2 mx-1 pl-3 py-1 pr-3 border rounded border-gray-500 hover:border-gray-400 bg-gray-100 text-black hover:bg-gray-400 hover:text-white transition-colors ease-out'
 				}
 				onClick={toggleBookmarkQuestion}
 			>
-				<FontAwesomeIcon icon={faBookmark} />
+				Bookmark
+				<FontAwesomeIcon className='ml-2' icon={faBookmark} />
 			</button>
 
 			{/* show explanation or incorrect message */}

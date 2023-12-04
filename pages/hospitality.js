@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 
 import data from '../data/data.json';
 import Question from '@/components/Question';
+import Navigation from '@/components/Navbar';
 
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from '@/firebase/firebase';
@@ -28,17 +29,20 @@ const Hospitality = () => {
 	}, [questions.size]);
 
 	return (
-		<div id='container' className='w-4/5'>
-			{userId && (
-				<Question
-					question={question}
-					setQuestion={setQuestion}
-					questions={questions}
-					category='hospitalityTourism'
-					userId={userId}
-				/>
-			)}
-		</div>
+		<>
+			<Navigation />
+			<div id='container' className='w-4/5'>
+				{userId && (
+					<Question
+						question={question}
+						setQuestion={setQuestion}
+						questions={questions}
+						category='hospitalityTourism'
+						userId={userId}
+					/>
+				)}
+			</div>
+		</>
 	);
 };
 
