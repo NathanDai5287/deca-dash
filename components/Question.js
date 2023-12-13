@@ -71,7 +71,7 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 			updateCompletedQuestions(question);
 		} else {
 			setExplanation('Incorrect, try again!');
-			setIsBookmarked(true);
+			setBookmarkButton(true);
 			updateMissedQuestions(question);
 		}
 	};
@@ -141,6 +141,21 @@ const Question = ({ question, setQuestion, questions, category, userId }) => {
 		toggleCheckAnswerButton();
 
 		setExplanation('');
+	};
+
+	const setBookmarkButton = (isBookmarked) => {
+		setIsBookmarked(isBookmarked);
+
+		const bookmarkButton = document.getElementById('bookmark-button');
+		if (isBookmarked) {
+			bookmarkButton.classList.add('border-gray-700');
+			bookmarkButton.classList.add('bg-gray-700');
+			bookmarkButton.classList.add('text-white');
+		} else {
+			bookmarkButton.classList.add('border-gray-500');
+			bookmarkButton.classList.add('bg-gray-100');
+			bookmarkButton.classList.add('text-black');
+		}
 	};
 
 	const toggleBookmarkQuestion = () => {
