@@ -6,7 +6,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import { db } from '@/firebase/firebase';
 import { doc, onSnapshot } from 'firebase/firestore';
 
-import { updateCompletedQuestions, updateMissedQuestions } from './Utils';
+import { updateCompletedQuestions, updateMissedQuestions, replaceMissedQuestions } from './DatabaseUtils';
 
 const Question = ({ question, setQuestion, getNextQuestion, userId, category }) => {
 	const [attempted, setAttempted] = useState(false);
@@ -108,6 +108,23 @@ const Question = ({ question, setQuestion, getNextQuestion, userId, category }) 
 		setCompleted(false);
 	};
 
+	const handleBookmarkQuestion = () => {
+		let newMissedQuestions;
+		if (isBookmarked) {
+			newMissedQuestions = missedQuestions.filter(
+				(missedQuestionId) => missedQuestionId !== question.id
+			);
+		} else {
+			newMissedQuestions = [...missedQuestions, question.id];
+		}
+
+		setMissedQuestions(
+			replaceMissedQuestions(question, userId, category, completedQuestions, newMissedQuestions)
+		);
+
+		setIsBookmarked(!isBookmarked);
+	};
+
 	return (
 		<div key={question.id} className='m-4 p-2 border-b'>
 			<div className='flex flex-row items-center'>
@@ -155,14 +172,17 @@ const Question = ({ question, setQuestion, getNextQuestion, userId, category }) 
 				{/* bookmark button on new line */}
 				<button
 					id='bookmark-button'
-					className={
-						`mt-2 mx-1 pl-3 py-1 pr-3 border rounded ${isBookmarked ? 'border-gray-700 bg-gray-700 text-white' : 'border-gray-500 bg-gray-100 text-black'} hover:border-gray-400 hover:bg-gray-400 hover:text-white transition-colors ease-out`
-					}
-					// onClick={toggleBookmarkQuestion}
+					className={`mt-2 mx-1 pl-3 py-1 pr-3 border rounded ${
+						isBookmarked
+							? 'border-gray-700 bg-gray-700 text-white'
+							: 'border-gray-500 bg-gray-100 text-black'
+					} hover:border-gray-400 hover:bg-gray-400 hover:text-white transition-colors ease-out`}
+					onClick={() => {
+						handleBookmarkQuestion();
+					}}
 				>
 					<FontAwesomeIcon className='mr-2' icon={faBookmark} />
 					Bookmark
-					{isBookmarked ? 'BOOKMARKED' : 'NOT BOOKMARKED'}
 				</button>
 			</div>
 

@@ -15,6 +15,7 @@ const updateCompletedQuestions = async (question, userId, category, completedQue
 };
 
 const updateMissedQuestions = async (question, userId, category, completedQuestions, missedQuestions) => {
+	console.log('updateMissedQuestions');
 	const docRef = doc(db, 'users', userId);
 	const payload = {
 		[category]: {
@@ -24,7 +25,22 @@ const updateMissedQuestions = async (question, userId, category, completedQuesti
 	};
 	await updateDoc(docRef, payload);
 
+	console.log([...missedQuestions, question.id]);
+
 	return [...missedQuestions, question.id];
 };
 
-export { updateCompletedQuestions, updateMissedQuestions };
+const replaceMissedQuestions = async (question, userId, category, completedQuestions, missedQuestions) => {
+	const docRef = doc(db, 'users', userId);
+	const payload = {
+		[category]: {
+			completedQuestions: completedQuestions,
+			missedQuestions: missedQuestions,
+		},
+	};
+	await updateDoc(docRef, payload);
+
+	return missedQuestions;
+}
+
+export { updateCompletedQuestions, updateMissedQuestions, replaceMissedQuestions };
