@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useEffect } from 'react';
 
 import data from '../data/data.json';
@@ -6,8 +6,7 @@ import Question from '@/components/Question/Question';
 import Navigation from '@/components/Navbar';
 
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth, db } from '@/firebase/firebase';
-import { doc, onSnapshot, updateDoc } from 'firebase/firestore';
+import { auth } from '@/firebase/firebase';
 
 const Page = ({ data_cluster, cluster }) => {
 	const [questions] = useState(new Set(data[data_cluster]));
@@ -31,29 +30,6 @@ const Page = ({ data_cluster, cluster }) => {
 		const startI = Math.floor(Math.random() * questions.size);
 		setQuestion(data[data_cluster][startI]);
 	}, [questions.size]);
-
-	// useEffect(() => {
-	// 	const docRef = doc(db, 'users', userId);
-	// 	const unsub = onSnapshot(docRef, (doc) => {
-	// 		if (doc.exists()) {
-	// 			const userData = doc.data();
-	// 			const completedQuestions = userData[category]['completedQuestions'];
-	// 			const missedQuestions = userData[category]['missedQuestions'];
-
-	// 			setCompletedQuestions(completedQuestions);
-	// 			setMissedQuestions(missedQuestions);
-
-	// 			// if current question is in missedQuestions, setIsBookmarked to true
-	// 			if (missedQuestions.includes(question.id)) {
-	// 				setIsBookmarked(true);
-	// 			}
-	// 		} else {
-	// 			console.log('No such document!');
-	// 		}
-	// 	});
-
-	// 	return unsub;
-	// }, [userId, question.id]);
 
 	const getNextQuestion = () => {
 		const getRandomItem = (set) => {
