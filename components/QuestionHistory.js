@@ -53,7 +53,7 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 			</div>
 
 			<Menu>
-				<h5 className='text-center bg-green-100 mx-1 my-2 p-3 text-gray-900 rounded-2xl font-semibold text-2xl'>
+				<h5 className='text-center bg-green-100 mx-1 my-2 p-3 text-gray-900 rounded-2xl font-semibold text-2xl border'>
 					{!sidebarCollapsed ? (
 						'Question History'
 					) : (
