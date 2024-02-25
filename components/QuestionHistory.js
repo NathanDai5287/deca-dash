@@ -7,7 +7,7 @@ import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import { db } from '@/firebase/firebase';
 import { doc, onSnapshot } from 'firebase/firestore';
 
-const QuestionHistory = ({ questions, userId, category }) => {
+const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 	const [completedQuestions, setCompletedQuestions] = useState([]);
 	const [missedQuestions, setMissedQuestions] = useState([]);
 
@@ -73,7 +73,13 @@ const QuestionHistory = ({ questions, userId, category }) => {
 					});
 
 					return (
-						<MenuItem key={questionId} className='border-2 rounded m-1 border-gray-200'>
+						<MenuItem
+							key={questionId}
+							className='border-2 rounded m-1 border-gray-200'
+							onClick={() => {
+								setQuestion(question);
+							}}
+						>
 							{question.question}
 						</MenuItem>
 					);

@@ -6,7 +6,11 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import { db } from '@/firebase/firebase';
 import { doc, onSnapshot } from 'firebase/firestore';
 
-import { updateCompletedQuestions, updateMissedQuestions, replaceMissedQuestions } from './DatabaseUtils';
+import {
+	updateCompletedQuestions,
+	updateMissedQuestions,
+	replaceMissedQuestions,
+} from './DatabaseUtils';
 
 const Question = ({ question, setQuestion, getNextQuestion, userId, category }) => {
 	const [attempted, setAttempted] = useState(false);
@@ -39,6 +43,11 @@ const Question = ({ question, setQuestion, getNextQuestion, userId, category }) 
 
 		return unsub;
 	}, [category, userId, question.id]);
+
+	useEffect(() => {
+		setAttempted(false);
+		setCompleted(false);
+	}, [question]);
 
 	// get bookmarked status from firestore (bookmarkedQuestions == missedQuestions)
 	useEffect(() => {
@@ -119,7 +128,7 @@ const Question = ({ question, setQuestion, getNextQuestion, userId, category }) 
 		}
 
 		setMissedQuestions(
-			replaceMissedQuestions(question, userId, category, completedQuestions, newMissedQuestions)
+			replaceMissedQuestions(userId, category, completedQuestions, newMissedQuestions)
 		);
 
 		setIsBookmarked(!isBookmarked);
@@ -149,7 +158,11 @@ const Question = ({ question, setQuestion, getNextQuestion, userId, category }) 
 			<div>
 				<button
 					id='check-answer-button'
-					className='mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors'
+					className={
+						'mt-2 mx-1 px-4 py-2 bg-blue-500 text-white rounded  transition-colors ' +
+						(completed ? 'bg-gray-400' : 'hover:bg-blue-600')
+					}
+					disabled={completed}
 					onClick={() => {
 						handleCheckAnswer();
 					}}

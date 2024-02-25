@@ -66,10 +66,17 @@ const Page = ({ data_cluster, cluster }) => {
 
 	return (
 		<div className='flex flex-row-reverse h-screen'>
-			{userId && <QuestionHistory questions={questions} userId={userId} category={cluster} />}
+			{userId && (
+				<QuestionHistory
+					userId={userId}
+					category={cluster}
+					questions={questions}
+					setQuestion={setQuestion}
+				/>
+			)}
 			<div className='flex-1'>
 				<Navigation />
-				<div id='container' className='mx-auto sm:w-full md:w-1/2'>
+				<div id='container' className='mx-auto md:w-full lg:w-1/2'>
 					{userId && (
 						<Question
 							question={question}
