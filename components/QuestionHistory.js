@@ -75,14 +75,12 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 					return (
 						<MenuItem
 							key={questionId}
-							color='rgb(0,0,0)'
-							className={`border-2 rounded m-1 border-gray-200 ${
-								missedQuestions.includes(questionId) ? 'bg-red-100' : ''
-							}`}
+							className='border-2 rounded m-1 border-gray-200 flex items-center'
 							onClick={() => {
 								setQuestion(question);
 							}}
 						>
+							{missedQuestions.includes(questionId) && '❌'}&ensp;
 							{question.question}
 						</MenuItem>
 					);
