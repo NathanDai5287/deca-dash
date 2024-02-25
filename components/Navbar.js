@@ -24,7 +24,7 @@ const Navigation = () => {
 				</Navbar.Brand>
 				<Nav className='me-auto'>
 					<NavDropdown
-						className='mr-1 p-1 border-blue-400 hover:bg-blue-100 hover:border-blue-500 border-2 rounded transition-colors ease-out'
+						className='mr-2 p-1 border-blue-400 hover:bg-blue-100 hover:border-blue-500 border-2 rounded transition-colors ease-out'
 						title='Clusters'
 						id='cluster-dropdown'
 					>
@@ -39,7 +39,7 @@ const Navigation = () => {
 						</NavDropdown.Item>
 						<NavDropdown.Item href='/entrepreneurship'>Entrepreneurship</NavDropdown.Item>
 					</NavDropdown>
-					<div className='ml-1 p-1 border-green-400 hover:bg-green-100 hover:border-green-500 border-2 rounded transition-colors ease-out'>
+					<div className='p-1 h-14 border-green-400 hover:bg-green-100 hover:border-green-500 border-2 rounded transition-colors ease-out'>
 						<Nav.Link id='saved' href='/saved'>
 							Bookmarked Questions
 						</Nav.Link>

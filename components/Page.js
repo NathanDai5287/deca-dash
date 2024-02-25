@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import data from '../data/data.json';
 import Question from '@/components/Question/Question';
 import Navigation from '@/components/Navbar';
+import QuestionHistory from './QuestionHistory';
 
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from '@/firebase/firebase';
@@ -65,20 +65,30 @@ const Page = ({ data_cluster, cluster }) => {
 	};
 
 	return (
-		<>
-			<Navigation />
-			<div id='container' className='w-4/5'>
-				{userId && (
-					<Question
-						question={question}
-						setQuestion={setQuestion}
-						getNextQuestion={getNextQuestion}
-						category={cluster}
-						userId={userId}
-					/>
-				)}
+		<div className='flex flex-row-reverse h-screen'>
+			{userId && (
+				<QuestionHistory
+					userId={userId}
+					category={cluster}
+					questions={questions}
+					setQuestion={setQuestion}
+				/>
+			)}
+			<div className='flex-1'>
+				<Navigation />
+				<div id='container' className='mx-auto md:w-full lg:w-1/2'>
+					{userId && (
+						<Question
+							question={question}
+							setQuestion={setQuestion}
+							getNextQuestion={getNextQuestion}
+							category={cluster}
+							userId={userId}
+						/>
+					)}
+				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

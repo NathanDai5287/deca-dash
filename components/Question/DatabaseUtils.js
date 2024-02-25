@@ -1,7 +1,17 @@
 import { db } from '@/firebase/firebase';
 import { doc, updateDoc } from 'firebase/firestore';
 
-const updateCompletedQuestions = async (question, userId, category, completedQuestions, missedQuestions) => {
+const updateCompletedQuestions = async (
+	question,
+	userId,
+	category,
+	completedQuestions,
+	missedQuestions
+) => {
+	if (completedQuestions.includes(question.id)) {
+		return completedQuestions;
+	}
+
 	const docRef = doc(db, 'users', userId);
 	const payload = {
 		[category]: {
@@ -14,8 +24,13 @@ const updateCompletedQuestions = async (question, userId, category, completedQue
 	return [...completedQuestions, question.id];
 };
 
-const updateMissedQuestions = async (question, userId, category, completedQuestions, missedQuestions) => {
-	console.log('updateMissedQuestions');
+const updateMissedQuestions = async (
+	question,
+	userId,
+	category,
+	completedQuestions,
+	missedQuestions
+) => {
 	const docRef = doc(db, 'users', userId);
 	const payload = {
 		[category]: {
@@ -25,12 +40,10 @@ const updateMissedQuestions = async (question, userId, category, completedQuesti
 	};
 	await updateDoc(docRef, payload);
 
-	console.log([...missedQuestions, question.id]);
-
 	return [...missedQuestions, question.id];
 };
 
-const replaceMissedQuestions = async (question, userId, category, completedQuestions, missedQuestions) => {
+const replaceMissedQuestions = async (userId, category, completedQuestions, missedQuestions) => {
 	const docRef = doc(db, 'users', userId);
 	const payload = {
 		[category]: {
@@ -41,6 +54,6 @@ const replaceMissedQuestions = async (question, userId, category, completedQuest
 	await updateDoc(docRef, payload);
 
 	return missedQuestions;
-}
+};
 
 export { updateCompletedQuestions, updateMissedQuestions, replaceMissedQuestions };
