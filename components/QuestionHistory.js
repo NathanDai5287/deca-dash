@@ -32,6 +32,20 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 		return unsub;
 	}, [category, userId]);
 
+	useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.ctrlKey && event.key === '/') {
+        setSidebarCollapsed((sidebarCollapsed) => !sidebarCollapsed);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
 	return (
 		<Sidebar
 			className='h-full bg-blue-50 pt-2'
@@ -48,8 +62,7 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 					>
 						<Image
 							src={`https://raw.githubusercontent.com/eliyantosarage/font-awesome-pro/main/fontawesome-pro-6.5.1-web/svgs/solid/chevrons-${!sidebarExpanded ? 'left' : 'right'}.svg`}
-							className={'fill-current w-8'}
-							// className='fill-current w-8'
+							className='fill-current w-8'
 							width={1}
 							height={1}
 							alt='collapse-sidebar-icon'
@@ -70,7 +83,7 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 						height={1}
 						alt='collapse-sidebar-icon'
 					/>
-					{!sidebarCollapsed ? 'Collapse' : ''}
+					{!sidebarCollapsed ? 'Collapse (Ctrl+/)' : ''}
 				</button>
 			</div>
 
