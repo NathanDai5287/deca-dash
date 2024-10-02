@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import { getFirestore, doc, setDoc, getDoc } from 'firebase/firestore';
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged } from 'firebase/auth';
+import { getFirestore, doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
+import { useRouter } from 'next/router';
 
 const firebaseConfig = {
 	apiKey: 'AIzaSyAmU2bGMHOrv4OPUphkjwJwKMKTXAReV-s',
@@ -29,6 +30,7 @@ const signInWithGoogle = async () => {
 	if (!docSnap.exists()) {
 		await setDoc(docRef, {
 			email: user.email,
+			// license: '',
 
 			finance: {
 				completedQuestions: [],
@@ -57,5 +59,29 @@ const signInWithGoogle = async () => {
 		});
 	}
 };
+
+onAuthStateChanged(auth, async (user) => {
+	// const router = useRouter();
+
+	const allowedDomains = ['sduhsd.net']; // Replace with your allowed domains
+	const allowedSpecificUsers = ['nathandai2000@gmail.com']; // Replace with specific allowed email addresses
+
+	if (user) {
+		// Get the email domain of the signed-in user
+		const emailDomain = user.email.split('@')[1];
+		const userEmail = user.email;
+
+		// Check if the email domain is allowed or if the user is specifically allowed
+		const isAllowedDomain = allowedDomains.includes(emailDomain);
+		const isAllowedSpecificUser = allowedSpecificUsers.includes(userEmail);
+
+		// If neither the domain is allowed nor the specific user is allowed, sign out the user
+		if (!isAllowedDomain && !isAllowedSpecificUser) {
+			await auth.signOut();
+			window.location.href = '/unauthorized';
+			return;
+		}
+	}
+});
 
 export { signInWithGoogle, auth, db };
