@@ -33,18 +33,18 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 	}, [category, userId]);
 
 	useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.ctrlKey && event.key === '/') {
-        setSidebarCollapsed((sidebarCollapsed) => !sidebarCollapsed);
-      }
-    };
+		const handleKeyDown = (event) => {
+			if (event.ctrlKey && event.key === '/') {
+				setSidebarCollapsed((sidebarCollapsed) => !sidebarCollapsed);
+			}
+		};
 
-    window.addEventListener('keydown', handleKeyDown);
+		window.addEventListener('keydown', handleKeyDown);
 
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, []);
+		return () => {
+			window.removeEventListener('keydown', handleKeyDown);
+		};
+	}, []);
 
 	return (
 		<Sidebar
@@ -61,7 +61,11 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 						}}
 					>
 						<Image
-							src={`https://raw.githubusercontent.com/eliyantosarage/font-awesome-pro/main/fontawesome-pro-6.5.1-web/svgs/solid/chevrons-${!sidebarExpanded ? 'left' : 'right'}.svg`}
+							src={
+								sidebarExpanded
+									? 'https://www.svgrepo.com/show/533661/chevron-right.svg'
+									: 'https://www.svgrepo.com/show/533659/chevron-left.svg'
+							}
 							className='fill-current w-8'
 							width={1}
 							height={1}
@@ -76,9 +80,12 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 					}}
 				>
 					<Image
-						src='https://raw.githubusercontent.com/eliyantosarage/font-awesome-pro/7bd749a561c9759b66ee5189c4d48877caf00e92/fontawesome-pro-6.5.1-web/svgs/regular/sidebar-flip.svg'
+						src={
+							sidebarCollapsed
+								? 'https://www.svgrepo.com/show/509895/double-left-chevron.svg'
+								: 'https://www.svgrepo.com/show/533660/chevron-right-double.svg'
+						}
 						className={'fill-current w-8' + (!sidebarCollapsed ? ' mr-2' : '')}
-						// className='fill-current w-8'
 						width={1}
 						height={1}
 						alt='collapse-sidebar-icon'
@@ -89,17 +96,7 @@ const QuestionHistory = ({ userId, category, questions, setQuestion }) => {
 
 			<Menu>
 				<h5 className='text-center bg-green-100 mx-1 my-2 p-3 text-gray-900 rounded-2xl font-semibold text-2xl border-2 border-green-300'>
-					{!sidebarCollapsed ? (
-						'Question History'
-					) : (
-						<Image
-							src='https://raw.githubusercontent.com/eliyantosarage/font-awesome-pro/7bd749a561c9759b66ee5189c4d48877caf00e92/fontawesome-pro-6.5.1-web/svgs/solid/clock-rotate-left.svg'
-							className='fill-current w-8'
-							width={1}
-							height={1}
-							alt='question-history-icon'
-						/>
-					)}
+					Question History
 				</h5>
 
 				{[...completedQuestions].reverse().map((questionId) => {
