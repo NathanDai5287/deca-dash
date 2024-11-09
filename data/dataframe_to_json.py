@@ -1,7 +1,10 @@
 import json
+import pathlib
 import pandas as pd
 
 from hashlib import md5
+
+current = pathlib.Path(__file__).parent.absolute()
 
 def df_to_json(df, path: str):
 	category_gb = df.groupby('Category')
@@ -20,10 +23,12 @@ def df_to_json(df, path: str):
 			for _, row in group.iterrows()
 		]
 
-	with open(path, 'w') as f:
+	with open(current / path, 'w') as f:
 		json.dump(data, f, indent=2)
 
 if __name__ == '__main__':
-	df = pd.read_excel('DECA Dash.xlsx')
+	path = current / 'DECA Dash.xlsx'
+
+	df = pd.read_excel(path)
 
 	df_to_json(df, 'data.json')
