@@ -63,7 +63,7 @@ const signInWithGoogle = async () => {
 onAuthStateChanged(auth, async (user) => {
 	// const router = useRouter();
 
-	const allowedDomains = ['sduhsd.net']; // Replace with your allowed domains
+	const allowedDomains = ['sduhsd.net', 'berkeley.edu', 'gmail.com', 'stanford.edu']; // Replace with your allowed domains
 	const allowedSpecificUsers = ['nathandai2000@gmail.com']; // Replace with specific allowed email addresses
 
 	if (user) {
