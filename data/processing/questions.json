@@ -1,0 +1,702 @@
+[
+	{
+		"question": "Samantha agrees to buy a bicycle from Tony for $225. This is an example of a(n)",
+		"a": "unilateral contract.",
+		"b": "bilateral contract.",
+		"c": "renegotiated agreement.",
+		"d": "nonverbal agreement."
+	},
+	{
+		"question": "Lucy authorized her accountant, attorney, and life-insurance agent to care for her assets and make decisions regarding her money and property. Her accountant, attorney, and life-insurance agent are her",
+		"a": "relationship experts.",
+		"b": "fiduciaries.",
+		"c": "bookkeepers.",
+		"d": "economists."
+	},
+	{
+		"question": "Mary is accused of understating the tax due on her federal tax returns for the last five years. The understatement has nothing to do with a tax shelter. Mary is very concerned that she will be fined or sent to jail if she is convicted of understating her tax. Which of the following statements regarding Mary's situation is true?",
+		"a": "If a Certified Public Accountant prepared Mary's return, she can probably avoid government penalties for the understatement of tax.",
+		"b": "Mary is likely to be sent to jail for understating her tax due because she didn't use a federally approved tax shelter.",
+		"c": "The federal tax-collection agency should recognize the understatement as a tax shelter because Mary is 45 years old.",
+		"d": "Mary should take her brother's advice and store her assets in an offshore bank account."
+	},
+	{
+		"question": "Retirement accounts and real estate are examples of",
+		"a": "intangible assets.",
+		"b": "garnishments.",
+		"c": "tax shelters.",
+		"d": "derivatives."
+	},
+	{
+		"question": "Which of the following groups is most likely to enforce public corporations' compliance with financial reporting standards:",
+		"a": "World Bank representatives",
+		"b": "Local law enforcement officers",
+		"c": "A securities regulatory commission",
+		"d": "The federal judicial system"
+	},
+	{
+		"question": "Which of the following quality-management methodologies is often used in the finance industry to sustain regulatory compliance:",
+		"a": "Cost Standards",
+		"b": "Six Sigma",
+		"c": "Strategic planning",
+		"d": "First-in, First-out"
+	},
+	{
+		"question": "To better meet compliance requirements, Money Plus Bank needs to improve its processes for calculating and reporting risk-weighted assets. Which of the following is the best course of action for Money Plus Bank to take to improve these processes:",
+		"a": "Encourage customers to utilize the bank's online account system",
+		"b": "Improve the bank's new-employee training program",
+		"c": "Increase cross-functional cooperation among employees",
+		"d": "Switch from manual to automated calculation and reporting methods"
+	},
+	{
+		"question": "In general, a governance, risk, and compliance (GRC) software system identifies and measures risk; monitors the risk-management system; routinely checks adherence to company-wide policies; and ensures compliance with",
+		"a": "union demands.",
+		"b": "reporting requirements.",
+		"c": "product standards.",
+		"d": "contingency plans."
+	},
+	{
+		"question": "Jake is researching career trends in the field of accounting. Which of the following sources is most likely to contain the most current, credible information:",
+		"a": "An early edition of the Managerial Accounting in Practice textbook",
+		"b": "The federal government's labor and workforce web site",
+		"c": "An online newspaper article written by a well-known compliance expert",
+		"d": "The latest edition of the Insurance News Monthly trade publication"
+	},
+	{
+		"question": "An individual calls your company and asks to speak with your coworker, Rhonda Hoffman. What should you do if Rhonda is not available to take the call?",
+		"a": "Tell the caller that you would be glad to take his/her order.",
+		"b": "Advise the caller to call again in a few minutes.",
+		"c": "Ask the caller if s/he would like to leave a message.",
+		"d": "Put the caller on hold while you track down Rhonda."
+	},
+	{
+		"question": "Lana wants to include a two-dimensional graphic that shows the groupings and patterns of multiple variables in her business report. Which of the following graphic aids would best illustrate the data:",
+		"a": "Table",
+		"b": "Pie chart",
+		"c": "Timeline",
+		"d": "Scatter chart"
+	},
+	{
+		"question": "The human-resources manager sends an e-mail to all employees stating that they will need to park on the street on Tuesday because the maintenance department will be repairing the company's parking lot. This is an example of a(n)",
+		"a": "business proposal.",
+		"b": "projection report.",
+		"c": "informational message.",
+		"d": "formal inquiry."
+	},
+	{
+		"question": "Which of the following is an example of horizontal communication in the workplace:",
+		"a": "An employee provides his/her manager with a status report about the company's new web site.",
+		"b": "A supervisor provides a line worker with feedback about her/his job performance.",
+		"c": "A manager provides a new employee with advice on job advancement within the company.",
+		"d": "An employee sends an e-mail to a coworker about a short-term project."
+	},
+	{
+		"question": "Before you can adapt your communication style to relate to businesspeople from other countries, you must first",
+		"a": "learn to speak the country's language fluently.",
+		"b": "realize that cultural differences exist.",
+		"c": "develop an ethnocentric attitude.",
+		"d": "change your personal values and beliefs."
+	},
+	{
+		"question": "When helping a slow/methodical type of customer, salespeople should",
+		"a": "follow the customer around the store to explain products' benefits.",
+		"b": "show the customer as many options as possible.",
+		"c": "take care not to overwhelm the customer.",
+		"d": "press the customer to select one of two options."
+	},
+	{
+		"question": "Anna, the Bank Plus customer relationship manager, recently developed and implemented a new customer relationship strategy across the organization. The strategy emphasizes better understanding of customer needs. Anna also developed a recognition program to reward employees for delivering quality customer service. Which of the following is most likely to be Anna's primary goal in implementing the new strategy:",
+		"a": "Promoting the bank's new products and services",
+		"b": "Publicly recognizing outstanding bank employees",
+		"c": "Developing stronger long-term customer relationships",
+		"d": "Reducing the number of forms new customers must fill out"
+	},
+	{
+		"question": "An important aspect of ethical behavior by financial-services providers is ensuring that their clients",
+		"a": "purchase high-risk investments to generate better financial returns.",
+		"b": "understand the potential risks and rewards of different financial products.",
+		"c": "diversify their financial portfolios by investing more than half of their money in hedge funds.",
+		"d": "preplan future investment strategies for unexpected financial bonuses."
+	},
+	{
+		"question": "Beverly, the new office manager, just completed a review of the last two years of accounts receivable data. In doing so, she discovered that there are erroneous duplicate entries totaling $25,628 in the system. Unfortunately, due to these duplicate entries, collection letters were sent to many customers who had already paid in full—customers who are angry with the company for sending them the letters. What should Beverly do to try to save these customer relationships and ensure that these customers are not bothered in the future?",
+		"a": "Use funds from the accounts payable account to pay the debt",
+		"b": "Complete an accounting software update",
+		"c": "Contact each customer by phone and apologize",
+		"d": "Complete a data cleansing of the erroneous entries"
+	},
+	{
+		"question": "An accounts payable analyst is using technology to collect and isolate customer records from the disbursing system. The tool can retrieve and organize a massive number of customer records in just a short time. What type of technology is the analyst using?",
+		"a": "Computer-aided design",
+		"b": "A CRM database",
+		"c": "A neural network",
+		"d": "GPS technology"
+	},
+	{
+		"question": "To keep up with social, political, economic, and regulatory changes that affect their business activities, companies should",
+		"a": "conduct environmental scans.",
+		"b": "implement internal analyses.",
+		"c": "plan customer interviews.",
+		"d": "prepare organizational inspections."
+	},
+	{
+		"question": "Members of the air-traffic controllers' union stopped working to support the pilots' union that recently went on strike. This is an example of a",
+		"a": "boycott.",
+		"b": "lockout.",
+		"c": "sympathetic strike.",
+		"d": "wildcat strike."
+	},
+	{
+		"question": "A manufacturer has more workers on hand to perform production activities than it does production equipment. What economic principle does this exemplify?",
+		"a": "Law of minimal utility",
+		"b": "Law of diminishing returns",
+		"c": "Economies of scale",
+		"d": "Economies of scoring"
+	},
+	{
+		"question": "Consumer spending tends to decrease when",
+		"a": "business activities slow.",
+		"b": "interest rates decrease.",
+		"c": "an economic recession ends.",
+		"d": "the inflation rate declines."
+	},
+	{
+		"question": "What condition exists if a nation imports more goods and services than it exports?",
+		"a": "Trade deficit",
+		"b": "Balance of trade",
+		"c": "Trade surplus",
+		"d": "Comparative advantage"
+	},
+	{
+		"question": "Which of the following statements is true of a positive attitude:",
+		"a": "It's not very important, but it is nice to have.",
+		"b": "You can achieve one, but it requires work.",
+		"c": "It has little impact on your ability to reach your goals.",
+		"d": "It's something that you are born with."
+	},
+	{
+		"question": "When Cynthia, a credit analyst with Houghton Software, heard rumors of a company layoff, she asked her manager Todd if the rumors were true and if her job was in jeopardy. Although Todd knew that some lay-offs were coming, he told Cynthia not to worry about things. The following week, Cynthia's job was eliminated. In this situation, ethical issues regarding company information occurred because",
+		"a": "Todd was completely honest with Cynthia.",
+		"b": "Cynthia asked irrelevant questions.",
+		"c": "Todd misled Cynthia.",
+		"d": "Cynthia started the rumors."
+	},
+	{
+		"question": "How can you show that you're actively listening in a negotiation?",
+		"a": "Respond emotionally to what the other person says.",
+		"b": "Think about what you'll say next while the other person is speaking.",
+		"c": "Repeat or summarize the other person's statements.",
+		"d": "Keep a positive, open, and objective attitude."
+	},
+	{
+		"question": "Which of the following is an example of a conflict that causes personal motivation or drive:",
+		"a": "High school students compete to sell the most candy in a school fundraiser.",
+		"b": "Kevin has a class and a meeting scheduled for Tuesday afternoon.",
+		"c": "Two coworkers need to use the copy machine at the same time.",
+		"d": "Jane and Amy both want to be in charge of their presentation."
+	},
+	{
+		"question": "What is the advantage to groups that use consensus building to make decisions?",
+		"a": "Group members rarely disagree.",
+		"b": "Agreement is reached very quickly.",
+		"c": "Decision making involves a majority rule.",
+		"d": "All decision makers have equal power."
+	},
+	{
+		"question": "To have successful collaborative partnerships in the workplace, it is important for employees to",
+		"a": "limit communication.",
+		"b": "establish trust.",
+		"c": "avoid conflict.",
+		"d": "support all ideas."
+	},
+	{
+		"question": "When Thomas bought his car from the Reinhart Auto Dealership, he gave the dealership a $4,000 down payment. Thomas will make a monthly payment of $365 to the dealership until he has paid off the loan. Thomas bought his car by using ___________ credit.",
+		"a": "service",
+		"b": "revolving",
+		"c": "budget",
+		"d": "installment"
+	},
+	{
+		"question": "Justine's rich uncle wants to give her $5,000 towards the purchase of a car. But since Justine doesn't plan to buy the car for at least another year, her uncle told her that she can have the money now, or he can wait and give her the money when she actually buys the car. Justine chooses to take the money now and deposit it in her savings account. After all, her deposit will yield 6% interest compounded annually. A year from now, her $5,000 will be worth $5,300. What financial concept does this scenario illustrate?",
+		"a": "Capital budgeting",
+		"b": "Dividend reinvestment plan",
+		"c": "Time-value of money",
+		"d": "Accrual accounting"
+	},
+	{
+		"question": "You want to be a millionaire by the time you retire. To reach that goal, you put $2,000 per year in an IRA, starting at age 21. You will earn nine percent interest annually. As a result, you will have $1,156,517 at age 65. This scenario illustrates the power of",
+		"a": "compound interest.",
+		"b": "finance charges.",
+		"c": "fiscal policy.",
+		"d": "the prime interest rate."
+	},
+	{
+		"question": "State Street Bank sends text messages to its customers when $100 or more are withdrawn from their bank accounts. The bank sends these notifications to reduce the risks associated with",
+		"a": "money laundering.",
+		"b": "loan fraud.",
+		"c": "identity theft.",
+		"d": "firewall intrusion."
+	},
+	{
+		"question": "When preparing her tax return, Lynnette listed the interest that she paid on her student loan as",
+		"a": "taxable earnings.",
+		"b": "investment income.",
+		"c": "a tax-exempt investment.",
+		"d": "an itemized deduction."
+	},
+	{
+		"question": "Henry is a professional banker. Only certain people—'members'—may save at or borrow money from his deposit-taking financial institution. Henry is most likely to work for a(n)",
+		"a": "CPA firm.",
+		"b": "mortgage company.",
+		"c": "insurance company.",
+		"d": "credit union."
+	},
+	{
+		"question": "Which of the following statements regarding financial institutions is true:",
+		"a": "A financial institution with low value is doing a good job of managing its risk.",
+		"b": "Financial institutions facilitate the flow of money in the economy.",
+		"c": "Financial institutions are controlled by their members.",
+		"d": "The primary role of financial institutions is to regulate saving and investing."
+	},
+	{
+		"question": "Which of the following statements regarding debt and equity markets is correct:",
+		"a": "Common stock, an example of a debt instrument, is traded on the equity market.",
+		"b": "Investors who purchase a company's bonds gain partial ownership of the business.",
+		"c": "If a company suffers financial difficulties, its stockholders are paid before its bondholders.",
+		"d": "Bonds, which are debt instruments, are typically less risky investments than stocks."
+	},
+	{
+		"question": "The New York Stock Exchange is a(n) __________ market.",
+		"a": "spot",
+		"b": "over-the-counter",
+		"c": "commodities",
+		"d": "auction"
+	},
+	{
+		"question": "A retail bank and an insurance company, which recently merged together, are moving from two legacy accounting systems to one enterprise planning system for the new, larger organization. This is an example of __________ in the finance industry.",
+		"a": "bancassurance",
+		"b": "increased liquidity",
+		"c": "convergence",
+		"d": "knowledge management"
+	},
+	{
+		"question": "What is a common course of action for small banking institutions interested in competing globally and improving their efficiencies, viability, and profitability?",
+		"a": "Consolidating with larger banks",
+		"b": "Rapidly expanding their operations",
+		"c": "Following global regulations more closely",
+		"d": "Dissolving their financial holding companies"
+	},
+	{
+		"question": "According to most analysts, the three economic indicators that stock market investors and traders should pay the closest attention to are",
+		"a": "Gross Domestic Product, overhead expenses, and unemployment.",
+		"b": "interest rates, overhead expenses, and inflation.",
+		"c": "Gross Domestic Product, unemployment, and inflation.",
+		"d": "inflation, unemployment, and bonds rates."
+	},
+	{
+		"question": "Which of the following has contributed to financial globalization:",
+		"a": "An increase in restrictions on foreign investment and international trade",
+		"b": "An increase in taxes on international financial transactions",
+		"c": "A reduction in foreigners' access to domestic financial markets",
+		"d": "A movement from fixed exchange rates to floating exchange rates"
+	},
+	{
+		"question": "Kendra's financial goal is to build wealth over time by making diversified investments. Which of the following financial services providers is most likely to help Kendra achieve her goal:",
+		"a": "Financial-auditing firm",
+		"b": "Mortgage company",
+		"c": "Investment bank",
+		"d": "Asset-management firm"
+	},
+	{
+		"question": "Which financial statement should an investor use to quickly determine a company's 'bottom line'?",
+		"a": "Statement of retained earnings",
+		"b": "Cash flow statement",
+		"c": "Balance sheet",
+		"d": "Income statement"
+	},
+	{
+		"question": "Which of the following are among the most important resources to access prior to purchasing stock in a company:",
+		"a": "EDGAR and the Statement of Ownership",
+		"b": "ESOP and the company's web site",
+		"c": "EDGAR and the company's web site",
+		"d": "ESOP and the Statement of Ownership"
+	},
+	{
+		"question": "The most common headings on a stock table include the 52-week high and low, the stock symbol, the estimated dividend per share, the yield percentage/rate of return, the volume/sales for the day, the closing price for the day, the net change and the",
+		"a": "price-earnings ratio.",
+		"b": "earnings per share.",
+		"c": "net income.",
+		"d": "stockholder's equity."
+	},
+	{
+		"question": "Geraldo, who is considering whether or not to invest in Coffee Dreams, Inc., is studying information about the company on a stock table. One piece of data that he is interested in reviewing is the difference between the stock's closing price and the previous day's closing price. Geraldo should review the",
+		"a": "ticker symbol.",
+		"b": "net change.",
+		"c": "price-earnings ratio.",
+		"d": "52-week high and low."
+	},
+	{
+		"question": "Certificates of deposit and municipal bonds are types of",
+		"a": "value stocks.",
+		"b": "ownership securities.",
+		"c": "commodities.",
+		"d": "lending investments."
+	},
+	{
+		"question": "On a balance sheet, a business categorizes its inventory and accounts receivable as",
+		"a": "long-term assets.",
+		"b": "owner's equity.",
+		"c": "current assets.",
+		"d": "current liabilities."
+	},
+	{
+		"question": "Leslie is good friends with Paul, who oversees the Bex Company's central data depository for financial information. Paul recently told Leslie that based on confidential financial data that he saw at work, Bex's profits have dropped by a third this year. Paul also told Leslie that she should sell her shares of Bex stock before the market finds out about the company's financial difficulties, which will surely make Bex's stock price plummet. This situation is an example of",
+		"a": "encryption.",
+		"b": "disparate data.",
+		"c": "stewardship.",
+		"d": "insider trading."
+	},
+	{
+		"question": "Financial-information management is responsible for collecting, maintaining, and reporting data about financial transactions. Business managers often use these data to",
+		"a": "forecast financial inflows and outflows.",
+		"b": "determine if liability insurance is needed.",
+		"c": "develop secondary equity markets.",
+		"d": "calculate the level of corporate groupthink."
+	},
+	{
+		"question": "Pamela was dismissed from her job as a financial database administrator because she shared her username and password with a coworker so that he could access a customer database that is typically off-limits to him. Pamela failed to fulfill her responsibilities as a data",
+		"a": "steward.",
+		"b": "auditor.",
+		"c": "sponsor.",
+		"d": "processor."
+	},
+	{
+		"question": "Which of the following statements regarding the security of most financial institutions' data is true:",
+		"a": "Data in transit are more at risk than data at rest or data in process.",
+		"b": "Firewalls completely eliminate all external threats to the data.",
+		"c": "More data attacks come from inside the organizations than outside them.",
+		"d": "Investments in financial-information security have decreased in recent years."
+	},
+	{
+		"question": "Which of the following is a benefit of financial-information management software:",
+		"a": "Improves productivity by replacing automated activities with manual tasks",
+		"b": "Provides users with faster, better access to data from multiple sources",
+		"c": "Lowers compliance costs by eliminating audit trails and economies of scale",
+		"d": "Reduces risk and lowers confidence in the confidentiality and safety of data"
+	},
+	{
+		"question": "Every morning, as soon as Lukas gets to the office, he logs onto his computer and uses a data-mining application on his computer home screen to quickly review the company's financial performance. The financial data are typically displayed in charts and tables. Lukas is using a(n)",
+		"a": "dashboard.",
+		"b": "text-mining tool.",
+		"c": "artificial neural network.",
+		"d": "decision tree."
+	},
+	{
+		"question": "A business owner is concerned that some of his employees may be using their company credit cards to make personal purchases. Which data mining technique should the owner use to review the employees' credit card transactions each month to identify questionable transactions?",
+		"a": "Nearest-neighbor method",
+		"b": "Decision trees",
+		"c": "Artificial neural networks",
+		"d": "Dashboards"
+	},
+	{
+		"question": "Tara knows that for her small business to grow, she must increase her cash flow. She's unsure, though, whether she should take out a loan or a line of credit. Which of the following budgeting software tools could Tara use to assess the potential impact of each source of funding on her business:",
+		"a": "Environmental scanning",
+		"b": "Decision trees",
+		"c": "Debt modeling",
+		"d": "Zero-based modeling"
+	},
+	{
+		"question": "Which of the following software applications would be best for a small business owner to use to develop his/her annual budget:",
+		"a": "A project-management application",
+		"b": "A database application",
+		"c": "A digital dashboard application",
+		"d": "A spreadsheet application"
+	},
+	{
+		"question": "Franco's manager asked him to develop a report that compares their company's fourth-quarter performance with others in its industry. Which financial-analysis software feature should Franco use to generate information for his report?",
+		"a": "Forecasting",
+		"b": "Ratio analysis",
+		"c": "DuPont modeling",
+		"d": "Benchmarking"
+	},
+	{
+		"question": "Raul's manager asked him to prepare a database query that would allow him to view lists of invoices generated in specific time periods. At the moment, the manager only needs two lists: one that lists all invoices generated in the last 30 days and another that lists all invoices generated in the last 60 days. The manager will probably ask Raul to mine for similar data in the future—just for different time periods. What type of query could Raul use to mine for this information without having to prepare a new query every time?",
+		"a": "Crosstab query",
+		"b": "Parameter query",
+		"c": "Wildcard query",
+		"d": "Status query"
+	},
+	{
+		"question": "One reason why public corporations are required to provide accurate financial reports is because existing and potential shareholders use them to",
+		"a": "ensure capital gains.",
+		"b": "compile annual reports.",
+		"c": "understand currency exchange rates.",
+		"d": "make investment decisions."
+	},
+	{
+		"question": "Independent auditors review the accuracy of a public corporation's financial statements to",
+		"a": "test accounting methods.",
+		"b": "verify compliance.",
+		"c": "evaluate risk.",
+		"d": "summarize collection techniques."
+	},
+	{
+		"question": "A primary difference between accounting and finance is that the accounting function focuses on __________, and the finance function focuses on __________.",
+		"a": "prioritizing needs, problem solving",
+		"b": "allocating funds, decision making",
+		"c": "planning activities, resource management",
+		"d": "reporting transactions, financial planning"
+	},
+	{
+		"question": "Which of the following is an activity conducted by the finance function of business:",
+		"a": "Tracking business expenditures",
+		"b": "Preparing cash flow statements",
+		"c": "Updating bookkeeping ledgers",
+		"d": "Choosing appropriate investments"
+	},
+	{
+		"question": "The managerial accounting system emphasizes",
+		"a": "previous sales transactions.",
+		"b": "the current financial situation.",
+		"c": "a future orientation.",
+		"d": "ongoing tax obligations."
+	},
+	{
+		"question": "A small business records transactions when it receives or spends money. What type of accounting system is the business using?",
+		"a": "Positional",
+		"b": "Accrual",
+		"c": "Cash",
+		"d": "Static"
+	},
+	{
+		"question": "Which of the following is a tool that enables financial managers to identify changes or trends in production costs by reviewing the same types of data from different periods of time:",
+		"a": "Accounts-receivable summary",
+		"b": "Frequency ratio",
+		"c": "Comparative statement",
+		"d": "Sales-transaction log"
+	},
+	{
+		"question": "The Buford Company's ability to pay its short-term debts has improved steadily over the past three years. What financial ratio helped the company identify this trend?",
+		"a": "Asset-turnover",
+		"b": "Qualitative",
+		"c": "Liquidity",
+		"d": "Market-value"
+	},
+	{
+		"question": "Businesses consider a customer's income when determining whether to",
+		"a": "accept cash sales.",
+		"b": "offer credit.",
+		"c": "restructure policies.",
+		"d": "charge interest."
+	},
+	{
+		"question": "A bank carefully analyzes a customer's current level of debt before it approves a(n)",
+		"a": "operating proposal.",
+		"b": "loan application.",
+		"c": "service request.",
+		"d": "insurance claim."
+	},
+	{
+		"question": "If a small-business owner wants to identify the customers who owe money to the business, what type of report should s/he review?",
+		"a": "Accounts-payable",
+		"b": "Aging-accounts",
+		"c": "Asset-depreciation",
+		"d": "Asset-allocation"
+	},
+	{
+		"question": "While reviewing a financial report, an electronics-store manager noticed that the store tends to sell more laptop computers and notebooks during December, January, June, and August than other times of the year. This information can help the store",
+		"a": "measure its long-term liabilities.",
+		"b": "monitor its general operating costs.",
+		"c": "make reliable sales forecasts.",
+		"d": "manage its sales staff effectively."
+	},
+	{
+		"question": "Lily Marshall, a human resources manager with Spartan Industries, recently met with employee Barry Endicott. Barry accepted a position with another company and will begin his new job next week. During the meeting, Lily asked Barry what he liked and disliked about his job with Spartan and what the company can do to make working conditions better. What human-resources activity was Lily performing?",
+		"a": "Onboarding tasks",
+		"b": "Exit interview",
+		"c": "Application screening",
+		"d": "Workplace familiarization"
+	},
+	{
+		"question": "Which of the following is most likely to have a negative effect on business's customer-satisfaction levels:",
+		"a": "Standing orders ship on time.",
+		"b": "Items are frequently backordered.",
+		"c": "Product quality is consistent.",
+		"d": "Staff has sufficient product knowledge."
+	},
+	{
+		"question": "Monique, an office manager, used to organize hard copies of important documents in filing cabinets that took up an entire room. Now, she stores documents on her office computer, where they're easy to access and organize. Monique now uses",
+		"a": "Internet telephony.",
+		"b": "a database.",
+		"c": "an expert system.",
+		"d": "computer automation."
+	},
+	{
+		"question": "Determine if the following statement is true or false: Groupware software applications often stimulate workplace creativity.",
+		"a": "False. The groupware application only allows users to update numerical data on shared documents.",
+		"b": "True. Groupware streamlines the work effort, so users have more time for social interaction.",
+		"c": "False. The primary focus of groupware is to communicate policies and procedures to users.",
+		"d": "True. Groupware allows users to share and brainstorm ideas that may improve work processes."
+	},
+	{
+		"question": "To house its digital business records, EFG Corporation uses a remote database that employees can access anytime through the Internet. EFG Corporation is using ___________ to store its business records.",
+		"a": "cloud computing",
+		"b": "a flash drive",
+		"c": "streaming video",
+		"d": "compact disks"
+	},
+	{
+		"question": "Statistical data revealed that Zane Industries sold 32% more of the Model EQ2 desktop photocopier last year after it made changes to increase the photocopier's speed and refine its print quality. In this situation, the statistical findings helped the company determine that",
+		"a": "research and development expenses exceeded the budget.",
+		"b": "its sales forecasts were inaccurate.",
+		"c": "product improvements helped boost sales.",
+		"d": "the company achieved its sales goals."
+	},
+	{
+		"question": "Which of the following actions should a business take to help prevent robberies:",
+		"a": "Have one person open and close each day",
+		"b": "Avoid making eye contact with customers",
+		"c": "Hang up signs on doors and windows",
+		"d": "Make sure the facility is well-lit"
+	},
+	{
+		"question": "Successful project management depends on the use of appropriate",
+		"a": "pressure tactics.",
+		"b": "outsourcing.",
+		"c": "foreign investments.",
+		"d": "technology."
+	},
+	{
+		"question": "When you want to select a new vendor for your business, it's best to",
+		"a": "continue using a vendor you've used before.",
+		"b": "go with a friend's recommendation.",
+		"c": "use a formal selection process.",
+		"d": "pick the vendor with the best online reviews."
+	},
+	{
+		"question": "Which of the following factors are most likely to build a quality work culture:",
+		"a": "Coercion and empowerment",
+		"b": "Consistency and censorship",
+		"c": "Vision and unpredictability",
+		"d": "Respect and honesty"
+	},
+	{
+		"question": "Which of the following is an example of a semi-variable business cost:",
+		"a": "Property taxes",
+		"b": "Employees' salaries",
+		"c": "Rent",
+		"d": "Telephone service"
+	},
+	{
+		"question": "All of your friends are coming over for dinner tonight. Instead of asking what they'd like to eat, you decide to order pizza. What style of decision making are you using?",
+		"a": "Managing",
+		"b": "Moderate",
+		"c": "Minimum",
+		"d": "Maximum"
+	},
+	{
+		"question": "Miguel always enjoyed designing and building bookshelves, tables, and storage cabinets for his family and friends in his spare time. Through word-of-mouth, others started to ask Miguel to build items for them. Requests for his services became so great that he decided to open his own woodworking business. Miguel decided to start his own business because of his",
+		"a": "passion for a hobby.",
+		"b": "desire for a flexible schedule.",
+		"c": "technological knowledge.",
+		"d": "need for adventure."
+	},
+	{
+		"question": "Tracy's friend David works for TPS Industries. When Tracy saw a job on the company's web site that interested her, she contacted David to find out if he knew anything about the job. David told Tracy that he previously worked with the hiring manager on several projects and would put in a good word for her. In this situation, Tracy acted on an employment opportunity by",
+		"a": "volunteering her time.",
+		"b": "networking with others.",
+		"c": "requesting an internship.",
+		"d": "setting up a meeting."
+	},
+	{
+		"question": "Lynnette works at Main Street Bank. Her primary job responsibility is to determine if the bank should lend funds to the bank's customers. Lynnette is working as a(n)",
+		"a": "collections officer.",
+		"b": "credit analyst.",
+		"c": "chartered financial consultant.",
+		"d": "bank agent."
+	},
+	{
+		"question": "What is a primary responsibility of a company's controller?",
+		"a": "Evaluating property values",
+		"b": "Designing risk policies to minimize business losses",
+		"c": "Calculating the risk of loss",
+		"d": "Directing the preparation of financial reports"
+	},
+	{
+		"question": "Many businesspeople are required to take continuing education classes to",
+		"a": "supplement their existing income.",
+		"b": "improve their standard of living.",
+		"c": "demonstrate their emotional intelligence.",
+		"d": "maintain their professional certifications."
+	},
+	{
+		"question": "Annette works for an insurance company. Her primary responsibilities involve establishing premium rates and designing insurance policies to cover risk. Annette is most likely to have certification as a",
+		"a": "Certified Financial Planner (CFP).",
+		"b": "Certified Financial Analyst (CFA).",
+		"c": "Chartered Life Underwriter (CLU).",
+		"d": "Chartered Investment Counselor (CIC)."
+	},
+	{
+		"question": "A loan officer who has special knowledge in real-estate loans is most likely to have a __________ professional certification.",
+		"a": "Certified Information Systems Auditor (CISA)",
+		"b": "Certified Mortgage Banker (CMB)",
+		"c": "Certified Internal Auditor (CIA)",
+		"d": "Certified Annuities Specialist (CAS)"
+	},
+	{
+		"question": "To build a relationship with others working in the same field, a financial planner should consider",
+		"a": "participating in an appropriate professional organization.",
+		"b": "attending the local chamber of commerce meetings.",
+		"c": "taking an entrepreneurship class at the community college.",
+		"d": "sponsoring events for charitable organizations."
+	},
+	{
+		"question": "Because Maggie's primary goal is to get ahead in the company, she often uses questionable tactics to get a sale, which sometimes involves misleading her customers. Maggie's behavior is a risk to her employer because Maggie places more importance on __________ than she does on __________.",
+		"a": "corporate branding, her own productivity",
+		"b": "social responsibility, her career goals",
+		"c": "personal gains, business ethics",
+		"d": "operating procedures, compliance"
+	},
+	{
+		"question": "To reduce risks associated with unethical business activities, a company should clearly communicate its",
+		"a": "code of conduct to all employees.",
+		"b": "terms-of-sale policies to executive managers.",
+		"c": "product requirements to its primary distributors.",
+		"d": "dividend payment schedule to suppliers."
+	},
+	{
+		"question": "What technological application do financial businesses use to evaluate how investment portfolios may react to changing conditions in the markets?",
+		"a": "Automated oversight",
+		"b": "Stress testing",
+		"c": "Financial compliance",
+		"d": "Threat detection"
+	},
+	{
+		"question": "Lower premiums and the ability to control the claims process are advantages of",
+		"a": "captive insurance companies.",
+		"b": "traditional liability insurance policies.",
+		"c": "standard insurance companies.",
+		"d": "reinsurance carriers."
+	},
+	{
+		"question": "CopyIt Printing Company employs several delivery drivers. Last year, the local police cited two of the company's new drivers for causing accidents that resulted in passenger injuries and vehicular damage. The printing company later discovered that the drivers were cited for numerous traffic violations while employed for other companies. To avoid hiring unsafe drivers in the future, the company should",
+		"a": "conduct background checks on job applicants.",
+		"b": "mandate drug testing for all employees on a monthly basis.",
+		"c": "require delivery drivers to take a driving exam every six months.",
+		"d": "ask job applicants about their former employers during the interview process."
+	},
+	{
+		"question": "Which of the following is a limitation that businesses face with their internal risk-control activities:",
+		"a": "Economic conditions",
+		"b": "Market dynamics",
+		"c": "Trade agreements",
+		"d": "Human judgment"
+	},
+	{
+		"question": "To control online transactional risks, a business should consider outsourcing its technology needs when it lacks",
+		"a": "external training.",
+		"b": "financial resources.",
+		"c": "secondary data.",
+		"d": "internal expertise."
+	}
+]
